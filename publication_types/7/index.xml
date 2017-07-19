@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 on Serge Bibauw</title>
+    <link>https://sbibauw.github.io/publication_types/7/</link>
+    <description>Recent content in 7 on Serge Bibauw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>♡ 2017 by Serge Bibauw</copyright>
+    <lastBuildDate>Thu, 18 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication_types/7/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The effectiveness of dialogue-based CALL on L2 proficiency development: a meta-analysis</title>
+      <link>https://sbibauw.github.io/publication/2017_calico/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://sbibauw.github.io/publication/2017_calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instructional design and natural language processing in dialogue-based CALL</title>
+      <link>https://sbibauw.github.io/publication/2016_calico/</link>
+      <pubDate>Wed, 11 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://sbibauw.github.io/publication/2016_calico/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

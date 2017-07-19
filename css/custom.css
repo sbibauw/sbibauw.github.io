@@ -1,0 +1,49 @@
+/*
+  Resize to a smaller font
+*/
+
+body {
+  font-size: .8rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4, h5, h6 {
+  font-size: .8rem;
+}
+
+ul.ul-interests li {
+    font-size: 0.75rem;
+}
+ul.ul-edu li .description p.course {
+    font-size: 0.75rem;
+}
+ul.ul-edu li .description p.institution {
+    font-size: 0.65rem;
+}
+
+h3.article-title {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+.pub-list-item .pub-abstract {
+  font-size: .8rem;
+}
+.pub-list-item .pub-authors {
+    font-size: .8rem;
+}
+.pub-list-item .pub-publication {
+  font-size: .8rem;
+}
+
+#contact.home-section li {
+  padding-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
