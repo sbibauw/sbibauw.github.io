@@ -49,8 +49,7 @@
     
   
 
-  <link rel="alternate" href="" type="application/rss+xml" title="Serge Bibauw">
-  <link rel="feed" href="" type="application/rss+xml" title="Serge Bibauw">
+  
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
@@ -145,45 +144,6 @@
     </span>
     <span class="pull-right">
       
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=%c3%89criture%20r%c3%a9flexive%20et%20r%c3%a9flexion%20critique%20dans%20l%e2%80%99exercice%20du%20compte%20rendu&amp;url=https%3a%2f%2fsbibauw.github.io%2fpublication%2f2010_ripes%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fsbibauw.github.io%2fpublication%2f2010_ripes%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fsbibauw.github.io%2fpublication%2f2010_ripes%2f&amp;title=%c3%89criture%20r%c3%a9flexive%20et%20r%c3%a9flexion%20critique%20dans%20l%e2%80%99exercice%20du%20compte%20rendu"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fsbibauw.github.io%2fpublication%2f2010_ripes%2f&amp;title=%c3%89criture%20r%c3%a9flexive%20et%20r%c3%a9flexion%20critique%20dans%20l%e2%80%99exercice%20du%20compte%20rendu"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=%c3%89criture%20r%c3%a9flexive%20et%20r%c3%a9flexion%20critique%20dans%20l%e2%80%99exercice%20du%20compte%20rendu&amp;body=https%3a%2f%2fsbibauw.github.io%2fpublication%2f2010_ripes%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
 
     </span>
   </div>
@@ -254,10 +214,25 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://ripes.revues.org/358" target="_blank">
+<a class="btn btn-primary btn-outline" href="http://ripes.revues.org/358" target="_blank" rel="noopener">
   PDF
 </a>
 
+
+
+
+
+<button type="button" class="btn btn-primary btn-outline js-cite-modal"
+        data-filename="/files/citations/2010_ripes.bib">
+  Cite
+</button>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://sbibauw.github.io/project/reflexive-writing/">
+  Project
+</a>
 
 
 
@@ -299,8 +274,9 @@
 
       ♡ 2017 by Serge Bibauw &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
       <span class="pull-right" aria-hidden="true">
         <a href="#" id="back_to_top">
@@ -313,6 +289,30 @@
     </p>
   </div>
 </footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
     
 
