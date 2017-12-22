@@ -23,15 +23,6 @@
     
     <url>
     
-      <loc>https://serge.bibauw.be/talk/audaxis/</loc>
-      <lastmod>2017-10-10T17:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://serge.bibauw.be/talk/</loc>
       <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     </url>
@@ -193,6 +184,14 @@
       <loc>https://serge.bibauw.be/tags/dialogue-systems/</loc>
       <lastmod>2017-08-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://serge.bibauw.be/talk/audaxis/</loc>
     </url>
     
   
