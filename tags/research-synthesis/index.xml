@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research-synthesis on Serge Bibauw</title>
+    <link>https://serge.bibauw.be/tags/research-synthesis/</link>
+    <description>Recent content in Research-synthesis on Serge Bibauw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(cc) 2017 by Serge Bibauw</copyright>
+    <lastBuildDate>Wed, 02 Dec 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://serge.bibauw.be/tags/research-synthesis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dialogue-based CALL: an overview of existing research</title>
+      <link>https://serge.bibauw.be/publication/2015_eurocall/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://serge.bibauw.be/publication/2015_eurocall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents for language learning: state of the art and avenues for research on task-based agents</title>
+      <link>https://serge.bibauw.be/talk/2015_calico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2015_calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instructional design and natural language processing in dialogue-based CALL</title>
+      <link>https://serge.bibauw.be/talk/2016_calico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2016_calico/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

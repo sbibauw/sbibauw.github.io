@@ -2,13 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Serge Bibauw</title>
-    <link>https://sbibauw.github.io/home/</link>
+    <link>https://serge.bibauw.be/home/</link>
     <description>Recent content in Homes on Serge Bibauw</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>♡ 2017 by Serge Bibauw</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    <copyright>(cc) 2017 by Serge Bibauw</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://serge.bibauw.be/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://serge.bibauw.be/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/about/</guid>
+      <description>About me As a Junior Researcher at KU Leuven (ITEC team, also at imec) and Université catholique de Louvain (CENTAL team, part of ILC), I&amp;rsquo;m currently working on dialogue-based CALL, more precisely on task-oriented dialogue systems/agents (chatbots) for language learning, at the intersection of computer-assisted language learning (CALL) and natural language processing (NLP). My research focuses on the instructional design and the effectiveness evaluation of dialogue-based CALL systems on L2 proficiency development.</description>
+    </item>
+    
+    <item>
+      <title>Selected publications</title>
+      <link>https://serge.bibauw.be/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent publications</title>
+      <link>https://serge.bibauw.be/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>https://serge.bibauw.be/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://serge.bibauw.be/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://serge.bibauw.be/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

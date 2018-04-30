@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Serge Bibauw</title>
+    <link>https://serge.bibauw.be/publication/</link>
+    <description>Recent content in Publications on Serge Bibauw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(cc) 2017 by Serge Bibauw</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://serge.bibauw.be/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Not all dialogues are created equal: Instance weighting for neural conversational models</title>
+      <link>https://serge.bibauw.be/publication/2017_sigdial/</link>
+      <pubDate>Tue, 15 Aug 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/publication/2017_sigdial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dialogue-based CALL: an overview of existing research</title>
+      <link>https://serge.bibauw.be/publication/2015_eurocall/</link>
+      <pubDate>Wed, 02 Dec 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://serge.bibauw.be/publication/2015_eurocall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les pratiques d&#39;écriture réflexive en contexte de formation générale</title>
+      <link>https://serge.bibauw.be/publication/2010_reperes_pedagogiques/</link>
+      <pubDate>Tue, 01 Jun 2010 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/publication/2010_reperes_pedagogiques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Écriture réflexive et réflexion critique dans l’exercice du compte rendu</title>
+      <link>https://serge.bibauw.be/publication/2010_ripes/</link>
+      <pubDate>Mon, 10 May 2010 00:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/publication/2010_ripes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

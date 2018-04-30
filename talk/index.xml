@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent and upcoming talks on Serge Bibauw</title>
+    <link>https://serge.bibauw.be/talk/</link>
+    <description>Recent content in Recent and upcoming talks on Serge Bibauw</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>(cc) 2017 by Serge Bibauw</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://serge.bibauw.be/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Génération automatique de texte : état de la recherche et des applications</title>
+      <link>https://serge.bibauw.be/talk/audaxis/</link>
+      <pubDate>Tue, 10 Oct 2017 17:00:00 +0200</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/audaxis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents for language learning: state of the art and avenues for research on task-based agents</title>
+      <link>https://serge.bibauw.be/talk/2015_calico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2015_calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights from a multilevel meta-analysis on the effectiveness of dialogue-based CALL</title>
+      <link>https://serge.bibauw.be/talk/2018_call/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2018_call/</guid>
+      <description>Dialogue-based computer-assisted language learning (CALL) systems allow a learner to practice meaningfully a foreign language (L2) with an automated agent, whether through an oral (spoken dialogue systems) or written interface (chatbots) (Bibauw, François, &amp;amp; Desmet, 2015). While various dialogue-based CALL systems have been developed and tested with learners against different evaluation schemes, individual evaluations have provided limited information on their effectiveness on L2 development (Bibauw, François, &amp;amp; Desmet, Submitted).
+In order to obtain a better comprehension of their effects on L2 proficiency development, we conducted a meta-analysis on all the experimental studies measuring an impact of such systems on language learning outcomes (40 publications).</description>
+    </item>
+    
+    <item>
+      <title>Instructional design and natural language processing in dialogue-based CALL</title>
+      <link>https://serge.bibauw.be/talk/2016_calico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2016_calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The effectiveness of dialogue-based CALL on L2 proficiency development: a meta-analysis</title>
+      <link>https://serge.bibauw.be/talk/2017_calico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://serge.bibauw.be/talk/2017_calico/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
