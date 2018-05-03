@@ -1,0 +1,28 @@
+# Old directory structure redirects to Hugo-Academic structure
+/contact.php /#contact
+/ppt         /talk
+/acad        /
+/calico      /talk
+
+# Madagascar
+/madagascar/index.php       /madagascar/index.html
+/madagascar/apropos.php     /madagascar/apropos.html
+/madagascar/biblio.php      /madagascar/biblio.html
+/madagascar/conclusion.php  /madagascar/conclusion.html
+/madagascar/description.php /madagascar/description.html
+/madagascar/generalites.php /madagascar/generalites.html
+/madagascar/lexique.php     /madagascar/lexique.html
+/madagascar/socio.php       /madagascar/socio.html
+/madagascar/table.php       /madagascar/table.html
+
+# PDFs
+/ppt/Bibauw_2015_Dialogue_based_CALL.pdf                                           /files/talks/2015_bibauw_phdday.pdf
+/ppt/Bibauw_Francois_Desmet_CALICO_2015_Dialogue_systems_for_language_learning.pdf /files/talks/2015_bibauw_calico.pdf
+/ppt/Bibauw_Francois_Desmet_EUROCALL_2015_Dialogue-based_CALL.pdf                  /files/talks/2015_bibauw_eurocall.pdf
+/calico/Bibauw_Francois_Desmet_2017_Effectiveness_of_DBCALL_meta-analysis.pdf      /files/talks/2017_bibauw_calico.pdf
+/calico/Bibauw_Francois_Desmet_CALICO_2016.pdf                                     /files/talks/2016_bibauw_calico.pdf
+/acad/bibauw%26dufays2010.pdf     /files/pubs/bibauw_dufays_2010.pdf
+/acad/bibauw2007.pdf              /files/pubs/bibauw2007.pdf
+/acad/slingeneyer&bibauw2009.pdf  /files/pubs/slingeneyer_bibauw_2009.pdf
+/acad/slingeneyer&bibauw2010a.pdf /files/pubs/slingeneyer_bibauw_2010_enjeux.pdf
+/acad/slingeneyer&bibauw2010b.pdf /files/pubs/slingeneyer_bibauw_2010_echanges.pdf
