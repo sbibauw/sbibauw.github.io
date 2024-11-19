@@ -1,5 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"CALL":
+  # url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"
+
+"LL&T":
+  color: "#00369f"
+
+"RIPES":
+  color: "#00369f"
+
+"Enjeux":
   color: "#00369f"
 
 "PhysRev":

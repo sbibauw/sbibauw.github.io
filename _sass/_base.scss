@@ -482,12 +482,9 @@ footer.sticky-bottom {
       border-color: var(--global-divider-color);
 
       .badge {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
-        padding: 0.25em 0.25em;
-        font-size: 75%;
-        font-weight: 700;
-        line-height: 1;
       }
     }
   }
@@ -741,8 +738,10 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
+          // border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 500;
+          color: $cyan-color;
         }
 
         > span.more-authors {
