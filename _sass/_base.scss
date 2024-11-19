@@ -17,6 +17,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family:'Roboto', sans-serif;
 }
 
 hr {
@@ -383,7 +384,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -483,6 +484,10 @@ footer.sticky-bottom {
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
+        padding: 0.25em 0.25em;
+        font-size: 75%;
+        font-weight: 700;
+        line-height: 1;
       }
     }
   }
@@ -719,9 +724,13 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 16px;
+        font-family: 'Roboto Slab', 'Times New Roman';
       }
 
       .author {
+        font-size: 12px;
+
         a {
           border-bottom: 1px dashed var(--global-theme-color);
 
@@ -750,13 +759,12 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          color: var(--global-button-text-color);
+          background-color: var(--global-button-bg-color);
+          // border: 1px solid var(--global-text-color);
+          padding: 0.25em 0.4em;
           margin-left: 0;
+          
 
           &:hover {
             color: var(--global-theme-color);
@@ -781,6 +789,10 @@ footer.sticky-bottom {
             text-decoration: underline;
           }
         }
+      }
+
+      .periodical {
+        font-size: 12px;
       }
 
       .hidden {
