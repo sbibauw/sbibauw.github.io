@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Serge
-middle_name: 
+middle_name:
 last_name: Bibauw
 email: serge.bibauw@uclouvain.be
 description: Assistant Professor of French Language Teaching
@@ -190,8 +190,8 @@ newsletter:
 
 collections:
   news:
-    defaults:
-      layout: post
+    # defaults:
+    #   layout: post
     output: true
     permalink: /:collection/:title/
   projects:

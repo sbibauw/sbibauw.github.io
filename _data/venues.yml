@@ -1,8 +1,9 @@
 "CALL":
-  # url: https://aapt.scitation.org/journal/ajp
+  url: https://www.tandfonline.com/journals/ncal20
   color: "#3458a0"
 
-"LL&T":
+"LLT":
+  url: https://www.lltjournal.org/
   color: "#3458a0"
 
 "RIPES":
@@ -10,9 +11,7 @@
 
 "Enjeux":
   color: "#3458a0"
-
 # "PhysRev":
 #   url: https://journals.aps.org/
-
 # "Vision":
 #   color: "#009f36"
