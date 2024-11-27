@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Enhancing EFL learners’ speaking ability through chatbot-assisted dynamic assessment powered by LLMs
-description: Doctoral research project by Zhaori Wang
+description: Doctoral research project by Zhaori Wang (joint PhD KU Leuven-UCLouvain)
 img: assets/img/7.jpg
 redirect: https://itec.kuleuven-kulak.be/phd-project-on-using-chatbot-assisted-dynamic-assessment-to-promote-chinese-efl-learners-oral-proficiency-by-zhaori-wang/
 importance: 3

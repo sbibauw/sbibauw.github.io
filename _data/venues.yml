@@ -7,9 +7,11 @@
   color: "#3458a0"
 
 "RIPES":
+  url: https://journals.openedition.org/ripes/
   color: "#3458a0"
 
 "Enjeux":
+  url: https://www.pun.be/fr/collections/?collection_id=31
   color: "#3458a0"
 # "PhysRev":
 #   url: https://journals.aps.org/
