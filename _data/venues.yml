@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CALL":
+  url: https://www.tandfonline.com/journals/ncal20
+  color: "#3458a0"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"LLT":
+  url: https://www.lltjournal.org/
+  color: "#3458a0"
 
-"Vision":
-  color: "#009f36"
+"RIPES":
+  url: https://journals.openedition.org/ripes/
+  color: "#3458a0"
+
+"Enjeux":
+  url: https://www.pun.be/fr/collections/?collection_id=31
+  color: "#3458a0"
+# "PhysRev":
+#   url: https://journals.aps.org/
+# "Vision":
+#   color: "#009f36"
