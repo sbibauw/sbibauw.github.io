@@ -81,10 +81,19 @@ layout: default
     <h2 id="contact">contact</h2>
     <div class="social">
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fa-solid fa-envelope"></i></span> <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email }}</a></li>
-        <li><span class="fa-li"><i class="fa-solid fa-building"></i></span> {{ page.address }}</li>
-        <li><span class="fa-li"><i class="fa-solid fa-calendar-plus"></i></span> <a href="{{ page.meeting }}" class="btn btn-md">Schedule an appointment</a></li>
-        <li><div class="contact-icons">{% include social.liquid %}</div></li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
+          <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email }}</a>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-building"></i></span> {{ page.address }}
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-calendar-plus"></i></span> <a href="{{ page.meeting }}">Schedule an appointment</a>
+        </li>
+        <li>
+          <div class="contact-icons">{% include social.liquid %}</div>
+        </li>
       </ul>
     </div>
 

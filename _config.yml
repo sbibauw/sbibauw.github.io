@@ -154,7 +154,7 @@ collections:
     permalink: /:collection/:title/
   talks:
     defaults:
-        layout: post
+      layout: post
     output: true
     permalink: /:collection/:year/:title/
   courses:
