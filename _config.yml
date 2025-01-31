@@ -145,6 +145,18 @@ collections:
   news:
     output: true
   projects:
+    defaults:
+      layout: page
+    output: true
+    permalink: /:collection/:title/
+  talks:
+    defaults:
+        layout: post
+    output: true
+    permalink: /:collection/:year/:title/
+  courses:
+    defaults:
+      layout: page
     output: true
     permalink: /:collection/:title/
   talks:
