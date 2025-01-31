@@ -1,8 +1,8 @@
 ---
-title: 'Which interactivity matters with a chatbot? Agency vs feedback on perception, engagement & learning'
+title: "Which interactivity matters with a chatbot? Agency vs feedback on perception, engagement & learning"
 type: Presentation
 event: Colloque Agi-lang
-event_url: 'https://agi-lang.sciencesconf.org/'
+event_url: "https://agi-lang.sciencesconf.org/"
 location: Université Grenoble Alpes
 address:
   street: null
@@ -11,7 +11,7 @@ address:
   postcode: null
   country: France
 
-abstract: 
+abstract:
 
 date: 2024-06-14T11:15:00+02:00
 date_end: 2024-06-14T11:55:00+02:00
@@ -21,7 +21,7 @@ all_day: false
 publishDate: 2024-05-16T00:00:00
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 
 tags:
   - interactivity

@@ -7,7 +7,7 @@ authors:
 date: 2018-09-13T08:30:00.000Z
 date_end: 2018-09-13T09:30:00.000Z
 event: 12e Congrès national des professeurs de français d'Équateur
-location: 'Quito, Ecuador'
+location: "Quito, Ecuador"
 tags:
   - en français
   - language learning

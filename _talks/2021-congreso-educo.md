@@ -1,7 +1,7 @@
 ---
 title: Aprendizaje del inglés basado en tareas y tecnología
-event: '2.º Congreso Internacional de Educación “Yo educo”'
-event_url: 'http://indteca.com/indtec/course/view.php?id=53&section=0#tabs-tree-start'
+event: "2.º Congreso Internacional de Educación “Yo educo”"
+event_url: "http://indteca.com/indtec/course/view.php?id=53&section=0#tabs-tree-start"
 location: YouTube/Facebook Live
 address:
   street: null
@@ -23,39 +23,39 @@ all_day: false
 publishDate: 2021-04-06T00:00:00-05:00
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 tags:
   - en español
   - educational technology
   - invited keynote
 featured: false
 image:
-  caption: ''
+  caption: ""
   focal_point: Smart
   preview_only: true
 url_slides: Bibauw_2021_TBLT_y_tecnologia.pdf
 url_code: null
 url_pdf: null
 url_video: "https://youtu.be/rARVmbfhoFY?t=5485"
-slides: ''
+slides: ""
 projects: []
 ---
 
 {{< youtube id="rARVmbfhoFY?start=5485" >}}
 
-* [Interacciones en vivo y preguntas (Slido)](https://app.sli.do/event/0jfxlmuy)
+- [Interacciones en vivo y preguntas (Slido)](https://app.sli.do/event/0jfxlmuy)
 
 ### Resultados de investigación-acción con _Among Us!_
 
 {{< figure src="efectos.png" >}}
 
-| Variable                 |_M_<sub>diff</sub> | _t_ | _p_-value | Effect size (_d_)|
-|--------------------------|-------|---------|---------|--------|
-| Actitud hacía el inglés  | 0.13  | 0.88  | 0.389 n.s. | 0.19  |
-| Deseo de aprender inglés | -0.08 | −0.70 | 0.490 n.s. | -0.15 |
-| Percepción de eficacia   | 0.02  | 0.15  | 0.886 n.s. | 0.03  |
-| **Anciedad lingüística**[^1] | -0.27  | -2.20  | **0.039** * | -0.47 |
-| **Autoconfianza**        | 0.50  | 2.88  | **0.009** **| 0.61 |
+| Variable                     | _M_<sub>diff</sub> | _t_   | _p_-value      | Effect size (_d_) |
+| ---------------------------- | ------------------ | ----- | -------------- | ----------------- |
+| Actitud hacía el inglés      | 0.13               | 0.88  | 0.389 n.s.     | 0.19              |
+| Deseo de aprender inglés     | -0.08              | −0.70 | 0.490 n.s.     | -0.15             |
+| Percepción de eficacia       | 0.02               | 0.15  | 0.886 n.s.     | 0.03              |
+| **Anciedad lingüística**[^1] | -0.27              | -2.20 | **0.039** \*   | -0.47             |
+| **Autoconfianza**            | 0.50               | 2.88  | **0.009** \*\* | 0.61              |
 
 [^1]: Los valores de "Anciedad" en el gráfico fueron invertidos para seguir la misma lógica que las otras variables (más alto = más motivados).
 

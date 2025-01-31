@@ -1,7 +1,7 @@
 ---
 title: Task-based language teaching with technology
 event: Introduction to the Master in English Teaching at PUCE-SA
-event_url: 'http://indteca.com/indtec/course/view.php?id=53&section=0#tabs-tree-start'
+event_url: "http://indteca.com/indtec/course/view.php?id=53&section=0#tabs-tree-start"
 location: Zoom
 address:
   street: null
@@ -22,7 +22,7 @@ aliases:
   - /talk/2021-pucesa
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 tags:
   - educational technology
   - invited keynote
@@ -30,14 +30,14 @@ tags:
 featured: false
 
 image:
-  caption: ''
+  caption: ""
   focal_point: Smart
   preview_only: true
 url_slides: null
 url_code: null
 url_pdf: null
 url_video: null
-slides: ''
+slides: ""
 projects: []
 ---
 
@@ -46,14 +46,17 @@ projects: []
 #### Methods
 
 **Intervention**
+
 - Among Us!
 - Groups of 10-students (max possible)
 
 Pedagogical sequence:
+
 - Pre-task activities (mostly asynchronous), ~20 min.
 - 2 x 40-min. sessions of Among Us!, with (synchronous) oral interaction on Discord
 
 **Participants**
+
 - $N = 22$ undergrad students
 - Pre-service English teachers: already highly motivated, advanced English proficiency (~B2)
 - Age: $M = 22.5$ y.o. [21..31]
@@ -61,13 +64,13 @@ Pedagogical sequence:
 
 #### Results
 
-| Variable                |_M_<sub>diff</sub> | _t_ | _p_-value | Effect size (_d_)|
-|-------------------------|-------|-------|-------------|-------|
-| Attitude toward English | 0.13  |  0.88 | 0.389 n.s.  |  0.19 |
-| Desire to learn English | -0.08 | −0.70 | 0.490 n.s.  | –0.15 |
-| Perceived effectiveness | 0.02  |  0.15 | 0.886 n.s.  |  0.03 |
-| **Language anxiety**    | –0.27 | –2.20 | **0.039** * | –0.47 |
-| **Self-confidence**     | 0.50  |  2.88 | **0.009** **|  0.61 |
+| Variable                | _M_<sub>diff</sub> | _t_   | _p_-value      | Effect size (_d_) |
+| ----------------------- | ------------------ | ----- | -------------- | ----------------- |
+| Attitude toward English | 0.13               | 0.88  | 0.389 n.s.     | 0.19              |
+| Desire to learn English | -0.08              | −0.70 | 0.490 n.s.     | –0.15             |
+| Perceived effectiveness | 0.02               | 0.15  | 0.886 n.s.     | 0.03              |
+| **Language anxiety**    | –0.27              | –2.20 | **0.039** \*   | –0.47             |
+| **Self-confidence**     | 0.50               | 2.88  | **0.009** \*\* | 0.61              |
 
 {{< figure src="Motivational_effects.png" >}}
 

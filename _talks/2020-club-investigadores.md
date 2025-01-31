@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Medir efectos en educación: introducción a los métodos cuantitativos'
+title: "Medir efectos en educación: introducción a los métodos cuantitativos"
 event: Club de Investigadores – Webinar
-event_url: 'https://www.facebook.com/103870154811580/posts/164839045381357/'
+event_url: "https://www.facebook.com/103870154811580/posts/164839045381357/"
 location: Zoom/YouTube Live
 address:
   street: null
@@ -27,7 +27,7 @@ all_day: false
 publishDate: 2020-11-19T22:25:25-05:00
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 
 tags:
   - en español
@@ -41,8 +41,8 @@ featured: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
   preview_only: true
 
 # Custom links (optional).
@@ -57,8 +57,8 @@ image:
 url_slides: Bibauw_2020_Medir_efectos_en_educacion.pdf
 url_code: null
 url_pdf: null
-url_video: 'https://youtu.be/TVVMaTW8GF4?t=837'
-slides: ''
+url_video: "https://youtu.be/TVVMaTW8GF4?t=837"
+slides: ""
 projects: []
 slug: medir-efectos-en-educacion-introduccion-metodos-cuantitativos
 aliases:

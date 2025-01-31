@@ -9,7 +9,7 @@ authors:
 date: 2015-05-28T10:00:00.000Z
 all_day: true
 event: CALICO Conference 2015
-location: 'Boulder, CO, USA'
+location: "Boulder, CO, USA"
 abstract: >-
   Conversational agents are seen as a way to offer an anxiety-free L2 practice
   environment for learners, in the hope that it would produce similar
@@ -23,11 +23,11 @@ abstract: >-
   present a design for a task-based agent that would provide semantically and
   pragmatically consistent answers inside a specific goal-oriented conversation
   with a learner.
-summary: ''
+summary: ""
 url_slides: bibauw-2015-calico.pdf
-url_pdf: ''
-url_code: ''
-url_video: ''
+url_pdf: ""
+url_code: ""
+url_video: ""
 projects:
   - dialogue-systems-for-language-learning
 tags:
@@ -37,4 +37,3 @@ aliases:
   - /talk/2015-calico
   - /event/2015-calico/
 ---
-

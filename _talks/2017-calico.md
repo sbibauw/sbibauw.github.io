@@ -8,7 +8,7 @@ authors:
   - T. François
   - P. Desmet
 event: CALICO Conference 2017
-location: 'Flagstaff, AZ, USA'
+location: "Flagstaff, AZ, USA"
 date: 2017-05-18T00:00:00.000Z
 abstract: >-
   Dialogue-based computer-assisted language learning (CALL) systems allow a
@@ -26,5 +26,4 @@ abstract: >-
 tags:
   - dialogue-based CALL
   - meta-analysis
-
 ---

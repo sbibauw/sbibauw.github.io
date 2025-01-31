@@ -13,23 +13,23 @@ authors:
 location: Louvain-la-Neuve, Belgium
 event: EUROCALL Conference 2019
 event_url: https://sites.uclouvain.be/eurocall2019
-abstract: ''
-summary: ''
+abstract: ""
+summary: ""
 featured: false
 math: true
 tags:
   - dialogue-based-CALL
   - experimental evaluation
-slides: ''
+slides: ""
 url_slides: Bibauw_et_al_2019_Interactivity_EUROCALL.pdf
 projects:
   - dialogue-systems-for-language-learning
-url_pdf: ''
-url_video: ''
-url_code: ''
+url_pdf: ""
+url_video: ""
+url_code: ""
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
 aliases:
   - /talk/2019-eurocall
 ---
@@ -48,9 +48,7 @@ The participants' acceptance of the system, in terms of perceived ease-of-use an
 
 ## Results
 
-Qualitative observations during the intervention evidenced a clear motivational advantage for the dynamic version of the dialogue. The absence of feedback in the static version was particularly detrimental to the perceived interactivity and ease-of-use of the system. Regarding in-task production, preliminary results reveal that the interactive group produced much more text during the same amount of time ($M\_{\mathrm{words}}$ +48%, $p$ < .001) and wrote longer messages ($M\_{\mathrm{words/msg}}$ +19%,  $p$ < .001). These findings put in evidence the importance of truly interactive production activities and the inherent limitations of dialogue completion exercises. For tutorial CALL, they also show the necessity of developing interactive dialogue systems to allow for autonomous conversational practice of the L2.
-
-
+Qualitative observations during the intervention evidenced a clear motivational advantage for the dynamic version of the dialogue. The absence of feedback in the static version was particularly detrimental to the perceived interactivity and ease-of-use of the system. Regarding in-task production, preliminary results reveal that the interactive group produced much more text during the same amount of time ($M\_{\mathrm{words}}$ +48%, $p$ < .001) and wrote longer messages ($M\_{\mathrm{words/msg}}$ +19%, $p$ < .001). These findings put in evidence the importance of truly interactive production activities and the inherent limitations of dialogue completion exercises. For tutorial CALL, they also show the necessity of developing interactive dialogue systems to allow for autonomous conversational practice of the L2.
 
 ## References
 

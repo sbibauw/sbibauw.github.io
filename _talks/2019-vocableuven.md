@@ -5,29 +5,29 @@ date_end: 2019-07-01 11:30:00 +02:00
 all_day: false
 publishDate: 2019-05-06T10:57:07.000Z
 authors:
- - S. Bibauw
- - T. François
- - P. Desmet
+  - S. Bibauw
+  - T. François
+  - P. Desmet
 location: Leuven, Belgium
 event: Vocab@Leuven Conference
-event_url: 'https://vocabatleuven.wordpress.com/'
-abstract: ''
-summary: ''
+event_url: "https://vocabatleuven.wordpress.com/"
+abstract: ""
+summary: ""
 featured: false
 math: true
 tags:
- - dialogue-based-CALL
- - experimental evaluation
- - vocabulary learning
-slides: ''
-url_slides: 'Bibauw_et_al_2019_Interactivity_Vocab_Leuven.pdf'
+  - dialogue-based-CALL
+  - experimental evaluation
+  - vocabulary learning
+slides: ""
+url_slides: "Bibauw_et_al_2019_Interactivity_Vocab_Leuven.pdf"
 projects:
- - dialogue-systems-for-language-learning
-url_pdf: ''
-url_video: ''
-url_code: ''
+  - dialogue-systems-for-language-learning
+url_pdf: ""
+url_video: ""
+url_code: ""
 image:
-  caption: ''
+  caption: ""
   focal_point: Smart
   preview_only: true
 slug: effects-interactivity-incidental-vocabulary
@@ -41,7 +41,7 @@ Dialogue-based computer-assisted language learning (CALL) allows a learner to pr
 
 In a randomized controlled experiment, 160 learners used two versions of a dialogue-based CALL game. Their receptive (form-meaning mapping) and productive (collocational use) knowledge of specific French lexical items was tested before and after these sessions. In the treatment, participants had to maintain several task-based conversations with in-game characters. Both conditions presented the same input and had the same output opportunities, but the difference lied in the interactivity of the conversational practice: in the “dialogue system” group, the system-controlled interlocutor answered dynamically to each participant, while in the “dialogue completion” group, all answers from the interlocutor were visible at the start of the activity.
 
-Preliminary results show that the "dialogue system" group ($M\_{\mathrm{gain}}$ = +10.9%, $d$ = .55) significantly outperforms the "dialogue completion" group ($M\_{\mathrm{gain}}$ = +8.8%, $d$ = .35). These findings are consistent with previous studies (e.g., Newton, 1995; Ellis & He, 1999) and with the *Task Involvement Hypothesis* (Laufer & Hulstijn, 2001). They put in evidence the importance of spontaneous interactive production activities and the inherent limitations of dialogue completion exercises. For tutorial CALL, they also show the necessity of developing interactive dialogue systems to allow for autonomous conversational practice of the L2.
+Preliminary results show that the "dialogue system" group ($M\_{\mathrm{gain}}$ = +10.9%, $d$ = .55) significantly outperforms the "dialogue completion" group ($M\_{\mathrm{gain}}$ = +8.8%, $d$ = .35). These findings are consistent with previous studies (e.g., Newton, 1995; Ellis & He, 1999) and with the _Task Involvement Hypothesis_ (Laufer & Hulstijn, 2001). They put in evidence the importance of spontaneous interactive production activities and the inherent limitations of dialogue completion exercises. For tutorial CALL, they also show the necessity of developing interactive dialogue systems to allow for autonomous conversational practice of the L2.
 
 ### References
 
@@ -53,11 +53,11 @@ Preliminary results show that the "dialogue system" group ($M\_{\mathrm{gain}}$ 
 
 - De Wilde, V., Brysbaert, M., & Eyckmans, J. (**2019**). Learning English through out-of-school exposure. Which levels of language proficiency are attained and which types of input are important? _Bilingualism: Language and Cognition, FirstView_. [https://doi.org/10.1017/S1366728918001062](https://doi.org/10.1017/S1366728918001062)
 
-- Elgort, I., Brysbaert, M., Stevens, M., & Assche, E. V. (**2018**). Contextual word learning during reading in a second language: An eye-movement study. *Studies in Second Language Acquisition, 40*(2), 341–366. [https://doi.org/10.1017/S0272263117000109](https://doi.org/10.1017/S0272263117000109)
+- Elgort, I., Brysbaert, M., Stevens, M., & Assche, E. V. (**2018**). Contextual word learning during reading in a second language: An eye-movement study. _Studies in Second Language Acquisition, 40_(2), 341–366. [https://doi.org/10.1017/S0272263117000109](https://doi.org/10.1017/S0272263117000109)
 
-- Ellis, R., & He, X. (**1999**). The roles of modified input and output in the incidental acquisition of word meanings. *Studies in Second Language Acquisition, 21*(2), 285–301.
+- Ellis, R., & He, X. (**1999**). The roles of modified input and output in the incidental acquisition of word meanings. _Studies in Second Language Acquisition, 21_(2), 285–301.
 
-- Laufer, B., & Hulstijn, J. H. (**2001**). Incidental vocabulary acquisition in a second language: The construct of task-induced involvement. *Applied Linguistics, 22*(1), 1–26. https://doi.org/10.1093/applin/22.1.1
+- Laufer, B., & Hulstijn, J. H. (**2001**). Incidental vocabulary acquisition in a second language: The construct of task-induced involvement. _Applied Linguistics, 22_(1), 1–26. https://doi.org/10.1093/applin/22.1.1
 
 - Newton, J. (**1995**). Task-based interaction and incidental vocabulary learning: A case study. _Second Language Research, 11_(2), 159–176. [https://doi.org/10.1177/026765839501100207](https://doi.org/10.1177/026765839501100207)
 

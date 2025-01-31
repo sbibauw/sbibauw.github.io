@@ -1,8 +1,8 @@
 ---
-title: 'Observing very-short-term speaking fluency development in computer-delivered interviews'
+title: "Observing very-short-term speaking fluency development in computer-delivered interviews"
 type: Paper
 event: EuroSLA 2024
-event_url: 'https://eurosla33.sciencesconf.org/'
+event_url: "https://eurosla33.sciencesconf.org/"
 location: Université Paul Valéry Montpellier 3
 address:
   street: null

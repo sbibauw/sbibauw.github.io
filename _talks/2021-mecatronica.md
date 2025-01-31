@@ -1,7 +1,7 @@
 ---
-title: 'La tecnología aplicada a la educación'
+title: "La tecnología aplicada a la educación"
 event: Carrera de Pedagogía Técnica de la Mecatrónica
-event_url: 'https://www.facebook.com/103870154811580/posts/164839045381357/'
+event_url: "https://www.facebook.com/103870154811580/posts/164839045381357/"
 location: Zoom
 address:
   street: null
@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2021-04-06T00:00:00-05:00
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 
 tags:
   - en español
@@ -38,8 +38,8 @@ featured: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
   preview_only: false
 
 # Custom links (optional).
@@ -55,7 +55,6 @@ url_slides: Bibauw_2021_Tecnología educación.pdf
 url_code: null
 url_pdf: null
 url_video: null
-slides: ''
+slides: ""
 projects: []
 ---
-

@@ -45,4 +45,4 @@ Dans un deuxième temps, je montrerai comment l'efficacité de ces différents s
 
 ### Référence
 
-Bibauw, S., François, T., & Desmet, P. (2019). Discussing with a computer to practice a foreign language: Research synthesis and conceptual framework of dialogue-based CALL. *Computer Assisted Language Learning*. https://doi.org/10.1080/09588221.2018.1535508
+Bibauw, S., François, T., & Desmet, P. (2019). Discussing with a computer to practice a foreign language: Research synthesis and conceptual framework of dialogue-based CALL. _Computer Assisted Language Learning_. https://doi.org/10.1080/09588221.2018.1535508

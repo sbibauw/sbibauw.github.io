@@ -1,1 +1,3 @@
-if(navigator.serviceWorker){navigator.serviceWorker.register("/madagascar/sw.js",{scope:"/madagascar/"});}
+if (navigator.serviceWorker) {
+  navigator.serviceWorker.register("/madagascar/sw.js", { scope: "/madagascar/" });
+}

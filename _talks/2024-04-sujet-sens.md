@@ -1,15 +1,15 @@
 ---
-title: 'Apprendre les langues à l’ère de ChatGPT : quels rôles pour l’apprenant, l’enseignant et l’IA ?'
+title: "Apprendre les langues à l’ère de ChatGPT : quels rôles pour l’apprenant, l’enseignant et l’IA ?"
 
 type: Presentation
-event: 'Colloque international [Retour] du Sujet et du Sens en Didactique des langues'
+event: "Colloque international [Retour] du Sujet et du Sens en Didactique des langues"
 event_url: https://sujetsens2024.sciencesconf.org/
 
 location: Université de Liège
 address:
   street: Rue de Pitteurs, 18
   city: Liège
-  region: ''
+  region: ""
   postcode: 4020
   country: Belgium
 
@@ -24,11 +24,11 @@ abstract: >-
   - Romero, M., Heiser, L., & Lepage, A. (Eds.). (2023). _Enseigner et apprendre à l’ère de l’intelligence artificielle: Acculturation, intégration et usages créatifs de l’IA en éducation_. Ministère de l’Éducation nationale. https://eduq.info/xmlui/handle/11515/38818
   - Heift, T., & Schulze, M. (2015). Research timeline: Tutorial computer-assisted language learning. _Language Teaching, 48_(4), 471–490. https://doi.org/10.1017/S0261444815000245
 
-date: '2024-04-19T14:00:00Z'
-date_end: '2024-04-19T14:30:00Z'
+date: "2024-04-19T14:00:00Z"
+date_end: "2024-04-19T14:30:00Z"
 
-authors: ['S. Bibauw']
-tags: ['en français']
+authors: ["S. Bibauw"]
+tags: ["en français"]
 
 inline: true
 ---

@@ -1,9 +1,9 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Inteligencia artificial para el aprendizaje de idiomas: Diseño y efectividad de sistemas de diálogo y chatbots'
+title: "Inteligencia artificial para el aprendizaje de idiomas: Diseño y efectividad de sistemas de diálogo y chatbots"
 event: Club de Investigadores – Conversatorio
-event_url: 'https://fb.watch/fTl0ck3lcc/'
+event_url: "https://fb.watch/fTl0ck3lcc/"
 location: Zoom/YouTube Live
 address:
   street: null
@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2022-09-01T22:25:25-05:00
 
 authors:
- - S. Bibauw
+  - S. Bibauw
 
 tags:
   - en español
@@ -39,8 +39,8 @@ featured: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
-  focal_point: ''
+  caption: ""
+  focal_point: ""
   preview_only: true
 
 # Custom links (optional).
@@ -55,8 +55,8 @@ image:
 url_slides: Bibauw_2022_IA_aprendizaje_idiomas.pdf
 url_code: null
 url_pdf: null
-url_video: 'https://youtu.be/pyjiVbYux-c?t=379'
-slides: ''
+url_video: "https://youtu.be/pyjiVbYux-c?t=379"
+slides: ""
 projects:
   - dialogue-systems-for-language-learning
 slug: inteligencia-artificial-para-aprendizaje-de-idiomas
@@ -64,9 +64,9 @@ aliases:
   - /talk/2022-cdi
 ---
 
-Las inteligencias artificiales conversacionales—es decir, los chatbots, los robots parlantes, los agentes conversacionales y los sistemas de diálogo—ofrecen una posibilidad prometedora para el aprendizaje de idiomas: un entorno de baja ansiedad para la práctica comunicativa e interactiva, que puede además controlarse en cuanto a complejidad y exposición específica, estrategias de andamiaje y retroalimentación correctiva. 
+Las inteligencias artificiales conversacionales—es decir, los chatbots, los robots parlantes, los agentes conversacionales y los sistemas de diálogo—ofrecen una posibilidad prometedora para el aprendizaje de idiomas: un entorno de baja ansiedad para la práctica comunicativa e interactiva, que puede además controlarse en cuanto a complejidad y exposición específica, estrategias de andamiaje y retroalimentación correctiva.
 
-Sin embargo, más allá de la atractiva visión que ofrecen los sistemas de diálogo para el aprendizaje de idiomas, sabemos relativamente poco sobre cómo funcionan aplicaciones reales en la práctica y cómo se comparan los diferentes enfoques de diseño en términos de eficacia para el aprendizaje. 
+Sin embargo, más allá de la atractiva visión que ofrecen los sistemas de diálogo para el aprendizaje de idiomas, sabemos relativamente poco sobre cómo funcionan aplicaciones reales en la práctica y cómo se comparan los diferentes enfoques de diseño en términos de eficacia para el aprendizaje.
 
 Esta presentación, basada en mi tesis de doctorado, aborda este vacío proporcionando información, en primer lugar, de una síntesis y un meta-análisis exhaustivos de la literatura científica, y en segundo lugar, de una evaluación experimental a gran escala de dos versiones de sistemas de diálogo que difieren en la interactividad, evaluados para el aprendizaje del francés en un entorno escolar.
 
