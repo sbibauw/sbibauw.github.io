@@ -1,5 +1,5 @@
-linkedin.com
-reddit.com
+^https://www.linkedin.com
+^https://www.reddit.com
 ^https://www.frs-fnrs.be
 ^https://itec.kuleuven-kulak.be
 ^https://www.educacionsuperior.gob.ec
