@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Recent and upcoming talks
+title: Talks
 permalink: /talks/
+nav: true
+nav_order: 3
 ---
 
 {% include talks.liquid %}
