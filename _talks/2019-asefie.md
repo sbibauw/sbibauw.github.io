@@ -1,9 +1,7 @@
 ---
-title: >-
-  Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje
+title: "Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje"
 date: 2019-11-26T14:00:00.000Z
 date_end: 2019-11-26T14:30:00.000Z
-all_day: false
 publishDate: 2019-11-25T11:03:08.000Z
 authors:
   - S. Bibauw
@@ -13,36 +11,22 @@ authors:
 location: Cuenca, Ecuador
 event: III Conferencia Internacional de Investigación Educativa ASEFIE 2019
 event_url: http://www.asefie.org/index.php/es-co/proximos-eventos/proximos-eventos/conferencia-investigacion-educativa
-abstract: ""
-summary: ""
+# abstract:
 featured: false
-math: true
+# math: true
 tags:
   - dialogue-based-CALL
   - experimental evaluation
   - speaking fluency
   - en español
-slides: ""
-url_slides: Bibauw_et_al_2019_ASEFIE.pdf
 projects:
   - dialogue-systems-for-language-learning
-url_pdf: ""
-url_video: ""
-url_code: ""
-image:
-  caption: ""
-  focal_point: Smart
-  preview_only: true
-aliases:
-  - /talk/2019-asefie
 ---
 
 ## Preguntas de investigación
 
 - ¿En qué medida es posible medir de manera valida, confiable y precisa efectos de aprendizaje de corta duración en lengua extranjera en términos de fluidez oral de manera semiautomática?
-
 - ¿Qué medidas de fluidez oral son más validas y más sensibles a efectos de aprendizaje conversacionales en principiantes?
-
 - ¿Qué procesamiento automático del lenguaje de las respuestas de los aprendices son necesarios y cuales son las decisiones más recomendables para automatizar este proceso?
 
 ## Enfoque teórico
@@ -65,16 +49,10 @@ La presentación tiene también el objetivo de dar a conocer y de explicar al p�
 
 ## Referencias
 
-- Baker-Smemoe, W., Dewey, D. P., Bown, J., & Martinsen, R. A. (2014). Does measuring L2 utterance fluency equal measuring overall L2 proficiency? Evidence from five languages. _Foreign Language Annals, 47_(4), 707–728. https://doi.org/10.1111/flan.12110
-
-- Bibauw, S., François, T., & Desmet, P. (2019). Discussing with a computer to practice a foreign language: research synthesis and conceptual framework of dialogue-based CALL. _Computer Assisted Language Learning, 32_(8), 827-877. https://doi.org/10.1080/09588221.2018.1535508
-
-- de Jong, N. H. (2018). Fluency in Second Language Testing: Insights From Different Disciplines. _Language Assessment Quarterly, 15_(3), 237–254. https://doi.org/10.1080/15434303.2018.1477780
-
+- Baker-Smemoe, W., Dewey, D. P., Bown, J., & Martinsen, R. A. (2014). Does measuring L2 utterance fluency equal measuring overall L2 proficiency? Evidence from five languages. _Foreign Language Annals, 47_ (4), 707–728. https://doi.org/10.1111/flan.12110
+- Bibauw, S., François, T., & Desmet, P. (2019). Discussing with a computer to practice a foreign language: research synthesis and conceptual framework of dialogue-based CALL. _Computer Assisted Language Learning, 32_ (8), 827-877. https://doi.org/10.1080/09588221.2018.1535508
+- de Jong, N. H. (2018). Fluency in Second Language Testing: Insights From Different Disciplines. _Language Assessment Quarterly, 15_ (3), 237–254. https://doi.org/10.1080/15434303.2018.1477780
 - Michel, M. (2017). Complexity, accuracy, and fluency in L2 production. En S. Loewen & M. Sato (Eds.), _The Routledge Handbook of Instructed Second Language Acquisition_ (pp. 50–68). https://doi.org/10.4324/9781315676968
-
-- Peters, E., Velghe, T., & Rompaey, T. V. (2019). The VocabLab tests: The development of an English and French vocabulary test. _ITL - International Journal of Applied Linguistics, 170_(1), 53–78. https://doi.org/10.1075/itl.17029.pet
-
+- Peters, E., Velghe, T., & Rompaey, T. V. (2019). The VocabLab tests: The development of an English and French vocabulary test. _ITL - International Journal of Applied Linguistics, 170_ (1), 53–78. https://doi.org/10.1075/itl.17029.pet
 - Segalowitz, N. (2010). _Cognitive bases of second language fluency_. New York: Routledge. 
-
-- Segalowitz, N., French, L., & Guay, J.-D. (2017). What features best characterize adult second language utterance fluency and what do they reveal about fluency gains in short-term immersion? _Canadian Journal of Applied Linguistics / Revue Canadienne de Linguistique Appliquée, 20_(2), 90–116.
+- Segalowitz, N., French, L., & Guay, J.-D. (2017). What features best characterize adult second language utterance fluency and what do they reveal about fluency gains in short-term immersion? _Canadian Journal of Applied Linguistics / Revue Canadienne de Linguistique Appliquée, 20_ (2), 90–116.
