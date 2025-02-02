@@ -145,17 +145,20 @@ collections:
   news:
     output: true
   projects:
-    defaults:
-      layout: page
     output: true
     permalink: /:collection/:title/
   talks:
-    defaults:
-        layout: post
     output: true
     permalink: /:collection/:year/:title/
-  courses:
-    defaults:
+  # courses:
+  #   output: true
+  #   # permalink: /:collection/:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
       layout: page
     output: true
     permalink: /:collection/:title/
