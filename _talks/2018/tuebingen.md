@@ -12,17 +12,14 @@ authors:
   - W. Van den Noortgate
   - T. François
   - P. Desmet
-abstract: "Dialogue-based CALL systems allow a learner to practice meaningfully an L2 with an automated agent, through an oral (spoken dialogue systems) or written interface (chatbots) (Bibauw, François, & Desmet, 2015). In order to obtain a better comprehension of their effects on L2 proficiency development, we conducted a multilevel meta-analysis on all the experimental studies measuring an impact of such systems on language learning outcomes (40 publications). Effect sizes for each variable and group under observation were systematically computed ($k = 96$). By combining all studies into a multilevel linear model, we observed a significant medium effect of dialogue-based CALL on general L2 proficiency development ($d = .61$). By integrating moderator variables into our statistical model, we are able to provide insights on the relative effectiveness of certain technological and instructional characteristics (spoken vs. written, task-oriented vs. open-ended, form-focused vs. meaning-focused) on different learning outcomes (writing vs. speaking vs. comprehension skills, complexity, accuracy and fluency measures…) and different samples of populations (L2 proficiency, age, context…), as well as to model the effect of treatment duration (number of sessions and time on task) and spacing on these outcomes, to better inform future system and research design."
+abstract: |
+  Dialogue-based CALL systems allow a learner to practice meaningfully an L2 with an automated agent, through an oral (spoken dialogue systems) or written interface (chatbots) (Bibauw, François, & Desmet, 2015). In order to obtain a better comprehension of their effects on L2 proficiency development, we conducted a multilevel meta-analysis on all the experimental studies measuring an impact of such systems on language learning outcomes (40 publications). Effect sizes for each variable and group under observation were systematically computed ($k = 96$). By combining all studies into a multilevel linear model, we observed a significant medium effect of dialogue-based CALL on general L2 proficiency development ($d = .61$). By integrating moderator variables into our statistical model, we are able to provide insights on the relative effectiveness of certain technological and instructional characteristics (spoken vs. written, task-oriented vs. open-ended, form-focused vs. meaning-focused) on different learning outcomes (writing vs. speaking vs. comprehension skills, complexity, accuracy and fluency measures…) and different samples of populations (L2 proficiency, age, context…), as well as to model the effect of treatment duration (number of sessions and time on task) and spacing on these outcomes, to better inform future system and research design."
 projects:
   - dialogue-systems-for-language-learning
 tags:
   - dialogue-based CALL
   - meta-analysis
 ---
-
-![Poster](../featured.png)
-
-[Download the poster](../bibauw-2018-poster.pdf) • [Descargar el poster en español](../bibauw-meta-analisis-poster-es.pdf)
 
 # Dialogue-based CALL
 
@@ -79,13 +76,8 @@ Many interesting exploratory results needing to be confirmed in future research.
 # References <a name="bibauw2015"></a><a name="bibauw2019"></a>
 
 - Bibauw, S., François, T., & Desmet, P. (2015). [Dialogue-based CALL: an overview of existing research](/publication/bibauw-et-al-2015/). In F. Helm, L. Bradley, M. Guarda, & S. Thouësny (Eds.), _Critical CALL – Proceedings of the 2015 EUROCALL Conference_, Padova, Italy (pp. 57–64). Dublin: Research-publishing.net.
-
 - Bibauw, S., François, T., & Desmet, P. (2019). [Discussing with a computer to practice a foreign language: from a conceptual framework to a research agenda for dialogue-based CALL](/publication/bibauw-et-al-2019/). _Computer Assisted Language Learning_.
-
 - <a name="morris"></a>Mackey, A., & Goo, J. (2007). Interaction research in SLA: A meta-analysis and research synthesis. In A. Mackey (Ed.), _Conversational interaction in second language acquisition: A collection of empirical studies_ (pp. 407–452). Oxford: Oxford University Press.
-
 - <a name="vdng"></a>Morris, S. B., & DeShon, R. P. (2002). Combining effect size estimates in meta-analysis with repeated measures and independent-groups designs. _Psychological Methods, 7_(1), 105‑125. [doi:10.1037//1082-989X.7.1.105](https://doi.org/10.1037//1082-989X.7.1.105)
-
 - <a name="viechtbauer"></a>Van den Noortgate, W., López-López, J. A., Marín-Martínez, F., & Sánchez-Meca, J. (2013). Three-level meta-analysis of dependent effect sizes. _Behavior Research Methods, 45_(2), 576–594. [doi:10.3758/s13428-012-0261-6](https://doi.org/10.3758/s13428-012-0261-6)
-
 - Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. _Journal of Statistical Software, 36_(3). [doi:10.18637/jss.v036.i03](https://doi.org/10.18637/jss.v036.i03)

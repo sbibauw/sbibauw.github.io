@@ -32,7 +32,7 @@ table {
   }
 
   th {
-    font-weight: bold;
+    font-weight: bolder;
   }
 }
 
@@ -529,9 +529,9 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
 
   .container {
     text-align: center;
@@ -918,6 +918,36 @@ footer.sticky-bottom {
       border-color: var(--global-highlight-color);
     }
   }
+}
+
+.talks {
+  .title {
+    // font-weight: bolder;
+    font-size: 0.9rem;
+    font-family: "Roboto Slab", "Times New Roman";
+  }
+  .with {
+    font-size: 0.9rem;
+  }
+  .location {
+    font-size: 0.9rem;
+  }
+  .event {
+    font-weight: normal;
+  }
+  .abstract {
+    font-size: 0.85rem;
+  }
+}
+
+.talk-header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+header.post-header {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1rem;
 }
 
 // Rouge Color Customization

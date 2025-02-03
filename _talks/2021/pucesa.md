@@ -17,6 +17,7 @@ tags:
   - invited keynote
 details: true
 layout: paper
+pretty_table: true
 ---
 
 ### Micro study on using Among Us! for practice
@@ -50,7 +51,7 @@ Pedagogical sequence:
 | **Language anxiety**    | –0.27              | –2.20 | **0.039** \*   | –0.47             |
 | **Self-confidence**     | 0.50               | 2.88  | **0.009** \*\* | 0.61              |
 
-{{< figure src="Motivational_effects.png" >}}
+{% include figure.liquid loading="eager" path="/assets/img/talks/motivational_effects.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### References
 

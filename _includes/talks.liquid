@@ -7,7 +7,7 @@
         style="max-height: 40vw"
       {% endif %}
     >
-      <table class="table table-sm table-borderless">
+      <table class="table table-sm table-borderless talks">
         {% assign talks = site.talks | reverse %}
         {% if include.limit and page.talks.limit %}
           {% assign talks_limit = page.talks.limit %}
@@ -16,47 +16,73 @@
         {% endif %}
         {% for item in talks limit: talks_limit %}
           <tr>
-            <td scope="row" style="width: 15%">{{ item.date | date: '%e %b %Y' }}</td>
+            <th scope="row" style="width: 15%">{{ item.date | date: '%e %b %Y' }}</th>
             <td>
-              {% if item.abstract %}
-                <details>
-                  <summary>
-              {% endif %}
               {% if item.type %}
-                {{ item.type }}{% else %}Presentation
-              {% endif %}{% if item.event %}
-                at <span class="event font-weight-normal">
-                {% if item.event_url %}
-                  <a href="{{ item.event_url }}" target="_blank">{{ item.event }}</a>
-                {% else %}
-                  {{ item.event }}
-                {% endif %}
+                {{ item.type -}}
+              {%- else -%}
+                Presentation
+              {% endif -%}
+              {%- if item.event %}
+                at
+                <span class="event">
+                  {% if item.event_url %}
+                    <a href="{{ item.event_url }}" target="_blank">{{ item.event }}</a>
+                  {% else %}
+                    {{ item.event }}
+                  {% endif %}
                 </span>
               {% endif %}
               {% if item.location %}
-                <small class="float-right">
-                {{ item.location }}{% if item.address.city %}, 
-                  {{ item.address.city }}{% if item.address.region %}, 
-                  {{ item.address.region }}{% endif %}{% endif %}
-                  </small>
+                <div class="float-right location">
+                  {{ item.location -}}
+                  {%- if item.address.city -%}
+                    , {{ item.address.city -}}
+                    {%- if item.address.region -%}
+                      , {{ item.address.region -}}
+                    {%- endif -%}
+                  {%- endif %}
+                </div>
               {% endif %}
-              <div class="title">
+              <div>
                 {% if item.details %}
-                  <a class="talks-title font-italic" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  <a class="title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                 {% elsif item.link %}
-                  <a class="talks-title font-italic" href="{{ item.link }}">{{ item.title }}</a>
+                  <a class="title" href="{{ item.link }}">{{ item.title }}</a>
                 {% else %}
-                  <span class="talks-title font-italic">{{ item.title }}</span>
+                  <span class="title">{{ item.title }}</span>
+                {% endif %}
+                {% if item.abstract %}
+                  <a
+                    class=""
+                    data-toggle="collapse"
+                    href="#abstract{{ forloop.index }}"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="abstract{{ forloop.index }}"
+                  >
+                    {% comment %}
+                      <span class="fa-stack fa-2x" title="Abstract">
+                        <i class="fa-solid fa-caret-down"></i>
+                        <i class="fa-solid fa-rectangle-list fa-stack-1x"></i>
+                      </span>
+                    {% endcomment %}
+                    <i class="fa-solid fa-caret-down" title="Abstract"></i>
+                  </a>
                 {% endif %}
                 {% if item.with %}
-                  <div class="float-right">with {{ item.with }}</div>
+                  <div class="float-right with">with {{ item.with }}</div>
+                {% endif %}
+                {% if item.abstract %}
+                  {% comment %} </summary> {% endcomment %}
+                  <div class="collapse" id="abstract{{ forloop.index }}">
+                    <div class="card card-body abstract font-weight-lighter">
+                      {{ item.abstract | markdownify }}
+                    </div>
+                  </div>
+                  {% comment %} </details> {% endcomment %}
                 {% endif %}
               </div>
-              {% if item.abstract %}
-                  </summary>
-                  <div class="abstract font-weight-lighter p-2 lh-1" style="line-height: 1.2rem; font-size: .85rem">{{ item.abstract | markdownify }}</div>
-                </details>
-              {% endif %}
             </td>
           </tr>
         {% endfor %}

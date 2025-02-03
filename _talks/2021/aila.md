@@ -31,8 +31,6 @@ layout: paper
 
 <iframe width="640" height="360" src="http://www.youtube.com/embed/QYj85Szi1pc" frameborder="0"> </iframe>
 
-**Abstract**
-
 Speaking utterance fluency, as a dimension of L2 performance, is assumed to be correlated to L2 proficiency, and the ability to measure it objectively and precisely is key for testing and research. Many utterance fluency metrics have been proposed, compared, and validated in terms of how well they discriminate or predict proficiency levels, allow to measure short-term L2 development or correlate with perceived fluency (e.g., [Segalowitz et al, 2017](#references); [Tavakoli et al, 2020](#references)). However, the precise operationalization of these fluency measurements is rarely discussed in detail and often diverges among studies ([Dumont, 2018](#references)). While some issues, such as the silent pause threshold, have been studied in more detail ([de Jong & Bosker, 2013](#references)), others, such as pruning, have rarely been discussed in depth.
 
 The present study attempts to (semi-)automatize the testing and the computation of multiple variations of L2 fluency metrics, to compare how well they predict external proficiency estimates, including within a limited proficiency range, and how sensitive they are to very-short-term developmental changes.
@@ -43,7 +41,7 @@ We evaluate how well each metric’s variations correlate with external proficie
 
 ### Methods
 
-![](fluency-metrics-research-design-3.svg)
+![Image](/assets/img/talks/fluency-metrics-research-design-3.svg)
 
 ### Results
 
@@ -66,7 +64,7 @@ We evaluate how well each metric’s variations correlate with external proficie
 
 #### Best predictors of L2 proficiency
 
-![](corr_VS_syll_run2.png)
+{% include figure.liquid loading="eager" path="/assets/img/talks/corr_VS_syll_run2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ##### Semi-auto vs. fully automated composite metrics
 
@@ -84,7 +82,7 @@ We evaluate how well each metric’s variations correlate with external proficie
 
 #### Developmental sensitivity
 
-![](interv_effect_metrics.png)
+{% include figure.liquid loading="eager" path="/assets/img/talks/interv_effect_metrics.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 ### References
 

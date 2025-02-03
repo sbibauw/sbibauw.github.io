@@ -24,8 +24,6 @@ details: true
 layout: paper
 ---
 
-Presentation at III Conferencia Internacional de Investigación Educativa ASEFIE 2019: "Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje" (Universidad de Cuenca, Ecuador).
-
 ## Preguntas de investigación
 
 - ¿En qué medida es posible medir de manera valida, confiable y precisa efectos de aprendizaje de corta duración en lengua extranjera en términos de fluidez oral de manera semiautomática?

@@ -26,7 +26,7 @@ details: true
 layout: paper
 ---
 
-### Abstract _(as submitted in February 2019)_
+### Abstract <small>(as submitted in February 2019)</small>
 
 Dialogue-based computer-assisted language learning (CALL) allows a learner to practice an L2 by discussing with a computer. By offering a fully controllable meaning-focused learning environment, it also allows to conduct research on the effectiveness of different modalities of interaction. In this study, we compare the effects of the interactivity of the writing activity on the incidental vocabulary acquisition. Interactive learning activities are often assumed to generate more learning outcomes than non-interactive ones (Chi, 2009). We know that negotiation of meaning and interactionally modified output are beneficial for incidental vocabulary learning (Newton, 1995; Ellis & He, 1999). Is it possible however that, at identical input and output opportunities, the level of interactivity offered by a dialogue activity affects incidental vocabulary learning?
 

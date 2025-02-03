@@ -19,15 +19,19 @@ tags:
   - educational technology
   - invited keynote
 details: true
+layout: paper
+pretty_table: false
 ---
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/rARVmbfhoFY?start=5485" frameborder="0"> </iframe>
+{% include video.liquid path="http://www.youtube.com/embed/rARVmbfhoFY?start=5485" class="img-fluid rounded z-depth-1" %}
+
+<!-- <iframe width="640" height="360" src="" frameborder="0"> </iframe> -->
 
 - [Interacciones en vivo y preguntas (Slido)](https://app.sli.do/event/0jfxlmuy)
 
 ### Resultados de investigación-acción con _Among Us!_
 
-{{< figure src="efectos.png" >}}
+{% include figure.liquid loading="eager" path="/assets/img/talks/motivational_effects_es.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 | Variable                     | _M_<sub>diff</sub> | _t_   | _p_-value      | Effect size (_d_) |
 | ---------------------------- | ------------------ | ----- | -------------- | ----------------- |

@@ -29,11 +29,6 @@ abstract: >-
   present a design for a task-based agent that would provide semantically and
   pragmatically consistent answers inside a specific goal-oriented conversation
   with a learner.
-summary: ""
-url_slides: bibauw-2015-calico.pdf
-url_pdf: ""
-url_code: ""
-url_video: ""
 projects:
   - dialogue-systems-for-language-learning
 tags:
