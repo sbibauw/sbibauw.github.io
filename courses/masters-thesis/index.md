@@ -1,0 +1,56 @@
+---
+layout: page
+title: Master's Research Project
+linkTitle: Master's Thesis
+summary: A graduate course to accompany PUCE-SA 'English Language Teaching' Master's students in the preparation of their MA thesis. Recommendations on how to search for, find and access scientific literature, how to conduct a literature review, how to design a research project in language education, and how to collect and analyze data.
+date: "2021-04-08"
+type: book
+image:
+  caption: "[Andrew Neel](https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+toc:
+  sidebar: left
+---
+
+{% include figure.liquid loading="eager" path="/courses/masters-thesis/header.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
+
+## Course description
+
+This course aims at preparing and accompanying the students in the conceptualization, design, realization, analysis of their graduation research project, and the writing of their master’s thesis. It will present practical and applied research processes and techniques in the field of foreign language learning and teaching, as well as critical academic tools and resources. The students are expected to apply these principles, skills and strategies in the preparation of their personal research project, that should reach an advanced draft state at the end of the module.
+
+## What you will learn
+
+- Identify, find, categorize, read and summarize scientific literature in applied linguistics and second language acquisition.
+- Write a literature review on a specific research topic.
+- Design, validate and pilot qualitative and quantitative data collection instruments (overview).
+- Analyze qualitative and quantitative results (overview).
+- Present and discuss results in your master's thesis.
+
+<!-- ## Learning outcomes
+
+At the end of this course, students should be able to:
+
+* Build a theoretical framework based not only on theories but on empirical studies similar to the one that the student will carry out.
+* Find a space in the literature that their own study will fill.
+* Develop an appropriate methodology for research that is feasible and reliable for their study.
+* Collect data in the field in an ethical and unbiased manner.
+* Analyze quantitative and qualitative data and draw conclusions about them.
+* Synthesize the results of the study and compare them to previous studies.
+* Propose areas for future research related to the students’ topics. -->
+
+## Units
+
+0. [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
+1. [Finding and accessing scientific literature](/courses/masters-thesis/1-scientific-literature)
+2. [Summarizing scientific literature](/courses/masters-thesis/2-summarizing)
+
+<ul>
+    {% for item in site.pages %}
+        {% if item.dir == page.dir and item.path != page.path %}
+        <li>
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+{% include figure.liquid loading="eager" path="/courses/masters-thesis/writing-your-thesis.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
