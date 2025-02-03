@@ -1,7 +1,7 @@
 ---
 title: Reference management
 type: Workshop
-event: >- 
+event: >-
   "I was never taught how to do this"
 location: KU Leuven
 # address:

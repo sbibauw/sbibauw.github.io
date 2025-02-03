@@ -32,4 +32,3 @@ Las inteligencias artificiales conversacionales—es decir, los chatbots, los ro
 Sin embargo, más allá de la atractiva visión que ofrecen los sistemas de diálogo para el aprendizaje de idiomas, sabemos relativamente poco sobre cómo funcionan aplicaciones reales en la práctica y cómo se comparan los diferentes enfoques de diseño en términos de eficacia para el aprendizaje.
 
 Esta presentación, basada en mi tesis de doctorado, aborda este vacío proporcionando información, en primer lugar, de una síntesis y un meta-análisis exhaustivos de la literatura científica, y en segundo lugar, de una evaluación experimental a gran escala de dos versiones de sistemas de diálogo que difieren en la interactividad, evaluados para el aprendizaje del francés en un entorno escolar.
-

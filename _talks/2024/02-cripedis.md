@@ -1,4 +1,4 @@
---- 
+---
 title: >-
   L'IA dans les écrits universitaires : par la porte ou par la fenêtre ?
 type: Seminar

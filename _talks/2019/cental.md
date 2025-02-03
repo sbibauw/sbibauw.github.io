@@ -27,4 +27,3 @@ projects:
 aliases:
   - /talk/2019-cental
 ---
-

@@ -14,22 +14,31 @@ layout: default
     {% if page.date %}
       <div>
         {% if page.type %}
-          {{ page.type }}{% else %}Presentation
+          {{ page.type -}}
+        {%- else -%}
+          Presentation
         {% endif %}
         {% if page.event %}
-          at <span class="event font-weight-normal"> {% if page.event_url %}
-            <a href="{{ page.event_url }}" target="_blank">{{ page.event }}</a> —
-          {% else %}
-            {{ page.event }} —
-          {% endif %}</span> 
+          at
+          <span class="event font-weight-normal">
+            {% if page.event_url %}
+              <a href="{{ page.event_url }}" target="_blank">{{ page.event }}</a> —
+            {% else %}
+              {{ page.event }} —
+            {% endif -%}
+          </span>
         {% endif %}
-        {{ page.date | date: '%e %B %Y' }} 
+        {{ page.date | date: '%e %B %Y' }}
         {% if page.location %}
           <div class="float-right">
-          {{ page.location }}{% if page.address.city %}, 
-            {{ page.address.city }}{% if page.address.region %}, 
-            {{ page.address.region }}{% endif %}{% endif %}
-            </div>
+            {{ page.location -}}
+            {%- if page.address.city -%}
+              , {{ page.address.city -}}
+              {%- if page.address.region -%}
+                , {{ page.address.region -}}
+              {%- endif -%}
+            {%- endif %}
+          </div>
         {% endif %}
         {% if page.with %}
           <div>with {{ page.with }}</div>

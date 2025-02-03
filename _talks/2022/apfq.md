@@ -23,4 +23,3 @@ tags:
 aliases:
   - /talk/2022-apfq
 ---
-
