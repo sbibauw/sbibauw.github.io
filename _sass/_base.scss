@@ -920,6 +920,10 @@ footer.sticky-bottom {
   }
 }
 
+input.search.float-right {
+  margin-top: -65px;
+}
+
 .talks {
   .title {
     // font-weight: bolder;
@@ -938,15 +942,14 @@ footer.sticky-bottom {
   .abstract {
     font-size: 0.85rem;
   }
+  header.post-header {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1rem;
+  }
 }
 
 .talk-header {
   margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-header.post-header {
-  border-bottom: 1px solid var(--global-divider-color);
   margin-bottom: 1rem;
 }
 
