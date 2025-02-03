@@ -9,12 +9,10 @@ last_name: Bibauw
 description: Assistant Professor of French Language Teaching
 contact_note: #
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: language learning, chatbots # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 💬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 👤 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sbibauw.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -47,7 +45,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -156,24 +154,26 @@ collections:
   #   # permalink: /:collection/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: page
       author: Serge Bibauw
-  -
-    scope:
+  - scope:
       path: "talks"
       type: "pages"
     values:
       layout: "paper"
-  -
-    scope:
+  - scope:
       path: "publications"
       type: "pages"
     values:
       layout: "paper"
+  # Sitemap settings
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -237,13 +237,6 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-
-# Sitemap settings
-defaults:
-  - scope:
-      path: "assets"
-    values:
-      sitemap: false
 
 sass:
   style: compressed
