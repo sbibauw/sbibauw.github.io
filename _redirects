@@ -1,10 +1,10 @@
 # Special direct links
 # ——————————————
-/meeting 	 https://cal.com/sbibauw
-/meet/s/   https://cal.com/sbibauw/student
-/meet/d/   https://cal.com/sbibauw/phd
-/meet/r/   https://cal.com/sbibauw/research
-/rdv       https://cal.com/sbibauw/student
+/meeting 	 https://cal.com/sbibauw            200
+/meet/s/   https://cal.com/sbibauw/student    200
+/meet/d/   https://cal.com/sbibauw/phd        200
+/meet/r/   https://cal.com/sbibauw/research   200
+/rdv       https://cal.com/sbibauw/student    200
 
 # Old directory structure
 # ——————————————
@@ -46,47 +46,46 @@
 
 # PDFs & annexes
 # ——————————————
-/publication/2022/                                               /publications/#2022
-/publication/bibauw-et-al-2019/Annex1_papers.html                /assets/html/bibauw-et-al-2019/Annex1_papers.html
-/publication/bibauw-et-al-2019/Annex2_papers_dbcall.html         /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
-/publication/bibauw-et-al-2019/Annex3_systems.html               /assets/html/bibauw-et-al-2019/Annex3_systems.html
-Annex4_papers_coding_scheme.html                                 /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
-Annex5_systems_coding_scheme.html                                /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
-/publication/bibauw-et-al-2019/Annex5_systems_coding_scheme.html /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
-/publication-type/2/Annex1_papers.html                           /assets/html/bibauw-et-al-2019/Annex1_papers.html
-/publication-type/2/Annex2_papers_dbcall.html                    /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
-/publication-type/2/Annex3_systems.html                          /assets/html/bibauw-et-al-2019/Annex3_systems.html
-/tag/research-synthesis/Annex4_papers_coding_scheme.html         /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
-/publication/bibauw-et-al-2019/Annex4_papers_coding_scheme.html  /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
-/publication-type/2/Annex5_systems_coding_scheme.html            /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
-# TODO: fix the following
-/static/Bibauw_et_al_2019_Interactivity_Vocab_Leuven.c7df3150b2.pdf /talks/2019/effects-interactivity-incidental-vocabulary/Bibauw_et_al_2019_Interactivity_Vocab_Leuven.pdf
-/static/bibauw-2018-quito.337c1b68ee.pdf /talks/2018/enseignement-apprentissage-des-langues-assiste-par-ordinateur-etat-de-la-recherche-et-des-applications/bibauw-2018-quito.pdf
-/static/bibauw-2018-poster.0032654f40.pdf /talks/2018/enseignement-apprentissage-des-langues-assiste-par-ordinateur-etat-de-la-recherche-et-des-applications/bibauw-2018-quito.pdf
+/publication/2022/                                                  /publications/#2022
+/publication/bibauw-et-al-2019/Annex1_papers.html                   /assets/html/bibauw-et-al-2019/Annex1_papers.html
+/publication/bibauw-et-al-2019/Annex2_papers_dbcall.html            /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
+/publication/bibauw-et-al-2019/Annex3_systems.html                  /assets/html/bibauw-et-al-2019/Annex3_systems.html
+Annex4_papers_coding_scheme.html                                    /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+Annex5_systems_coding_scheme.html                                   /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/publication/bibauw-et-al-2019/Annex5_systems_coding_scheme.html    /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/publication-type/2/Annex1_papers.html                              /assets/html/bibauw-et-al-2019/Annex1_papers.html
+/publication-type/2/Annex2_papers_dbcall.html                       /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
+/publication-type/2/Annex3_systems.html                             /assets/html/bibauw-et-al-2019/Annex3_systems.html
+/tag/research-synthesis/Annex4_papers_coding_scheme.html            /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+/publication/bibauw-et-al-2019/Annex4_papers_coding_scheme.html     /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+/publication-type/2/Annex5_systems_coding_scheme.html               /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/static/Bibauw_et_al_2019_Interactivity_Vocab_Leuven.c7df3150b2.pdf                 /talks/2019/vocableuven
+/static/bibauw-2018-quito.337c1b68ee.pdf                                            /talks/2018/apfq
+/static/bibauw-2018-poster.0032654f40.pdf                                           /talks/2018/apfq
 /publication/bibauw-et-al-2022-dialogue-systems-language-learning-meta-analysis/Bibauw_et_al_2022_Dialogue_systems_meta-analysis.pdf  https://scholarspace.manoa.hawaii.edu/bitstreams/4e489bf8-fc85-44bc-8f52-bcbc37d93166/download
-/files/pubs/bibauw2007.pdf                                       /publications/2007/quand-lecrit-converse/bibauw-2007.pdf
-/files/pubs/bibauw_dufays_2010.pdf                               /publications/bibauw-dufays-2010/
-/files/pubs/slingeneyer_bibauw_2009.pdf                          /publications/slingeneyer-bibauw-2009/slingeneyer-bibauw-2009.pdf
-/files/pubs/slingeneyer_bibauw_2010_enjeux.pdf                   /publications/slingeneyer-bibauw-2010/slingeneyer-bibauw-2010.pdf
-/files/pubs/slingeneyer_bibauw_2010_echanges.pdf                 /publications/slingeneyer-bibauw-2010-echanges/slingeneyer-bibauw-2010-echanges.pdf
-/files/talks/2015_bibauw_phdday.pdf                              /publications/bibauw-et-al-2015/
-/files/talks/2015_bibauw_calico.pdf                              /talks/2015/conversational-agents-for-language-learning-state-of-the-art-and-avenues-for-research-on-task-based-agents/bibauw-2015-calico.pdf
-/files/talks/2015_bibauw_eurocall.pdf                            /publications/bibauw-et-al-2015/
-/files/talks/2016_bibauw_calico.pdf                              /talks/2016/instructional-design-and-natural-language-processing-in-dialogue-based-call/bibauw-2016-calico.pdf
-/files/talks/2017_bibauw_calico.pdf                              /talks/2017/the-effectiveness-of-dialogue-based-call-on-l2-proficiency-development-a-meta-analysis/bibauw-2017-calico.pdf
-/ppt/Bibauw_2015_Dialogue_based_CALL.pdf                                           /publications/bibauw-et-al-2015/
-/ppt/Bibauw_Francois_Desmet_CALICO_2015_Dialogue_systems_for_language_learning.pdf /talks/2015/conversational-agents-for-language-learning-state-of-the-art-and-avenues-for-research-on-task-based-agents/bibauw-2015-calico.pdf
-/ppt/Bibauw_Francois_Desmet_EUROCALL_2015_Dialogue-based_CALL.pdf                  /publications/bibauw-et-al-2015/
-/calico/Bibauw_Francois_Desmet_CALICO_2016.pdf                                     /talks/2016/instructional-design-and-natural-language-processing-in-dialogue-based-call/bibauw-2016-calico.pdf
-/calico/Bibauw_Francois_Desmet_2017_Effectiveness_of_DBCALL_meta-analysis.pdf      /talks/2017/the-effectiveness-of-dialogue-based-call-on-l2-proficiency-development-a-meta-analysis/bibauw-2017-calico.pdf
-/acad/bibauw&dufays2010.pdf                                      /publications/bibauw-dufays-2010/
-/acad/bibauw%26dufays2010.pdf                                    /publications/bibauw-dufays-2010/
-/acad/bibauw2007.pdf                                             /publications/bibauw-2007/bibauw-2007.pdf
-/acad/slingeneyer&bibauw2009.pdf                                 /publications/slingeneyer-bibauw-2009/slingeneyer-bibauw-2009.pdf
-/acad/slingeneyer&bibauw2010a.pdf                                /publications/slingeneyer-bibauw-2010/slingeneyer-bibauw-2010.pdf
-/acad/slingeneyer&bibauw2010b.pdf                                /publications/slingeneyer-bibauw-2010-echanges/slingeneyer-bibauw-2010-echanges.pdf
+/files/pubs/bibauw2007.pdf                                                          /publications/#2007
+/files/pubs/bibauw_dufays_2010.pdf                                                  /publications/#2010
+/files/pubs/slingeneyer_bibauw_2009.pdf                                             /publications/#2009
+/files/pubs/slingeneyer_bibauw_2010_enjeux.pdf                                      /publications/#2010
+/files/pubs/slingeneyer_bibauw_2010_echanges.pdf                                    /publications/#2010
+/files/talks/2015_bibauw_phdday.pdf                                                 /publications/#2015
+/files/talks/2015_bibauw_eurocall.pdf                                               /publications/#2015
+/ppt/Bibauw_2015_Dialogue_based_CALL.pdf                                            /publications/#2015
+/ppt/Bibauw_Francois_Desmet_EUROCALL_2015_Dialogue-based_CALL.pdf                   /publications/#2015
+/acad/bibauw&dufays2010.pdf                                                         /publications/#2010
+/acad/bibauw%26dufays2010.pdf                                                       /publications/#2010
+/acad/bibauw2007.pdf                                                                /publications/#2007
+/acad/slingeneyer&bibauw2009.pdf                                                    /publications/#2009
+/acad/slingeneyer&bibauw2010a.pdf                                                   /publications/#2010
+/acad/slingeneyer&bibauw2010b.pdf                                                   /publications/#2010
+/files/talks/2015_bibauw_calico.pdf                                                 /talks/2015/calico
+/ppt/Bibauw_Francois_Desmet_CALICO_2015_Dialogue_systems_for_language_learning.pdf  /talks/2015/calico
+/files/talks/2016_bibauw_calico.pdf                                                 /talks/2016/calico
+/calico/Bibauw_Francois_Desmet_CALICO_2016.pdf                                      /talks/2016/calico
+/files/talks/2017_bibauw_calico.pdf                                                 /talks/2017/calico
+/calico/Bibauw_Francois_Desmet_2017_Effectiveness_of_DBCALL_meta-analysis.pdf       /talks/2017/calico
 
-/course/masters-thesis/1-identifying/2-summarizing/2-2-literature-review.md /course/masters-thesis/2-summarizing/2-2-literature-review/
+/course/masters-thesis/1-identifying/2-summarizing/2-2-literature-review.md         /course/masters-thesis/2-summarizing/2-2-literature-review/
 
 # Catch-all
 /publication/*              /publications/#:splat
