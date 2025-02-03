@@ -1,5 +1,5 @@
 ---
-title: "IA et apprentissage du français : moins de buzz, plus d'humain"
+title: "Intelligence artificielle en (classe de) français : au-delà du blabla"
 type: Keynote
 event: Prix de l'ABPF
 event_url: https://abpf.be/
