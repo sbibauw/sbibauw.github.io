@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sbibauw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://serge.bibauw.be
+  * I am sbibauw (https://keybase.io/sbibauw) on keybase.
+  * I have a public key ASALKkNfI7CeFGWO3pLkmrp0xNzW2FG3ovyXD1JkDubiego
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01203ba07b19a619c72f6f1e3d699732b00658d1c7b4a5eaf8a54642fa45e8cda8400a",
+      "host": "keybase.io",
+      "kid": "01200b2a435f23b09e14658ede92e49aba74c4dcd6d851b7a2fc970f52640ee6e27a0a",
+      "uid": "4c99b07117a3f082411768df45628419",
+      "username": "sbibauw"
+    },
+    "merkle_root": {
+      "ctime": 1560976556,
+      "hash": "46aca0c1d987c920b84b2be7f9306c59ae982e5d422b844329bfcedb1610e749e0bf5f637d1b6c59a3d163fe6d6855aee9e30172e90162fb304939b5dfbba644",
+      "hash_meta": "d3f510d6fcc43b22ac2ec1cb95075ec69da137f415a80b69c25d903eee42f069",
+      "seqno": 5603998
+    },
+    "service": {
+      "entropy": "ua60RxzWo6KPVOhvrxMEmGxz",
+      "hostname": "serge.bibauw.be",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1560976569,
+  "expire_in": 504576000,
+  "prev": "e9ba2ddb714fb18c27a93e7b19a189a3373ce33e145ab3661a0be3f2b1f0dea4",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgCypDXyOwnhRljt6S5Jq6dMTc1thRt6L8lw9SZA7m4noKp3BheWxvYWTESpcCF8Qg6bot23FPsYwnqT57GaGJozc84z4UWrNmGgvj8rHw3qTEIDa+IjNemhBM/AHehT992UvYrzdmofToNggP1pCHcw8IAgHCo3NpZ8RA/tEhYITLS9YiYTYz3EPI/8w9TtC6c7BsUzf3CEL/cW+uXXboYMxbsx7N49dYHpzdCAvw8OkWQUcbmfI3QqwlBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAhlxxZELqe1swCELF2KIsRla5x5f1dW/GWICWFj5Afvo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sbibauw
+
+==================================================================
