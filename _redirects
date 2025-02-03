@@ -1,0 +1,99 @@
+# Special direct links
+# ——————————————
+/meeting 	 https://cal.com/sbibauw            200
+/meet/s/   https://cal.com/sbibauw/student    200
+/meet/d/   https://cal.com/sbibauw/phd        200
+/meet/r/   https://cal.com/sbibauw/research   200
+/rdv       https://cal.com/sbibauw/student    200
+
+# Old directory structure
+# ——————————————
+/contact.php                /#contact
+/acad                       /
+/ppt                        /talks
+/calico                     /talks
+/tags/dialogue-based-call/  /projects/2014-phd/
+# Nowhere to redirect tags
+# /tags/research-synthesis/   /tag/research-synthesis/
+# /tags/meta-analysis/        /tag/meta-analysis/
+
+# Madagascar
+# ——————————————
+/madagascar/apropos.html            /madagascar/a-propos
+/madagascar/apropos.php             /madagascar/a-propos
+/madagascar/apropos                 /madagascar/a-propos
+/madagascar/biblio                  /madagascar/bibliographie
+/madagascar/biblio.html             /madagascar/bibliographie
+/madagascar/biblio.php              /madagascar/bibliographie
+/madagascar/bibliographie.html      /madagascar/bibliographie
+/madagascar/conclusion.html         /madagascar/conclusion
+/madagascar/conclusion.php          /madagascar/conclusion
+/madagascar/description.html        /madagascar/description
+/madagascar/description.php         /madagascar/description
+/madagascar/generalites.html        /madagascar/generalites
+/madagascar/generalites.html.       /madagascar/generalites
+/madagascar/generalites.php         /madagascar/generalites
+/madagascar/generites.php           /madagascar/generalites
+/madagascar/index.php               /madagascar
+/madagascar/lexique.html            /madagascar/description/
+/madagascar/lexique.php             /madagascar/description/
+/madagascar/socio                   /madagascar/sociolinguistique
+/madagascar/socio.html              /madagascar/sociolinguistique
+/madagascar/socio.php               /madagascar/sociolinguistique
+/madagascar/sociolinguistique.html  /madagascar/sociolinguistique
+/madagascar/table.html              /madagascar/table
+/madagascar/table.php               /madagascar/table
+
+# PDFs & annexes
+# ——————————————
+/publication/2022/                                                  /publications/#2022
+/publication/bibauw-et-al-2019/Annex1_papers.html                   /assets/html/bibauw-et-al-2019/Annex1_papers.html
+/publication/bibauw-et-al-2019/Annex2_papers_dbcall.html            /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
+/publication/bibauw-et-al-2019/Annex3_systems.html                  /assets/html/bibauw-et-al-2019/Annex3_systems.html
+Annex4_papers_coding_scheme.html                                    /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+Annex5_systems_coding_scheme.html                                   /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/publication/bibauw-et-al-2019/Annex5_systems_coding_scheme.html    /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/publication-type/2/Annex1_papers.html                              /assets/html/bibauw-et-al-2019/Annex1_papers.html
+/publication-type/2/Annex2_papers_dbcall.html                       /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
+/publication-type/2/Annex3_systems.html                             /assets/html/bibauw-et-al-2019/Annex3_systems.html
+/tag/research-synthesis/Annex4_papers_coding_scheme.html            /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+/publication/bibauw-et-al-2019/Annex4_papers_coding_scheme.html     /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
+/publication-type/2/Annex5_systems_coding_scheme.html               /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
+/static/Bibauw_et_al_2019_Interactivity_Vocab_Leuven.c7df3150b2.pdf                 /talks/2019/vocableuven
+/static/bibauw-2018-quito.337c1b68ee.pdf                                            /talks/2018/apfq
+/static/bibauw-2018-poster.0032654f40.pdf                                           /talks/2018/apfq
+/publication/bibauw-et-al-2022-dialogue-systems-language-learning-meta-analysis/Bibauw_et_al_2022_Dialogue_systems_meta-analysis.pdf  https://scholarspace.manoa.hawaii.edu/bitstreams/4e489bf8-fc85-44bc-8f52-bcbc37d93166/download
+/files/pubs/bibauw2007.pdf                                                          /publications/#2007
+/files/pubs/bibauw_dufays_2010.pdf                                                  /publications/#2010
+/files/pubs/slingeneyer_bibauw_2009.pdf                                             /publications/#2009
+/files/pubs/slingeneyer_bibauw_2010_enjeux.pdf                                      /publications/#2010
+/files/pubs/slingeneyer_bibauw_2010_echanges.pdf                                    /publications/#2010
+/files/talks/2015_bibauw_phdday.pdf                                                 /publications/#2015
+/files/talks/2015_bibauw_eurocall.pdf                                               /publications/#2015
+/ppt/Bibauw_2015_Dialogue_based_CALL.pdf                                            /publications/#2015
+/ppt/Bibauw_Francois_Desmet_EUROCALL_2015_Dialogue-based_CALL.pdf                   /publications/#2015
+/acad/bibauw&dufays2010.pdf                                                         /publications/#2010
+/acad/bibauw%26dufays2010.pdf                                                       /publications/#2010
+/acad/bibauw2007.pdf                                                                /publications/#2007
+/acad/slingeneyer&bibauw2009.pdf                                                    /publications/#2009
+/acad/slingeneyer&bibauw2010a.pdf                                                   /publications/#2010
+/acad/slingeneyer&bibauw2010b.pdf                                                   /publications/#2010
+/files/talks/2015_bibauw_calico.pdf                                                 /talks/2015/calico
+/ppt/Bibauw_Francois_Desmet_CALICO_2015_Dialogue_systems_for_language_learning.pdf  /talks/2015/calico
+/files/talks/2016_bibauw_calico.pdf                                                 /talks/2016/calico
+/calico/Bibauw_Francois_Desmet_CALICO_2016.pdf                                      /talks/2016/calico
+/files/talks/2017_bibauw_calico.pdf                                                 /talks/2017/calico
+/calico/Bibauw_Francois_Desmet_2017_Effectiveness_of_DBCALL_meta-analysis.pdf       /talks/2017/calico
+
+/course/masters-thesis/1-identifying/2-summarizing/2-2-literature-review.md         /course/masters-thesis/2-summarizing/2-2-literature-review/
+
+# Catch-all
+/publication/*              /publications/#:splat
+/talk/*                     /talks
+/events/*                   /talks
+
+
+# 404 Error
+# ——————————————
+/madagascar/*   /madagascar/404.html  404
+# /*            /404.html

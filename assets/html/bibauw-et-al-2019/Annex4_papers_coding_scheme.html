@@ -1,374 +1,420 @@
-<table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
-<thead>
-<tr><td colspan='4' style='text-align: left;'>
-Coding scheme for papers</td></tr>
-<tr>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey;'> </th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>variable</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>description</th>
-<th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>values</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style='text-align: left;'>1</td>
-<td style='vertical-align: top; text-align: left;'>authors</td>
-<td style='vertical-align: top; text-align: left;'>Main authors (first author and second author or 'et al')</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>2</td>
-<td style='vertical-align: top; text-align: left;'>year</td>
-<td style='vertical-align: top; text-align: left;'>Year of publication</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>3</td>
-<td style='vertical-align: top; text-align: left;'>title</td>
-<td style='vertical-align: top; text-align: left;'>Title of the publication</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>4</td>
-<td style='vertical-align: top; text-align: left;'>doi</td>
-<td style='vertical-align: top; text-align: left;'>DOI</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>5</td>
-<td style='vertical-align: top; text-align: left;'>pub_type</td>
-<td style='vertical-align: top; text-align: left;'>Type of publication (see 2.2.4)</td>
-<td style='vertical-align: top; text-align: left;'>Abstract, Book chapter, Conference paper, Dissertation, Journal article, Magazine article, Master thesis, Preprint, Student report</td>
-</tr>
-<tr>
-<td style='text-align: left;'>6</td>
-<td style='vertical-align: top; text-align: left;'>source</td>
-<td style='vertical-align: top; text-align: left;'>Journal title or conference acronym</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>7</td>
-<td style='vertical-align: top; text-align: left;'>strand</td>
-<td style='vertical-align: top; text-align: left;'>Strand/field of publication, based on the main references cited, main keywords used and orientation of the content (see 3.3 and 3.4)</td>
-<td style='vertical-align: top; text-align: left;'>Chatbots, Games, SDS/CA, CAPT, ICALL, Pedagogical agents, NA</td>
-</tr>
-<tr>
-<td style='text-align: left;'>8</td>
-<td style='vertical-align: top; text-align: left;'>pass_exclusion_criteria</td>
-<td style='vertical-align: top; text-align: left;'>Selected after evaluating exclusion criteria (see 2.2)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>9</td>
-<td style='vertical-align: top; text-align: left;'>available</td>
-<td style='vertical-align: top; text-align: left;'>Full-text document of the publication is available</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>10</td>
-<td style='vertical-align: top; text-align: left;'>not_duplicate</td>
-<td style='vertical-align: top; text-align: left;'>Publication is not a duplicate of another document in the same dataset</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>11</td>
-<td style='vertical-align: top; text-align: left;'>pub_language</td>
-<td style='vertical-align: top; text-align: left;'>Publication language was understandable by our team</td>
-<td style='vertical-align: top; text-align: left;'>de, en, es, et, kr</td>
-</tr>
-<tr>
-<td style='text-align: left;'>12</td>
-<td style='vertical-align: top; text-align: left;'>peer_reviewed_pub</td>
-<td style='vertical-align: top; text-align: left;'>Published in a peer-reviewed source (journal paper, conference paper, book chapter or doctoral disseration) (see 2.2.4)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>13</td>
-<td style='vertical-align: top; text-align: left;'>pass_inclusion_criteria</td>
-<td style='vertical-align: top; text-align: left;'>Selected after evaluating inclusion criteria (see 2.2)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>14</td>
-<td style='vertical-align: top; text-align: left;'>interactions</td>
-<td style='vertical-align: top; text-align: left;'>The referred system or application involves interactions</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>15</td>
-<td style='vertical-align: top; text-align: left;'>with_system</td>
-<td style='vertical-align: top; text-align: left;'>Interactions with the system (e.g., with a virtual agent)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>16</td>
-<td style='vertical-align: top; text-align: left;'>natural_language</td>
-<td style='vertical-align: top; text-align: left;'>Interactions in natural language</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>17</td>
-<td style='vertical-align: top; text-align: left;'>for_language_learning</td>
-<td style='vertical-align: top; text-align: left;'>The system or the study are applied to language learning (either L1 or L2)</td>
-<td style='vertical-align: top; text-align: left;'>false, L1, L2</td>
-</tr>
-<tr>
-<td style='text-align: left;'>18</td>
-<td style='vertical-align: top; text-align: left;'>enough_on_ds</td>
-<td style='vertical-align: top; text-align: left;'>The paper is specifically about the interaction/dialogue system (opposite to a general review or description only mentionning very briefly a potential dialogue system)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>19</td>
-<td style='vertical-align: top; text-align: left;'>pass_dbcall_criteria</td>
-<td style='vertical-align: top; text-align: left;'>Satisfies the criteria for dialogue-based CALL (see 3.1. An operational definition)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>20</td>
-<td style='vertical-align: top; text-align: left;'>interlocutor</td>
-<td style='vertical-align: top; text-align: left;'>Who is the interlocutor for the interaction (human peer, native speaker, or system agent)</td>
-<td style='vertical-align: top; text-align: left;'>human, human+system, system</td>
-</tr>
-<tr>
-<td style='text-align: left;'>21</td>
-<td style='vertical-align: top; text-align: left;'>interaction_unit</td>
-<td style='vertical-align: top; text-align: left;'>The interaction unit (dialogue or item-based)</td>
-<td style='vertical-align: top; text-align: left;'>dialogue, item</td>
-</tr>
-<tr>
-<td style='text-align: left;'>22</td>
-<td style='vertical-align: top; text-align: left;'>interaction_role</td>
-<td style='vertical-align: top; text-align: left;'>The role of interaction/dialogue, as the activity/task itself or as a scaffolding element</td>
-<td style='vertical-align: top; text-align: left;'>scaffolding, task</td>
-</tr>
-<tr>
-<td style='text-align: left;'>23</td>
-<td style='vertical-align: top; text-align: left;'>system</td>
-<td style='vertical-align: top; text-align: left;'></td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>24</td>
-<td style='vertical-align: top; text-align: left;'>system_type</td>
-<td style='vertical-align: top; text-align: left;'>Type of system as per the proposed dialogue-based CALL typology (see 4.2. A typology of dialogues and systems)</td>
-<td style='vertical-align: top; text-align: left;'>Narrative, Form-focused, Goal-oriented, Reactive</td>
-</tr>
-<tr>
-<td style='text-align: left;'>25</td>
-<td style='vertical-align: top; text-align: left;'>dialogue_type</td>
-<td style='vertical-align: top; text-align: left;'>Type of instructional dialogue as per the proposed dialogue-based CALL typology (see 4.2. A typology of dialogues and systems)</td>
-<td style='vertical-align: top; text-align: left;'>Branching, Form-focused exercises, Elicited, Meaning-constrained, Form-constrained, Contextualized, Free</td>
-</tr>
-<tr>
-<td style='text-align: left;'>26</td>
-<td style='vertical-align: top; text-align: left;'>research_type</td>
-<td style='vertical-align: top; text-align: left;'>Type of study (see 5.1. Types of study)</td>
-<td style='vertical-align: top; text-align: left;'>Review, System description, Technical evaluation, Observational study, Survey study, Effectiveness study</td>
-</tr>
-<tr>
-<td style='text-align: left;'>27</td>
-<td style='vertical-align: top; text-align: left;'>n_tot</td>
-<td style='vertical-align: top; text-align: left;'>Total number of subjects/learners in the empirical study (sample size)</td>
-<td style='vertical-align: top; text-align: left;'></td>
-</tr>
-<tr>
-<td style='text-align: left;'>28</td>
-<td style='vertical-align: top; text-align: left;'>proficiency_level</td>
-<td style='vertical-align: top; text-align: left;'>Proficiency level of the learners (in the studied sample)</td>
-<td style='vertical-align: top; text-align: left;'>A0, A1, A2, B1, mixed</td>
-</tr>
-<tr>
-<td style='text-align: left;'>29</td>
-<td style='vertical-align: top; text-align: left;'>L1</td>
-<td style='vertical-align: top; text-align: left;'>First language of the learners</td>
-<td style='vertical-align: top; text-align: left;'>de, en, jp, kr, mixed, nl, pt, zh</td>
-</tr>
-<tr>
-<td style='text-align: left;'>30</td>
-<td style='vertical-align: top; text-align: left;'>context</td>
-<td style='vertical-align: top; text-align: left;'>Context of use of the system in the empirical study</td>
-<td style='vertical-align: top; text-align: left;'>high school, laboratory, language school, middle school, military, primary school, university</td>
-</tr>
-<tr>
-<td style='text-align: left;'>31</td>
-<td style='vertical-align: top; text-align: left;'>age</td>
-<td style='vertical-align: top; text-align: left;'>Age range of the learners</td>
-<td style='vertical-align: top; text-align: left;'>11-12, 13-17, 14-15, 15-18, 18+, 6-11, 9-13</td>
-</tr>
-<tr>
-<td style='text-align: left;'>32</td>
-<td style='vertical-align: top; text-align: left;'>treatment_duration_weeks</td>
-<td style='vertical-align: top; text-align: left;'>Duration of the treatment in weeks</td>
-<td style='vertical-align: top; text-align: left;'>1, 4, 5, 10, 16</td>
-</tr>
-<tr>
-<td style='text-align: left;'>33</td>
-<td style='vertical-align: top; text-align: left;'>treatment_duration_hours</td>
-<td style='vertical-align: top; text-align: left;'>Duration of the treatment in hours (time on task)</td>
-<td style='vertical-align: top; text-align: left;'>1, 2, 3</td>
-</tr>
-<tr>
-<td style='text-align: left;'>34</td>
-<td style='vertical-align: top; text-align: left;'>qualitative</td>
-<td style='vertical-align: top; text-align: left;'>Qualitative study (non quantitative description of behaviours and outcomes of the study)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>35</td>
-<td style='vertical-align: top; text-align: left;'>quantitative</td>
-<td style='vertical-align: top; text-align: left;'>Quantitative study</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>36</td>
-<td style='vertical-align: top; text-align: left;'>during</td>
-<td style='vertical-align: top; text-align: left;'>Measurements during the use of the system (e.g., engagement, description of linguistic behavior of the users)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>37</td>
-<td style='vertical-align: top; text-align: left;'>post</td>
-<td style='vertical-align: top; text-align: left;'>Measurements after the use of the system (e.g., survey on users' perception)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>38</td>
-<td style='vertical-align: top; text-align: left;'>prepost</td>
-<td style='vertical-align: top; text-align: left;'>Measurements before and after the use of the system (pre-test and post-test)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>39</td>
-<td style='vertical-align: top; text-align: left;'>delayed_post</td>
-<td style='vertical-align: top; text-align: left;'>Delayed measurements after the use of the system (delayed post-test)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>40</td>
-<td style='vertical-align: top; text-align: left;'>comp_condition</td>
-<td style='vertical-align: top; text-align: left;'>Various groups with compared conditions (e.g., experimental group and control group, or alternate condition)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>41</td>
-<td style='vertical-align: top; text-align: left;'>linguistic_sys</td>
-<td style='vertical-align: top; text-align: left;'>Analysis of the linguistic behaviour of the system (e.g., descriptive statistics on certain linguistic characteristics of the utterances from the system)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>42</td>
-<td style='vertical-align: top; text-align: left;'>sys_accuracy</td>
-<td style='vertical-align: top; text-align: left;'>Measurements of the (technical/NLP) accuracy of the system (e.g., word error rate in recognition tasks)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>43</td>
-<td style='vertical-align: top; text-align: left;'>linguistic_perf_user</td>
-<td style='vertical-align: top; text-align: left;'>Measurements of the linguistic behaviour or performance of the users</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>44</td>
-<td style='vertical-align: top; text-align: left;'>attitude_tw_system</td>
-<td style='vertical-align: top; text-align: left;'>Measurements of the users' attitude towards the system</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>45</td>
-<td style='vertical-align: top; text-align: left;'>perc_easeofuse</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of perceived ease-of-use of the system</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>46</td>
-<td style='vertical-align: top; text-align: left;'>perc_usefulness</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of perceived usefulness of the system</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>47</td>
-<td style='vertical-align: top; text-align: left;'>engagement_usage</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of engagement of users or usage of the system</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>48</td>
-<td style='vertical-align: top; text-align: left;'>motivational_effects</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of motivational effects of the system (i.e., impact of system use on certain motivational variables)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>49</td>
-<td style='vertical-align: top; text-align: left;'>cognitive_effects</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of cognitive effects of the system (i.e., impact of system use on certain learning variables)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>50</td>
-<td style='vertical-align: top; text-align: left;'>productive_skills</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on productive language skills (writing/speaking)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>51</td>
-<td style='vertical-align: top; text-align: left;'>speaking</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on speaking skills</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>52</td>
-<td style='vertical-align: top; text-align: left;'>writing</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on writing skills</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>53</td>
-<td style='vertical-align: top; text-align: left;'>holistic_proficiency</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on productive skills evaluated as holistic proficiency (i.e., ±subjective global evaluation of skill)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>54</td>
-<td style='vertical-align: top; text-align: left;'>complexity_voc</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on productive skills evaluated through complexity measures or vocabulary/lexical measures</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>55</td>
-<td style='vertical-align: top; text-align: left;'>accuracy</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on productive skills evaluated through accuracy measures (e.g., number of errors in a defined task)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>56</td>
-<td style='vertical-align: top; text-align: left;'>fluency</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on productive skills evaluated through fluency measures</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>57</td>
-<td style='vertical-align: top; text-align: left;'>receptive_skills</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects on receptive skills (listening/reading)</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>58</td>
-<td style='vertical-align: top; text-align: left;'>others_exam</td>
-<td style='vertical-align: top; text-align: left;'>Measurement of effects through other tests, among others school exams or teaching-focused tests</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='text-align: left;'>59</td>
-<td style='vertical-align: top; text-align: left;'>reliable_ES</td>
-<td style='vertical-align: top; text-align: left;'>The publication provides enough data (e.g., sample size, mean and standard deviation of at least two measurement points with a clearly designed and described evaluation instrument) on the results of the experimental study to compute reliable effect sizes</td>
-<td style='vertical-align: top; text-align: left;'>✔/✘</td>
-</tr>
-<tr>
-<td style='border-bottom: 2px solid grey; text-align: left;'>60</td>
-<td style='vertical-align: top; border-bottom: 2px solid grey; text-align: left;'>keyword</td>
-<td style='vertical-align: top; border-bottom: 2px solid grey; text-align: left;'>Main keyword used in the publication to refer to dialogue-based CALL system (usually in the title or the abstract)</td>
-<td style='vertical-align: top; border-bottom: 2px solid grey; text-align: left;'></td>
-</tr>
-</tbody>
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em">
+  <thead>
+    <tr>
+      <td colspan="4" style="text-align: left">Coding scheme for papers</td>
+    </tr>
+    <tr>
+      <th style="border-bottom: 1px solid grey; border-top: 2px solid grey"></th>
+      <th style="border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center">variable</th>
+      <th style="border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center">description</th>
+      <th style="border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center">values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">1</td>
+      <td style="vertical-align: top; text-align: left">authors</td>
+      <td style="vertical-align: top; text-align: left">Main authors (first author and second author or 'et al')</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2</td>
+      <td style="vertical-align: top; text-align: left">year</td>
+      <td style="vertical-align: top; text-align: left">Year of publication</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="vertical-align: top; text-align: left">title</td>
+      <td style="vertical-align: top; text-align: left">Title of the publication</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="vertical-align: top; text-align: left">doi</td>
+      <td style="vertical-align: top; text-align: left">DOI</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5</td>
+      <td style="vertical-align: top; text-align: left">pub_type</td>
+      <td style="vertical-align: top; text-align: left">Type of publication (see 2.2.4)</td>
+      <td style="vertical-align: top; text-align: left">
+        Abstract, Book chapter, Conference paper, Dissertation, Journal article, Magazine article, Master thesis, Preprint, Student report
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">6</td>
+      <td style="vertical-align: top; text-align: left">source</td>
+      <td style="vertical-align: top; text-align: left">Journal title or conference acronym</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7</td>
+      <td style="vertical-align: top; text-align: left">strand</td>
+      <td style="vertical-align: top; text-align: left">
+        Strand/field of publication, based on the main references cited, main keywords used and orientation of the content (see 3.3 and 3.4)
+      </td>
+      <td style="vertical-align: top; text-align: left">Chatbots, Games, SDS/CA, CAPT, ICALL, Pedagogical agents, NA</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">8</td>
+      <td style="vertical-align: top; text-align: left">pass_exclusion_criteria</td>
+      <td style="vertical-align: top; text-align: left">Selected after evaluating exclusion criteria (see 2.2)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9</td>
+      <td style="vertical-align: top; text-align: left">available</td>
+      <td style="vertical-align: top; text-align: left">Full-text document of the publication is available</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10</td>
+      <td style="vertical-align: top; text-align: left">not_duplicate</td>
+      <td style="vertical-align: top; text-align: left">Publication is not a duplicate of another document in the same dataset</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11</td>
+      <td style="vertical-align: top; text-align: left">pub_language</td>
+      <td style="vertical-align: top; text-align: left">Publication language was understandable by our team</td>
+      <td style="vertical-align: top; text-align: left">de, en, es, et, kr</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12</td>
+      <td style="vertical-align: top; text-align: left">peer_reviewed_pub</td>
+      <td style="vertical-align: top; text-align: left">
+        Published in a peer-reviewed source (journal paper, conference paper, book chapter or doctoral disseration) (see 2.2.4)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13</td>
+      <td style="vertical-align: top; text-align: left">pass_inclusion_criteria</td>
+      <td style="vertical-align: top; text-align: left">Selected after evaluating inclusion criteria (see 2.2)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14</td>
+      <td style="vertical-align: top; text-align: left">interactions</td>
+      <td style="vertical-align: top; text-align: left">The referred system or application involves interactions</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15</td>
+      <td style="vertical-align: top; text-align: left">with_system</td>
+      <td style="vertical-align: top; text-align: left">Interactions with the system (e.g., with a virtual agent)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16</td>
+      <td style="vertical-align: top; text-align: left">natural_language</td>
+      <td style="vertical-align: top; text-align: left">Interactions in natural language</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">17</td>
+      <td style="vertical-align: top; text-align: left">for_language_learning</td>
+      <td style="vertical-align: top; text-align: left">The system or the study are applied to language learning (either L1 or L2)</td>
+      <td style="vertical-align: top; text-align: left">false, L1, L2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">18</td>
+      <td style="vertical-align: top; text-align: left">enough_on_ds</td>
+      <td style="vertical-align: top; text-align: left">
+        The paper is specifically about the interaction/dialogue system (opposite to a general review or description only mentionning very briefly a
+        potential dialogue system)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">19</td>
+      <td style="vertical-align: top; text-align: left">pass_dbcall_criteria</td>
+      <td style="vertical-align: top; text-align: left">Satisfies the criteria for dialogue-based CALL (see 3.1. An operational definition)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">20</td>
+      <td style="vertical-align: top; text-align: left">interlocutor</td>
+      <td style="vertical-align: top; text-align: left">Who is the interlocutor for the interaction (human peer, native speaker, or system agent)</td>
+      <td style="vertical-align: top; text-align: left">human, human+system, system</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">21</td>
+      <td style="vertical-align: top; text-align: left">interaction_unit</td>
+      <td style="vertical-align: top; text-align: left">The interaction unit (dialogue or item-based)</td>
+      <td style="vertical-align: top; text-align: left">dialogue, item</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">22</td>
+      <td style="vertical-align: top; text-align: left">interaction_role</td>
+      <td style="vertical-align: top; text-align: left">The role of interaction/dialogue, as the activity/task itself or as a scaffolding element</td>
+      <td style="vertical-align: top; text-align: left">scaffolding, task</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">23</td>
+      <td style="vertical-align: top; text-align: left">system</td>
+      <td style="vertical-align: top; text-align: left"></td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">24</td>
+      <td style="vertical-align: top; text-align: left">system_type</td>
+      <td style="vertical-align: top; text-align: left">
+        Type of system as per the proposed dialogue-based CALL typology (see 4.2. A typology of dialogues and systems)
+      </td>
+      <td style="vertical-align: top; text-align: left">Narrative, Form-focused, Goal-oriented, Reactive</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">25</td>
+      <td style="vertical-align: top; text-align: left">dialogue_type</td>
+      <td style="vertical-align: top; text-align: left">
+        Type of instructional dialogue as per the proposed dialogue-based CALL typology (see 4.2. A typology of dialogues and systems)
+      </td>
+      <td style="vertical-align: top; text-align: left">
+        Branching, Form-focused exercises, Elicited, Meaning-constrained, Form-constrained, Contextualized, Free
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">26</td>
+      <td style="vertical-align: top; text-align: left">research_type</td>
+      <td style="vertical-align: top; text-align: left">Type of study (see 5.1. Types of study)</td>
+      <td style="vertical-align: top; text-align: left">
+        Review, System description, Technical evaluation, Observational study, Survey study, Effectiveness study
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">27</td>
+      <td style="vertical-align: top; text-align: left">n_tot</td>
+      <td style="vertical-align: top; text-align: left">Total number of subjects/learners in the empirical study (sample size)</td>
+      <td style="vertical-align: top; text-align: left"></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">28</td>
+      <td style="vertical-align: top; text-align: left">proficiency_level</td>
+      <td style="vertical-align: top; text-align: left">Proficiency level of the learners (in the studied sample)</td>
+      <td style="vertical-align: top; text-align: left">A0, A1, A2, B1, mixed</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">29</td>
+      <td style="vertical-align: top; text-align: left">L1</td>
+      <td style="vertical-align: top; text-align: left">First language of the learners</td>
+      <td style="vertical-align: top; text-align: left">de, en, jp, kr, mixed, nl, pt, zh</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">30</td>
+      <td style="vertical-align: top; text-align: left">context</td>
+      <td style="vertical-align: top; text-align: left">Context of use of the system in the empirical study</td>
+      <td style="vertical-align: top; text-align: left">
+        high school, laboratory, language school, middle school, military, primary school, university
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">31</td>
+      <td style="vertical-align: top; text-align: left">age</td>
+      <td style="vertical-align: top; text-align: left">Age range of the learners</td>
+      <td style="vertical-align: top; text-align: left">11-12, 13-17, 14-15, 15-18, 18+, 6-11, 9-13</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">32</td>
+      <td style="vertical-align: top; text-align: left">treatment_duration_weeks</td>
+      <td style="vertical-align: top; text-align: left">Duration of the treatment in weeks</td>
+      <td style="vertical-align: top; text-align: left">1, 4, 5, 10, 16</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">33</td>
+      <td style="vertical-align: top; text-align: left">treatment_duration_hours</td>
+      <td style="vertical-align: top; text-align: left">Duration of the treatment in hours (time on task)</td>
+      <td style="vertical-align: top; text-align: left">1, 2, 3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">34</td>
+      <td style="vertical-align: top; text-align: left">qualitative</td>
+      <td style="vertical-align: top; text-align: left">Qualitative study (non quantitative description of behaviours and outcomes of the study)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">35</td>
+      <td style="vertical-align: top; text-align: left">quantitative</td>
+      <td style="vertical-align: top; text-align: left">Quantitative study</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">36</td>
+      <td style="vertical-align: top; text-align: left">during</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurements during the use of the system (e.g., engagement, description of linguistic behavior of the users)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">37</td>
+      <td style="vertical-align: top; text-align: left">post</td>
+      <td style="vertical-align: top; text-align: left">Measurements after the use of the system (e.g., survey on users' perception)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">38</td>
+      <td style="vertical-align: top; text-align: left">prepost</td>
+      <td style="vertical-align: top; text-align: left">Measurements before and after the use of the system (pre-test and post-test)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">39</td>
+      <td style="vertical-align: top; text-align: left">delayed_post</td>
+      <td style="vertical-align: top; text-align: left">Delayed measurements after the use of the system (delayed post-test)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">40</td>
+      <td style="vertical-align: top; text-align: left">comp_condition</td>
+      <td style="vertical-align: top; text-align: left">
+        Various groups with compared conditions (e.g., experimental group and control group, or alternate condition)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">41</td>
+      <td style="vertical-align: top; text-align: left">linguistic_sys</td>
+      <td style="vertical-align: top; text-align: left">
+        Analysis of the linguistic behaviour of the system (e.g., descriptive statistics on certain linguistic characteristics of the utterances from
+        the system)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">42</td>
+      <td style="vertical-align: top; text-align: left">sys_accuracy</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurements of the (technical/NLP) accuracy of the system (e.g., word error rate in recognition tasks)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">43</td>
+      <td style="vertical-align: top; text-align: left">linguistic_perf_user</td>
+      <td style="vertical-align: top; text-align: left">Measurements of the linguistic behaviour or performance of the users</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">44</td>
+      <td style="vertical-align: top; text-align: left">attitude_tw_system</td>
+      <td style="vertical-align: top; text-align: left">Measurements of the users' attitude towards the system</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">45</td>
+      <td style="vertical-align: top; text-align: left">perc_easeofuse</td>
+      <td style="vertical-align: top; text-align: left">Measurement of perceived ease-of-use of the system</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">46</td>
+      <td style="vertical-align: top; text-align: left">perc_usefulness</td>
+      <td style="vertical-align: top; text-align: left">Measurement of perceived usefulness of the system</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">47</td>
+      <td style="vertical-align: top; text-align: left">engagement_usage</td>
+      <td style="vertical-align: top; text-align: left">Measurement of engagement of users or usage of the system</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">48</td>
+      <td style="vertical-align: top; text-align: left">motivational_effects</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of motivational effects of the system (i.e., impact of system use on certain motivational variables)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">49</td>
+      <td style="vertical-align: top; text-align: left">cognitive_effects</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of cognitive effects of the system (i.e., impact of system use on certain learning variables)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">50</td>
+      <td style="vertical-align: top; text-align: left">productive_skills</td>
+      <td style="vertical-align: top; text-align: left">Measurement of effects on productive language skills (writing/speaking)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">51</td>
+      <td style="vertical-align: top; text-align: left">speaking</td>
+      <td style="vertical-align: top; text-align: left">Measurement of effects on speaking skills</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">52</td>
+      <td style="vertical-align: top; text-align: left">writing</td>
+      <td style="vertical-align: top; text-align: left">Measurement of effects on writing skills</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">53</td>
+      <td style="vertical-align: top; text-align: left">holistic_proficiency</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of effects on productive skills evaluated as holistic proficiency (i.e., ±subjective global evaluation of skill)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">54</td>
+      <td style="vertical-align: top; text-align: left">complexity_voc</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of effects on productive skills evaluated through complexity measures or vocabulary/lexical measures
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">55</td>
+      <td style="vertical-align: top; text-align: left">accuracy</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of effects on productive skills evaluated through accuracy measures (e.g., number of errors in a defined task)
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">56</td>
+      <td style="vertical-align: top; text-align: left">fluency</td>
+      <td style="vertical-align: top; text-align: left">Measurement of effects on productive skills evaluated through fluency measures</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">57</td>
+      <td style="vertical-align: top; text-align: left">receptive_skills</td>
+      <td style="vertical-align: top; text-align: left">Measurement of effects on receptive skills (listening/reading)</td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">58</td>
+      <td style="vertical-align: top; text-align: left">others_exam</td>
+      <td style="vertical-align: top; text-align: left">
+        Measurement of effects through other tests, among others school exams or teaching-focused tests
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">59</td>
+      <td style="vertical-align: top; text-align: left">reliable_ES</td>
+      <td style="vertical-align: top; text-align: left">
+        The publication provides enough data (e.g., sample size, mean and standard deviation of at least two measurement points with a clearly
+        designed and described evaluation instrument) on the results of the experimental study to compute reliable effect sizes
+      </td>
+      <td style="vertical-align: top; text-align: left">✔/✘</td>
+    </tr>
+    <tr>
+      <td style="border-bottom: 2px solid grey; text-align: left">60</td>
+      <td style="vertical-align: top; border-bottom: 2px solid grey; text-align: left">keyword</td>
+      <td style="vertical-align: top; border-bottom: 2px solid grey; text-align: left">
+        Main keyword used in the publication to refer to dialogue-based CALL system (usually in the title or the abstract)
+      </td>
+      <td style="vertical-align: top; border-bottom: 2px solid grey; text-align: left"></td>
+    </tr>
+  </tbody>
 </table>
