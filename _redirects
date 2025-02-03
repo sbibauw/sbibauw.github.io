@@ -89,8 +89,9 @@ Annex5_systems_coding_scheme.html                                   /assets/html
 
 # Catch-all
 /publication/*              /publications/#:splat
-/talk/*                     /talks
-/events/*                   /talks
+/talk/*                     /talks/#:splat
+/events/*                   /talks/#:splat
+/event/*                    /talks/#:splat
 
 
 # 404 Error
