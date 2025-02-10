@@ -1,6 +1,7 @@
 # Special direct links
 # ——————————————
 /meeting 	 https://cal.com/sbibauw         
+/meet/     https://cal.com/sbibauw/
 /meet/s/   https://cal.com/sbibauw/student 
 /meet/d/   https://cal.com/sbibauw/phd     
 /meet/r/   https://cal.com/sbibauw/research
@@ -19,10 +20,11 @@
 
 # Madagascar
 # ——————————————
-/madagascar/apropos.html            /madagascar/a-propos
-/madagascar/apropos.php             /madagascar/a-propos
-/madagascar/apropos                 /madagascar/a-propos
-/madagascar/biblio                  /madagascar/bibliographie
+/madagascar/apropos.html            /madagascar/about
+/madagascar/apropos.php             /madagascar/about
+# /madagascar/apropos                 /madagascar/about
+# /madagascar/a-propos                /madagascar/about
+# /madagascar/biblio                  /madagascar/bibliographie
 /madagascar/biblio.html             /madagascar/bibliographie
 /madagascar/biblio.php              /madagascar/bibliographie
 /madagascar/bibliographie.html      /madagascar/bibliographie
@@ -37,12 +39,13 @@
 /madagascar/index.php               /madagascar
 /madagascar/lexique.html            /madagascar/description/
 /madagascar/lexique.php             /madagascar/description/
-/madagascar/socio                   /madagascar/sociolinguistique
+# /madagascar/socio                   /madagascar/sociolinguistique
 /madagascar/socio.html              /madagascar/sociolinguistique
 /madagascar/socio.php               /madagascar/sociolinguistique
 /madagascar/sociolinguistique.html  /madagascar/sociolinguistique
-/madagascar/table.html              /madagascar/table
-/madagascar/table.php               /madagascar/table
+/madagascar/table.html              /madagascar/toc
+/madagascar/table.php               /madagascar/toc
+# /madagascar/table                   /madagascar/toc
 
 # PDFs & annexes
 # ——————————————
@@ -50,6 +53,9 @@
 /publication/bibauw-et-al-2019/Annex1_papers.html                   /assets/html/bibauw-et-al-2019/Annex1_papers.html
 /publication/bibauw-et-al-2019/Annex2_papers_dbcall.html            /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
 /publication/bibauw-et-al-2019/Annex3_systems.html                  /assets/html/bibauw-et-al-2019/Annex3_systems.html
+/papers/bibauw-et-al-2019/annex1_papers*                            /assets/html/bibauw-et-al-2019/Annex1_papers.html
+/papers/bibauw-et-al-2019/annex2_papers_dbcall*                     /assets/html/bibauw-et-al-2019/Annex2_papers_dbcall.html
+/papers/bibauw-et-al-2019/annex3_systems*                           /assets/html/bibauw-et-al-2019/Annex3_systems.html
 Annex4_papers_coding_scheme.html                                    /assets/html/bibauw-et-al-2019/Annex4_papers_coding_scheme.html
 Annex5_systems_coding_scheme.html                                   /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
 /publication/bibauw-et-al-2019/Annex5_systems_coding_scheme.html    /assets/html/bibauw-et-al-2019/Annex5_systems_coding_scheme.html
