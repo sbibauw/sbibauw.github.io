@@ -7,6 +7,8 @@ subtitle: <strong>Assistant Professor</strong> of French Language Teaching • <
 profile:
   align: right
   image: serge.jpg
+  alt: Picture of Serge Bibauw
+  caption: Picture by Astrid Moulin
   image_circular: false # crops the image to make it circular
 email: serge.bibauw@uclouvain.be
 meeting: https://cal.com/sbibauw/
