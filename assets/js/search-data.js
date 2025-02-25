@@ -253,14 +253,6 @@
             
           
             
-          
-            
-          
-            
-          
-            
-          
-            
               
                 
                 <li class="nav-item ">
@@ -379,18 +371,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
-    },{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
+        },{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
           title: 'Reflexive writing at the high-school to university transition',
           description: "FNRS-FRFC research project from 2008 to 2010 at UCLouvain",
           section: "Projects",handler: () => {
@@ -703,7 +684,7 @@ ninja.data = [{
 
       
       
-        Last updated: 24 February 2025.
+        Last updated: 25 February 2025.
       
     </div>
   </footer>
