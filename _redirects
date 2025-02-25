@@ -13,6 +13,10 @@
 /acad                       /
 /ppt                        /talks
 /calico                     /talks
+/slides                     /talks
+/events                     /talks
+/event                      /talks
+/project/*                  /projects/
 /tags/dialogue-based-call/  /projects/2014-phd/
 # Nowhere to redirect tags
 # /tags/research-synthesis/   /tag/research-synthesis/
@@ -94,7 +98,17 @@ Annex5_systems_coding_scheme.html                                   /assets/html
 /course/masters-thesis/1-identifying/2-summarizing/2-2-literature-review.md         /course/masters-thesis/2-summarizing/2-2-literature-review/
 
 # Catch-all
-/publication/*              /publications/#:splat
+/publication/2010*          /publications/#2010
+/publication/2015*          /publications/#2015
+/publication/2016*          /publications/#2016
+/publication/2017*          /publications/#2017
+/publication/2018*          /publications/#2018
+/publication/2019*          /publications/#2019
+/publication/2022*          /publications/#2022
+/publication/2023*          /publications/#2023
+/publication/*              /publications/
+/publication_types/         /publications/
+/publication-type/*         /publications/
 /talk/*                     /talks/#:splat
 /events/*                   /talks/#:splat
 /event/*                    /talks/#:splat
