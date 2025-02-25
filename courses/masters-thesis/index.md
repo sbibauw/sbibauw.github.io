@@ -3,7 +3,7 @@ layout: page
 title: Master's Research Project
 linkTitle: Master's Thesis
 summary: A graduate course to accompany PUCE-SA 'English Language Teaching' Master's students in the preparation of their MA thesis. Recommendations on how to search for, find and access scientific literature, how to conduct a literature review, how to design a research project in language education, and how to collect and analyze data.
-date: "2021-04-08"
+date: 2021-04-08
 type: book
 image:
   caption: "[Andrew Neel](https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
@@ -37,20 +37,20 @@ At the end of this course, students should be able to:
 * Synthesize the results of the study and compare them to previous studies.
 * Propose areas for future research related to the students’ topics. -->
 
-## Units
+## Content
 
-0. [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
-1. [Finding and accessing scientific literature](/courses/masters-thesis/1-scientific-literature)
-2. [Summarizing scientific literature](/courses/masters-thesis/2-summarizing)
+Preamble: [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
 
-<ul>
-    {% for item in site.pages %}
-        {% if item.dir == page.dir and item.path != page.path %}
-        <li>
-            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+1. Scientific literature
+   1. [Understanding the field](/courses/masters-thesis/1-scientific-literature#1-understanding-the-field-second-language-acquisition-and-applied-linguistics): second language acquisition and applied linguistics
+   2. [Finding and accessing scientific literature](/courses/masters-thesis/1-scientific-literature#2-finding_and_accessing_scientific_literature)
+   3. [Summarizing scientific literature](/courses/masters-thesis/1-scientific-literature#3-summarizing-and-reviewing-the-literature)
+2. Data collection
+3. Data analysis
+4. Presenting the results
+
+Appendices:
+
+- [List of journals in applied linguistics](/courses/masters-thesis/journals-in-applied-linguistics)
 
 {% include figure.liquid loading="eager" path="/courses/masters-thesis/writing-your-thesis.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}

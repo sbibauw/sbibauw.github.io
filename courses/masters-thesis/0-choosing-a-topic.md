@@ -48,7 +48,7 @@ If **quantitative** data:
 
 ## Main journals in the field
 
-See my [List of Journals in Linguistics and Language Learning]()
+See my [List of Journals in Applied Linguistics](/courses/masters-thesis/journals-in-applied-linguistics).
 
 → Browsing journals to get an idea of the field
 
