@@ -591,6 +591,11 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025/tblt/";
+            },},{id: "talks-speaking-and-writing-fluency-in-interactions-with-chatbots",
+          title: 'Speaking and writing fluency in interactions with chatbots',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/eurosla/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
