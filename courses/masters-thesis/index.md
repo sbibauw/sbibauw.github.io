@@ -41,7 +41,7 @@ At the end of this course, students should be able to:
 
 Preamble: [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
 
-1. Scientific literature
+1. [Scientific literature](/courses/masters-thesis/1-scientific-literature
    1. [Understanding the field](/courses/masters-thesis/1-scientific-literature#1-understanding-the-field-second-language-acquisition-and-applied-linguistics): second language acquisition and applied linguistics
    2. [Finding and accessing scientific literature](/courses/masters-thesis/1-scientific-literature#2-finding_and_accessing_scientific_literature)
    3. [Summarizing scientific literature](/courses/masters-thesis/1-scientific-literature#3-summarizing-and-reviewing-the-literature)
