@@ -25,15 +25,36 @@ hr {
 }
 
 table {
+  thead tr {
+    border-bottom: solid 1px rgba(0,0,0,0.8);
+    border-top: solid 1px rgba(0,0,0,0.8);
+  }
+
+  tbody tr {
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+  }
+  tbody tr:last-child {
+    border-bottom: solid 1px rgba(0,0,0,0.8);
+  }
+
   td,
   th {
-    font-size: 1rem;
-    padding: 1px 1rem 1px 0;
+    font-size: .94rem;
+    padding: .4rem 1rem .4rem 0;
+    line-height: 1.3;
+  }
+
+  td {
+    vertical-align: top;
   }
 
   th {
     font-weight: bolder;
+    vertical-align: bottom;
   }
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 a,
