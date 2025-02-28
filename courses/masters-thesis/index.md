@@ -6,12 +6,12 @@ summary: A graduate course to accompany PUCE-SA 'English Language Teaching' Mast
 date: 2021-04-08
 type: book
 image:
-  caption: "[Andrew Neel](https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
+  caption: ""
 toc:
   sidebar: left
 ---
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/header.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}
+{% include figure.liquid loading="eager" path="/courses/masters-thesis/header.jpg" class="img-fluid rounded z-depth-1" caption='<a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' zoomable=false %}
 
 ## Course description
 
@@ -41,7 +41,7 @@ At the end of this course, students should be able to:
 
 Preamble: [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
 
-1. [Scientific literature](/courses/masters-thesis/1-scientific-literature
+1. [Scientific literature](/courses/masters-thesis/1-scientific-literature)
    1. [Understanding the field](/courses/masters-thesis/1-scientific-literature#1-understanding-the-field-second-language-acquisition-and-applied-linguistics): second language acquisition and applied linguistics
    2. [Finding and accessing scientific literature](/courses/masters-thesis/1-scientific-literature#2-finding_and_accessing_scientific_literature)
    3. [Summarizing scientific literature](/courses/masters-thesis/1-scientific-literature#3-summarizing-and-reviewing-the-literature)
@@ -52,5 +52,3 @@ Preamble: [Choosing a topic](/courses/masters-thesis/0-choosing-a-topic)
 Appendices:
 
 - [List of journals in applied linguistics](/courses/masters-thesis/journals-in-applied-linguistics)
-
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/writing-your-thesis.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}

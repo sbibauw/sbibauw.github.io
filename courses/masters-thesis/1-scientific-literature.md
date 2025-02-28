@@ -14,7 +14,6 @@ toc:
 
 ![700](/courses/masters-thesis/venn-sla.svg)
 
-
 Key terms:
 
 - Applied Linguistics (AL)
@@ -42,7 +41,7 @@ Key terms:
 
 ### Main journals in the field
 
-See my [List of Journals in Linguistics and Language Learning](/courses/masters-thesis/journals-in-applied-linguistics)
+See my [List of journals in linguistics and language learning](/courses/masters-thesis/journals-in-applied-linguistics)
 
 → Browsing journals to get an idea of the field
 
@@ -86,7 +85,6 @@ Regional databases, focused on specific languages (Spanish, French...) and disci
 
 ### Organizing papers: reference management
 
-
 #### Reference management software
 
 - **[<mark>Zotero</mark>](https://www.zotero.org/download/)** (strongly recommended) ![](/courses/masters-thesis/zotero-logo.png)
@@ -105,7 +103,7 @@ Regional databases, focused on specific languages (Spanish, French...) and disci
   - **Recommended configuration**:
     - Add column "Date Added" (in _More columns_) to order items by last added: this way you see on top the last publications you have found.
       ![](/courses/masters-thesis/zotero-more-cols.png)
-      ![](/courses/masters-thesis/zotero-columns.png) 
+      ![](/courses/masters-thesis/zotero-columns.png)
     - Create a free account on Zotero and use it to sync your library.
       - If you have many PDFs, use [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [Zotfile](https://www.zotfile.com/) to put the PDFs in a specific folder, avoiding syncing those via Zotero (saving space).
     - If you collaborate on a project, create a Group and a shared library.
@@ -165,14 +163,13 @@ Criteria:
 #### Categorizing sources
 
 {% include video.liquid path="https://www.youtube.com/embed/CR09yiOXan0" class="img-fluid rounded z-depth-1" %}
-  
+
 J. Hayton, _[Day 12: How to filter the academic literature](https://jameshaytonphd.com/quick-tips/day-12)_ (2018)
 
 - A: best + most relevant → read and re-read
 - B: high quality + relevant, but not essential
 - C: maybe interesting (ok quality, not clearly relevant) → keep for later
 - D: not relevant at all / low quality → throw away/do not spend time
-
 
 ## 3. Summarizing and reviewing the literature
 
@@ -231,8 +228,7 @@ Other random examples:
 
 {% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies2.png" class="img-fluid rounded z-depth-1" zoomable=true caption="From ‘[Introduction to literature reviews](https://www.monash.edu/rlo/graduate-research-writing/write-the-thesis/writing-a-literature-review/process)’ at Monash University" %}
-
+{% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies2.png" class="img-fluid rounded z-depth-1" zoomable=true caption="From <a href='https://www.monash.edu/rlo/graduate-research-writing/write-the-thesis/writing-a-literature-review/process'>Introduction to literature reviews</a> at Monash University" %}
 
 **Advanced example** (in medical research), with extended study information : [NIH summary of clinical trials on Ivermectin as a treatment for COVID-19](https://web.archive.org/web/20211208204138/https://www.covid19treatmentguidelines.nih.gov/tables/table-2c/)
 
@@ -267,8 +263,7 @@ In such presentation of studies, information is organized in a title and 3 categ
 
 #### How to write a literature review
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/lit_rev.png" class="img-fluid rounded z-depth-1" width=300 zoomable=true %}
-Recommended steps for a literature review (from [Kimmons & West, 2018](https://edtechbooks.org/rapidwriting/literature_reviews)).
+{% include figure.liquid loading="eager" path="/courses/masters-thesis/lit_rev.png" class="img-fluid rounded z-depth-1" width=300 zoomable=true caption='Recommended steps for a literature review (from <a href="https://edtechbooks.org/rapidwriting/literature_reviews">Kimmons & West, 2018</a>).' %}
 
 📘 Frederiksen, L., & Phelps, S. F. (2020). _Literature reviews for education and nursing graduate students_. Rebus Community. <a href="https://press.rebus.community/literaturereviewsedunursing"><i class="fa-solid fa-book-open"></i> Read online</a> <a href="https://press.rebus.community/literaturereviewsedunursing/open/download?type=pdf"><i class="fa-solid fa-file-pdf"></i> PDF</a>
 
