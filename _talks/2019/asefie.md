@@ -1,5 +1,6 @@
 ---
-title: "Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje"
+title: >
+  Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje
 type: Paper
 event: III Conferencia Internacional de Investigación Educativa ASEFIE 2019
 event_url: http://www.asefie.org/index.php/es-co/proximos-eventos/proximos-eventos/conferencia-investigacion-educativa
@@ -55,5 +56,5 @@ La presentación tiene también el objetivo de dar a conocer y de explicar al p�
 - de Jong, N. H. (2018). Fluency in Second Language Testing: Insights From Different Disciplines. _Language Assessment Quarterly, 15_ (3), 237–254. https://doi.org/10.1080/15434303.2018.1477780
 - Michel, M. (2017). Complexity, accuracy, and fluency in L2 production. En S. Loewen & M. Sato (Eds.), _The Routledge Handbook of Instructed Second Language Acquisition_ (pp. 50–68). https://doi.org/10.4324/9781315676968
 - Peters, E., Velghe, T., & Rompaey, T. V. (2019). The VocabLab tests: The development of an English and French vocabulary test. _ITL - International Journal of Applied Linguistics, 170_ (1), 53–78. https://doi.org/10.1075/itl.17029.pet
-- Segalowitz, N. (2010). _Cognitive bases of second language fluency_. New York: Routledge. 
+- Segalowitz, N. (2010). _Cognitive bases of second language fluency_. New York: Routledge.
 - Segalowitz, N., French, L., & Guay, J.-D. (2017). What features best characterize adult second language utterance fluency and what do they reveal about fluency gains in short-term immersion? _Canadian Journal of Applied Linguistics / Revue Canadienne de Linguistique Appliquée, 20_ (2), 90–116.
