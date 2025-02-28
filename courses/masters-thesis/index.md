@@ -11,7 +11,7 @@ toc:
   sidebar: left
 ---
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/header.jpg" class="img-fluid rounded z-depth-1" caption='<a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' zoomable=false %}
+{% include figure.liquid loading="eager" path="/img/courses/header.jpg" class="img-fluid rounded z-depth-1" caption='<a href="https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Neel</a> on <a href="https://unsplash.com/collections/1075950/academic-writing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>' zoomable=false %}
 
 ## Course description
 

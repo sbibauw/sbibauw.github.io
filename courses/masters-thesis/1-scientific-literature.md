@@ -226,13 +226,13 @@ Example:
 
 Other random examples:
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid loading="eager" path="/img/courses/summary-table-of-studies1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies2.png" class="img-fluid rounded z-depth-1" zoomable=true caption="From <a href='https://www.monash.edu/rlo/graduate-research-writing/write-the-thesis/writing-a-literature-review/process'>Introduction to literature reviews</a> at Monash University" %}
+{% include figure.liquid loading="eager" path="/img/courses/summary-table-of-studies2.png" class="img-fluid rounded z-depth-1" zoomable=true caption="From <a href='https://www.monash.edu/rlo/graduate-research-writing/write-the-thesis/writing-a-literature-review/process'>Introduction to literature reviews</a> at Monash University" %}
 
 **Advanced example** (in medical research), with extended study information : [NIH summary of clinical trials on Ivermectin as a treatment for COVID-19](https://web.archive.org/web/20211208204138/https://www.covid19treatmentguidelines.nih.gov/tables/table-2c/)
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/summary-table-of-studies-nih-iver.png" class="img-fluid rounded z-depth-1" width=600 zoomable=true caption="Extract from NIH summary of clinical trials, 1 row/study shown" %}
+{% include figure.liquid loading="eager" path="/img/courses/summary-table-of-studies-nih-iver.png" class="img-fluid rounded z-depth-1" width=600 zoomable=true caption="Extract from NIH summary of clinical trials, 1 row/study shown" %}
 
 In such presentation of studies, information is organized in a title and 3 categories:
 
@@ -263,7 +263,7 @@ In such presentation of studies, information is organized in a title and 3 categ
 
 #### How to write a literature review
 
-{% include figure.liquid loading="eager" path="/courses/masters-thesis/lit_rev.png" class="img-fluid rounded z-depth-1" width=300 zoomable=true caption='Recommended steps for a literature review (from <a href="https://edtechbooks.org/rapidwriting/literature_reviews">Kimmons & West, 2018</a>).' %}
+{% include figure.liquid loading="eager" path="/img/courses/lit_rev.png" class="img-fluid rounded z-depth-1" width=300 zoomable=true caption='Recommended steps for a literature review (from <a href="https://edtechbooks.org/rapidwriting/literature_reviews">Kimmons & West, 2018</a>).' %}
 
 📘 Frederiksen, L., & Phelps, S. F. (2020). _Literature reviews for education and nursing graduate students_. Rebus Community. <a href="https://press.rebus.community/literaturereviewsedunursing"><i class="fa-solid fa-book-open"></i> Read online</a> <a href="https://press.rebus.community/literaturereviewsedunursing/open/download?type=pdf"><i class="fa-solid fa-file-pdf"></i> PDF</a>
 
