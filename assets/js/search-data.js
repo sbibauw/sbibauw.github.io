@@ -253,6 +253,24 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
               
                 
                 <li class="nav-item ">
@@ -371,7 +389,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
+        },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
           title: 'Reflexive writing at the high-school to university transition',
           description: "FNRS-FRFC research project from 2008 to 2010 at UCLouvain",
           section: "Projects",handler: () => {
@@ -575,13 +598,22 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2024/10-hanu/";
-            },},{id: "talks-looking-back-looking-forward-from-dialogue-based-call-to-llm-chatbots-for-language-learning",
+            },},{id: "talks-keynote-at-the-international-conference-shifting-boundaries-ai-and-human-interactions-redefining-reality-shai-looking-back-looking-forward-from-dialogue-based-call-to-llm-chatbots-for-language-learning-universitá-di-napoli-l-orientale-naples",
+          title: 'Keynote at the International Conference Shifting Boundaries: AI and Human Interactions Redefining Reality...',
+          description: "",
+          section: "Talks",},{id: "talks-looking-back-looking-forward-from-dialogue-based-call-to-llm-chatbots-for-language-learning",
           title: 'Looking back, looking forward: From dialogue-based CALL to LLM chatbots for language learning...',
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2024/11-shai/";
             },},{id: "talks-keynote-at-journée-du-français-intelligence-artificielle-et-langues-au-delà-du-blabla-intelligence-artificielle-et-activités-intelligentes-pour-la-classe-de-français-with-michel-boiron-eeckout-academy-ku-leuven-kulak-kortrijk",
           title: 'Keynote at Journée du français: Intelligence artificielle et langues : au-delà du blabla...',
+          description: "",
+          section: "Talks",},{id: "talks-keynote-at-journée-du-français-intelligence-artificielle-et-langues-au-delà-du-blabla-intelligence-artificielle-et-activités-intelligentes-pour-la-classe-de-français-with-michel-boiron-eeckout-academy-ku-leuven-kulak-kortrijk",
+          title: 'Keynote at Journée du français: Intelligence artificielle et langues : au-delà du blabla...',
+          description: "",
+          section: "Talks",},{id: "talks-keynote-at-prix-de-l-abpf-ia-et-apprentissage-du-français-moins-de-buzz-plus-d-humain-ulb-brussels",
+          title: 'Keynote at Prix de l’ABPF: IA et apprentissage du français : moins de...',
           description: "",
           section: "Talks",},{id: "talks-keynote-at-prix-de-l-abpf-ia-et-apprentissage-du-français-moins-de-buzz-plus-d-humain-ulb-brussels",
           title: 'Keynote at Prix de l’ABPF: IA et apprentissage du français : moins de...',
@@ -689,7 +721,7 @@ ninja.data = [{
 
       
       
-        Last updated: 28 February 2025.
+        Last updated:  3 March 2025.
       
     </div>
   </footer>
