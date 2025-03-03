@@ -155,21 +155,6 @@ collections:
   #   # permalink: /:collection/:title/
 
 defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: page
-    output: true
-    permalink: /:collection/:title/
-  talks:
-    output: true
-    permalink: /:collection/:year/:title/
-  # courses:
-  #   output: true
-  #   # permalink: /:collection/:title/
-
-defaults:
   - scope:
       path: ""
     values:
