@@ -22,4 +22,3 @@ tags: ["en français"]
 
 inline: true
 ---
-
