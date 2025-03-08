@@ -12,7 +12,6 @@ authors:
 with: Thomas François, Piet Desmet
 location: Louvain-la-Neuve, Belgium
 event: EUROCALL Conference 2019
-# event_url: https://sites.uclouvain.be/eurocall2019
 tags:
   - dialogue-based-CALL
   - experimental evaluation

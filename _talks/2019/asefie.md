@@ -3,13 +3,11 @@ title: >
   Desarrollo de la fluidez oral en lengua extranjera: experimento de medición semiautomática de los efectos de aprendizaje
 type: Paper
 event: III Conferencia Internacional de Investigación Educativa ASEFIE 2019
-event_url: http://www.asefie.org/index.php/es-co/proximos-eventos/proximos-eventos/conferencia-investigacion-educativa
 location: Universidad de Cuenca
 address:
   city: Cuenca
   country: Ecuador
 date: 2019-11-26T14:00:00.000Z
-date_end: 2019-11-26T14:30:00.000Z
 authors:
   - S. Bibauw
   - L. Escouflaire

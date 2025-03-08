@@ -17,7 +17,6 @@ abstract: |
 date: "2024-09-18T10:45:00-05:00"
 date_end: "2024-09-18T11:15:00-05:00"
 
-authors: ["S. Bibauw"]
 tags: ["en français"]
 
 inline: true

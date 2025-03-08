@@ -49,7 +49,7 @@ Focus on **writing**:
 
 Focus on **technology/CALL**:
 
-- _[Language Learning & Technology](http://lltjournal.org/)_ 👍⭐ (open access)
+- _[Language Learning & Technology](https://www.lltjournal.org/)_ 👍⭐ (open access)
 - _[Computer Assisted Language Learning](https://www.tandfonline.com/toc/ncal20/current)_ 👍
 - _[ReCALL](https://www.cambridge.org/core/journals/recall)_ 👍
 - _[System](https://www.journals.elsevier.com/system)_ 👍
@@ -59,7 +59,7 @@ Focus on **technology/CALL**:
 
 - _[Bilingualism: Language and Cognition](https://www.cambridge.org/core/journals/bilingualism-language-and-cognition)_ 👍⭐
 - _[Journal of Memory and Language](https://www.journals.elsevier.com/journal-of-memory-and-language)_ 👍
-- _[Behavior Research Methods](https://www.springer.com/journal/13428)_ 👍⭐ (experimental psychology)
+- _[Behavior Research Methods](https://link.springer.com/journal/13428)_ 👍⭐ (experimental psychology)
 
 #### General linguistics
 

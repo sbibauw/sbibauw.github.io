@@ -1,10 +1,7 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Inteligencia artificial para el aprendizaje de idiomas: Diseño y efectividad de sistemas de diálogo y chatbots"
 type: Webinar
 event: Conversatorio del Club de Investigadores
-event_url: "https://fb.watch/fTl0ck3lcc/"
 location: Zoom/YouTube Live
 address:
   street: null

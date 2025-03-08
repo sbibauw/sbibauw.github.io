@@ -22,7 +22,7 @@ layout: paper
 
 - [Zotero](https://www.zotero.org/download/)
   - Recommended plugins:
-    - [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [ZotFile](https://www.zotfile.com/) for file management
+    - [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [ZotFile](https://github.com/jlegewie/zotfile) for file management
     - [Scite](https://github.com/scitedotai/scite-zotero-plugin) for citation counts
     - [Better BibTeX](https://retorque.re/zotero-better-bibtex/) if using LaTeX
   - [All Zotero plugins](https://www.zotero.org/support/plugins)
@@ -31,7 +31,7 @@ layout: paper
 **Note-taking**
 
 - [Obsidian](https://obsidian.md/) (recommended)
-- [Notion](https://www.notion.so/)
+- [Notion](https://www.notion.com/)
 - [Tana](https://tana.inc/)
 - [Workflowy](https://workflowy.com/invite/3165e47f.lnx)
 

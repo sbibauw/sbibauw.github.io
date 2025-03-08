@@ -13,7 +13,6 @@ address:
   city: Leuven
   country: Belgium
 event: Vocab@Leuven Conference
-# event_url: "https://vocabatleuven.wordpress.com/"
 tags:
   - dialogue-based-CALL
   - experimental evaluation

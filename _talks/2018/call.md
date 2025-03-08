@@ -10,9 +10,8 @@ authors:
   - T. François
   - P. Desmet
 with: Wim Van den Noortgate, Thomas François, Piet Desmet
-date: 2018-07-05T00:00:00.000Z
+date: 2018-07-05
 event: XIXth International CALL Research Conference
-event_url: https://www.call2018.org/academic-programme/
 location: KU Leuven Campus Bruges
 address:
   city: Bruges

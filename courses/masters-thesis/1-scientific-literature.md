@@ -57,8 +57,8 @@ See also the [Open Accessible Summaries in Language Studies (OASIS) Database](ht
 
 <!-- ![](https://scholar.google.be/intl/en/scholar/images/1x/scholar_logo_64dp.png) -->
 
-- [Dimensions](https://app.dimensions.ai/discover/publication) (>130M publications) ⭐: useful search filtering tools (year, categories, authors...), useful citation statistics to rank publications by impact. Volume (130M) makes it a relatively good free alternative to Scopus and Web of Science.
 - [Elicit](https://www.elicit.org): AI-powered search engine for research questions, which summarises the main findings of each paper.
+- [Dimensions](https://www.dimensions.ai/) (>130M publications): useful search filtering tools (year, categories, authors...), useful citation statistics to rank publications by impact. Volume (130M) makes it a relatively good free alternative to Scopus and Web of Science.
 - [Google Scholar](https://scholar.google.com/) (>400M publications): most complete (the best if you want exhaustiveness), but a lot of noise (low-quality papers) and suboptimal ordering.
 - [SemanticScholar](https://www.semanticscholar.org) (>200M): better ordering and interesting insights on citation flow + [helps you obtain the PDF](#accessing-papers), but incomplete citation data.
 - [ResearchRabbit](https://www.researchrabbit.ai/): interesting AI-based search to start a literature review by expanding from one source; also useful to keep track of new publications (scientific watch).
@@ -98,14 +98,14 @@ Regional databases, focused on specific languages (Spanish, French...) and disci
   - [Quick start guide](https://www.zotero.org/support/quick_start_guide)
   - **Recommended extensions**:
     - [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/) if you use LaTeX (not necessary for most people).
-    - [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [Zotfile](https://www.zotfile.com/) to organize PDF files on your computer.
+    - [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [Zotfile](https://github.com/jlegewie/zotfile) to organize PDF files on your computer.
     - [scite](https://github.com/scitedotai/scite-zotero-plugin) for citations count; otherwise [Zotero Citation Counts Manager](https://github.com/eschnett/zotero-citationcounts).
   - **Recommended configuration**:
     - Add column "Date Added" (in _More columns_) to order items by last added: this way you see on top the last publications you have found.
       ![](/courses/masters-thesis/zotero-more-cols.png)
       ![](/courses/masters-thesis/zotero-columns.png)
     - Create a free account on Zotero and use it to sync your library.
-      - If you have many PDFs, use [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [Zotfile](https://www.zotfile.com/) to put the PDFs in a specific folder, avoiding syncing those via Zotero (saving space).
+      - If you have many PDFs, use [Attanger](https://github.com/MuiseDestiny/zotero-attanger) or [Zotfile](https://github.com/jlegewie/zotfile) to put the PDFs in a specific folder, avoiding syncing those via Zotero (saving space).
     - If you collaborate on a project, create a Group and a shared library.
 - **[Mendeley](https://www.mendeley.com/)** (also quite good, but less powerful than Zotero, and proprietary, owned by Elsevier).
 
@@ -139,9 +139,9 @@ Not fully legal solutions:
 - **[<mark>Sci-Hub</mark>](https://sci-hub.se/)** for papers (not legal, but considered legitimate by the large majority of the scientific community).
   - Search for the DOI, URL or full title of the paper.
     <!-- [![](/courses/masters-thesis/../scihub-search.png)](https://sci-hub.se/) -->
-- **[<mark>Library Genesis</mark>](https://www.libgen.gs/)** for books (more problematic in terms of copyright infringement than Sci-Hub).
+- **[<mark>Library Genesis</mark>](https://www.libgen.is/)** for books (more problematic in terms of copyright infringement than Sci-Hub).
   - You won't find all books, so search by keywords to see what is available.
-    <!-- [![](/courses/masters-thesis/../libgen-search.png)](https://www.libgen.gs/) -->
+    <!-- [![](/courses/masters-thesis/../libgen-search.png)](https://www.libgen.is/) -->
 
 ### Prioritising the literature
 
@@ -185,7 +185,7 @@ J. Hayton, _[Day 12: How to filter the academic literature](https://jameshaytonp
     - **[Obsidian](https://obsidian.md/)** (recommended)
       - Use your existing folder architecture (e.g., /Thesis/... or /Research/...) as your vault.
     - [Workflowy](https://workflowy.com/invite/3165e47f.lnx)
-    - [Notion](https://www.notion.so/)
+    - [Notion](https://www.notion.com/)
     - Microsoft OneNote (not recommended)
 - Preparing to write
   - Hierarchical outline
