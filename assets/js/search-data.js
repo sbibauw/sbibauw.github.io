@@ -576,14 +576,14 @@ ninja.data = [{
           section: "Talks",},{id: "talks-keynote-at-stage-international-d-été-en-didactique-du-fle-enseigner-le-fle-à-l-ère-de-chatgpt-usages-et-mésusage-des-ia-génératives-uclouvain-louvain-la-neuve",
           title: 'Keynote at Stage international d’été en didactique du FLE : Enseigner le FLE...',
           description: "",
-          section: "Talks",},{id: "talks-presentation-at-4e-congrès-européen-de-la-fipf-pratiquer-le-français-avec-une-ia-conversationnelle-entre-liberté-et-correction-quelle-interactivité-importe-universitatea-politehnica-bucharest",
-          title: 'Presentation at 4e Congrès européen de la FIPF: Pratiquer le français avec une...',
+          section: "Talks",},{id: "talks-",
+          title: '',
           description: "",
-          section: "Talks",},{id: "talks-keynote-at-rentrée-académique-de-l-école-de-traduction-et-interprétation-intelligence-artificielle-la-solution-pour-l-apprentissage-des-langues-uclouvain-saint-louis-brussels",
-          title: 'Keynote at Rentrée académique de l’École de Traduction et Interprétation: Intelligence artificielle :...',
+          section: "Talks",},{id: "talks-keynote-at-rentrée-académique-de-la-faculté-de-traduction-et-d-interprétation-intelligence-artificielle-la-solution-pour-l-apprentissage-des-langues-uclouvain-saint-louis-brussels",
+          title: 'Keynote at Rentrée académique de la Faculté de traduction et d’interprétation: Intelligence artificielle...',
           description: "",
-          section: "Talks",},{id: "talks-keynote-at-15e-congrès-national-des-professeurs-de-français-en-equateur-enseigner-le-fle-à-l-ère-de-chatgpt-usages-et-mésusage-des-ia-génératives-universidad-central-del-ecuador-quito",
-          title: 'Keynote at 15e Congrès national des professeurs de français en Equateur: Enseigner le...',
+          section: "Talks",},{id: "talks-",
+          title: '',
           description: "",
           section: "Talks",},{id: "talks-keynote-at-training-day-transformer-la-formation-avec-l-ia-training-transformeren-met-ai-ia-attention-et-mémoire-place-et-potentiel-en-formation-fps-policy-and-support-bosa-brussels",
           title: 'Keynote at Training Day “Transformer la Formation avec l’IA / Training Transformeren met...',
@@ -721,7 +721,7 @@ ninja.data = [{
 
       
       
-        Last updated:  4 March 2025.
+        Last updated:  8 March 2025.
       
     </div>
   </footer>
