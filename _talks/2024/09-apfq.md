@@ -3,7 +3,7 @@ title: "Enseigner le FLE à l'ère de ChatGPT : usages et mésusage des IA gén�
 
 type: Keynote
 event: 15<sup>e</sup> Congrès national des professeurs de français en Equateur
-event_url: "https://apfq.org/programation-du-congres-2022-quito/"
+# event_url: "https://apfq.org/programation-du-congres-2022-quito/"
 
 location: Universidad Central del Ecuador
 address:
@@ -23,4 +23,3 @@ tags: ["en français"]
 inline: true
 ---
 
-Keynote at [15e Congrès national des professeurs de français en Equateur](https://apfq.org/programation-du-congres-2022-quito/): _Enseigner le FLE à l'ère de ChatGPT : usages et mésusage des IA génératives_ (Universidad Central del Ecuador, Quito).

@@ -2,7 +2,7 @@
 title: "Pratiquer le français avec une IA conversationnelle : entre liberté et correction, quelle interactivité importe ?"
 type: Paper
 event: 4e Congrès européen de la FIPF
-event_url: "https://bucarest2024.fipf.org/"
+# event_url: https://bucarest2024.fipf.org/
 location: Universitatea Politehnica din București
 address:
   street: null
@@ -30,4 +30,3 @@ tags:
 inline: true
 ---
 
-Presentation at [4e Congrès européen de la FIPF](https://bucarest2024.fipf.org/): _Pratiquer le français avec une IA conversationnelle : entre liberté et correction, quelle interactivité importe ?_ (Universitatea Politehnica, Bucharest).

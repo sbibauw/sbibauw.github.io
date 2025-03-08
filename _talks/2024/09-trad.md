@@ -1,7 +1,7 @@
 ---
 title: "Intelligence artificielle : la solution pour l’apprentissage des langues ?"
 type: Keynote
-event: "Rentrée académique de l’École de Traduction et Interprétation"
+event: Rentrée académique de la Faculté de traduction et d'interprétation
 event_url: ""
 location: UCLouvain Saint-Louis
 address:
@@ -19,4 +19,4 @@ authors:
 inline: true
 ---
 
-Keynote at [Rentrée académique de l’École de Traduction et Interprétation](https://uclouvain.be/fr/facultes/etn/etn-accueil.html): _Intelligence artificielle : la solution pour l’apprentissage des langues ?_ (UCLouvain Saint-Louis, Brussels).
+Keynote at [Rentrée académique de la Faculté de traduction et d'interprétation](https://www.uclouvain.be/fr/facultes/timb): _Intelligence artificielle : la solution pour l’apprentissage des langues ?_ (UCLouvain Saint-Louis, Brussels).
