@@ -75,10 +75,13 @@ layout: default
       <ul class="fa-ul">
         <li>
           <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
-          <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email }}</a>
+          <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email | encode_email }}</a>
         </li>
         <li>
-          <span class="fa-li"><i class="fa-solid fa-building"></i></span> {{ page.address }}
+          <span class="fa-li"><i class="fa-solid fa-map-location-dot"></i></span> {{ page.address }}
+        </li>
+        <li>
+          <span class="fa-li"><i class="fa-solid fa-building"></i></span> {{ page.office }}
         </li>
         <li>
           <span class="fa-li"><i class="fa-solid fa-calendar-plus"></i></span> <a href="{{ page.meeting }}">Schedule an appointment</a>

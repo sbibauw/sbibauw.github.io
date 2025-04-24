@@ -13,9 +13,10 @@ profile:
 email: serge.bibauw@uclouvain.be
 meeting: https://cal.com/sbibauw/
 address: >
-  Mercier B347 (Socrate building, 3<sup>rd</sup> floor) <a href="https://maps.app.goo.gl/HSnNpfBJLMEvZD7bA"><i class="fa-solid fa-map-location-dot" title="Location on Google Maps"></i></a><br>
   Place Cardinal Mercier 14 bte L3.06.02<br>
   Louvain-la-Neuve, Belgium
+office: >
+  Mercier B347 (Socrate building, 3<sup>rd</sup> floor) <a href="https://maps.app.goo.gl/HSnNpfBJLMEvZD7bA"><i class="fa-solid fa-map-location-dot" title="Location on Google Maps"></i></a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
