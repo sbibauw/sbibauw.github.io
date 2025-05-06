@@ -611,12 +611,32 @@ ninja.data = [{
           title: 'AI vs Human Task-based Tutoring: Engagement, perceptions and written fluency',
           description: "",
           section: "Talks",handler: () => {
-              window.location.href = "/talks/2025/tblt/";
+              window.location.href = "/talks/2025/04-tblt/";
             },},{id: "talks-speaking-and-writing-fluency-in-interactions-with-chatbots",
           title: 'Speaking and writing fluency in interactions with chatbots',
           description: "",
           section: "Talks",handler: () => {
-              window.location.href = "/talks/2025/eurosla/";
+              window.location.href = "/talks/2025/06-eurosla/";
+            },},{id: "talks-test-de-vocabulaire-auditif-imagé-en-fle-diagnostic-et-sensibilité-pour-divers-profils-d-39-apprenant",
+          title: 'Test de vocabulaire auditif imagé en FLE : diagnostic et sensibilité pour divers...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/07-afls/";
+            },},{id: "talks-test-de-vocabulaire-auditif-imagé-en-fle-applications-pour-différents-types-d-39-apprenants",
+          title: 'Test de vocabulaire auditif imagé en FLE : applications pour différents types d&amp;#39;apprenants...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/07-fipf/";
+            },},{id: "talks-systematic-review-and-meta-analysis-revisión-sistemática-y-metaanálisis",
+          title: 'Systematic review and meta-analysis / Revisión sistemática y metaanálisis',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/07-ares-uce/";
+            },},{id: "talks-new-conversations-new-evidence-revisiting-the-impact-of-bots-for-language-learning-in-the-llm-era",
+          title: 'New Conversations, New Evidence: Revisiting the Impact of Bots for Language Learning in...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/11-tsll/";
             },},{
         id: 'social-scholar',
         title: 'Google Scholar',
@@ -710,7 +730,7 @@ ninja.data = [{
 
       
       
-        Last updated: 24 April 2025.
+        Last updated:  6 May 2025.
       
     </div>
   </footer>
