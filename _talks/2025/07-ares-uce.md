@@ -28,7 +28,6 @@ Fechas: del 21 al 25 de julio de 2025.
 - PRISMA y estándares de informes
 - IA generativa y síntesis de investigación: ChatGPT Deep Research, Elicit, Undermind, Scite
 
-
 ## Día 2: Desarrollo de una revisión sistemática
 
 - Protocolo de revisión sistemática (incl. diagrama de flujo PRISMA).
@@ -36,7 +35,6 @@ Fechas: del 21 al 25 de julio de 2025.
 - Fuentes de información: bases de datos electrónicas (Scopus, Web of Science, Scielo, PubMed) y literatura gris.
 - Gestión de referencias bibliográficas y uso de software de gestión (Rayyan, Zotero).
 - Proceso de selección de estudios: criterios de inclusión y exclusión.
-
 
 ## Día 3: Metaanálisis: Introducción
 
@@ -46,7 +44,6 @@ Fechas: del 21 al 25 de julio de 2025.
 - Tamaño del efecto: diferencia de medias (Cohen's d, Hedges' g), odds ratio, riesgo relativo.
 - Cálculo del tamaño del efecto con Jamovi o R.
 
-
 ## Día 4: Metaanálisis: Modelización, análisis y moderadores
 
 - Modelización estadística con Jamovi (MAJOR) o R (metafor): familirización con el software.
@@ -54,7 +51,6 @@ Fechas: del 21 al 25 de julio de 2025.
 - Interpretación de resultados y elaboración de forest plots.
 - Evaluación de la heterogeneidad entre estudios: estadísticos Q e I².
 - Análisis de moderadores: meta-regresión y análisis de subgrupos.
-
 
 ## Día 5: Metaanálisis: Cuestiones avanzadas y publicación
 
