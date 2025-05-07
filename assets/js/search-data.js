@@ -730,7 +730,7 @@ ninja.data = [{
 
       
       
-        Last updated:  6 May 2025.
+        Last updated:  7 May 2025.
       
     </div>
   </footer>
