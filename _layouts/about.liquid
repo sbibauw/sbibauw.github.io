@@ -5,7 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span>
+        {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
@@ -23,14 +24,11 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+                    rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.alt title=page.profile.caption
-            cache_bust=true
-          %}
+          {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.alt title=page.profile.caption cache_bust=true %}
         {% endif %}
         {% if page.social %}
           <div class="social">
@@ -82,17 +80,28 @@ layout: default
     <div class="social">
       <ul class="fa-ul">
         <li>
-          <span class="fa-li"><i class="fa-solid fa-envelope"></i></span>
-          <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email | encode_email }}</a>
+          <span class="fa-li">
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+          <a href="mailto:{{ page.email | encode_email }}" title="email">{{ page.email }}</a>
         </li>
         <li>
-          <span class="fa-li"><i class="fa-solid fa-map-location-dot"></i></span> {{ page.address }}
+          <span class="fa-li">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </span>
+          {{ page.address }}
         </li>
         <li>
-          <span class="fa-li"><i class="fa-solid fa-building"></i></span> {{ page.office }}
+          <span class="fa-li">
+            <i class="fa-solid fa-building"></i>
+          </span>
+          {{ page.office }}
         </li>
         <li>
-          <span class="fa-li"><i class="fa-solid fa-calendar-plus"></i></span> <a href="{{ page.meeting }}">Schedule an appointment</a>
+          <span class="fa-li">
+            <i class="fa-solid fa-calendar-plus"></i>
+          </span>
+          <a href="{{ page.meeting }}">Schedule an appointment</a>
         </li>
         <li>
           <div class="contact-icons">{% include social.liquid %}</div>
