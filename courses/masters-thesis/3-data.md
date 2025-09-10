@@ -1,14 +1,20 @@
 ---
-title: 3.1. Research designs in education
-linkTitle: 3.1. Research designs
+title: Collecting data
 date: "2021-04-08"
 type: book
-summary: "Interventionist designs (action-research, pre-experimental, experimental) and non-interventionist designs (quantitative: survey, correlational, qualitative: case study, ethnography, conversation analysis, mixed methods)"
+layout: page
+summary: Quantitative & qualitative techniques and instruments — Validation — Ethics and practicalities
+toc:
+  sidebar: left
 ---
 
-## Choosing a study design
+## Collecting data
+### 3.1. Research designs in education
 
-{{< figure src="../research-designs.svg" caption="Overview of qualitative (yellow) and quantitative (red) research designs" numbered="true" >}}
+#### Choosing a study design
+
+![](/courses/masters-thesis/research-designs.svg)
+Overview of qualitative (yellow) and quantitative (red) research designs
 
 When envisaging a research project in applied linguistics/second language acquisition, various study designs are possible. We have to answer the following questions:
 
@@ -41,9 +47,11 @@ When envisaging a research project in applied linguistics/second language acquis
      - randomly assigning participants to each condition/group:<br>
        ⇒ (True) [Experimental study]()
 
-## Interventionist designs
+#### Interventionist designs
 
-{{< figure src="../interventionist-research-designs.jpg" caption="Summary of interventionist research designs" numbered="true" >}}
+![](/courses/masters-thesis/interventionist-research-designs.jpg)
+Summary of interventionist research designs
+
 
 - **Action-research**
   - Teacher = researcher → subjective, reflexive process of a practitioner trying to implement change in their teaching practice
@@ -61,14 +69,14 @@ When envisaging a research project in applied linguistics/second language acquis
     - ideally: randomized group assignment
       - but often using existing groups in education (→ **quasi-experimental** design)
 
-## Non-interventionist designs
+#### Non-interventionist designs
 
-### Quantitative designs 📊
+##### Quantitative designs 📊
 
 - **Survey** (descriptive, diagnostic: 1 variable)
 - **Correlational** (2 variables)
 
-### Qualitative designs 💬
+##### Qualitative designs 💬
 
 - Case study
 - Ethnography
@@ -77,10 +85,10 @@ When envisaging a research project in applied linguistics/second language acquis
 
 > <i class="fa-solid fa-book-open"></i> Loewen, S., & Philp, J. (2012). Instructed second language acquisition. In A. Mackey & S. M. Gass (Eds.), _Research methods in second language acquisition: A practical guide_ (pp. 53–73). Wiley-Blackwell.
 
-## Some model studies in SLA/analysis
+#### Some model studies in SLA/analysis
 
 **Bibliographic studies**:
-see examples of [research syntheses]({{< relref "2-2-literature-review#examples-of-research-syntheses" >}}) and [meta-analyses]({{< ref "2-2-literature-review#examples-of-meta-analyses-smallresearch-synthesis--statistical-aggregationsmall" >}}).
+see examples of [research syntheses](2-2-literature-review#examples-of-research-syntheses) and [meta-analyses](2-2-literature-review#examples-of-meta-analyses-smallresearch-synthesis--statistical-aggregationsmall)
 
 **Qualitative observational studies**
 
@@ -107,3 +115,65 @@ see examples of [research syntheses]({{< relref "2-2-literature-review#examples-
 - Shintani, N., Ellis, R., & Suzuki, W. (2014). Effects of written feedback and revision on learners’ accuracy in using two English grammatical structures. _Language Learning, 64_(1), 103–131. https://doi.org/10.1111/lang.12029
 - Ziegler, N., Meurers, D., Rebuschat, P., Ruiz, S., Moreno-Vega, J. L., Chinkina, M., Li, W., & Grey, S. (2017). Interdisciplinary research at the intersection of CALL, NLP, and SLA: Methodological implications from an input enhancement project. _Language Learning, 67_(S1), 209–231. https://doi.org/10.1111/lang.12227
 - Zalbidea, J. (2021). On the scope of output in SLA: Task modality, salience, L2 grammar noticing, and development. _Studies in Second Language Acquisition, 43_(1), 50–82. https://doi.org/10.1017/S0272263120000261
+
+
+
+### 3.2. Qualitative techniques
+
+> <i class="fa-solid fa-book-open"></i> Friedman, D. A. (2012). How to collect and analyze qualitative data. In A. Mackey & S. M. Gass (Eds.), _Research methods in second language acquisition: A practical guide_ (pp. 180–200). Wiley-Blackwell.
+
+#### Interview
+
+**Types**
+
+- Semi-structured
+- Structured
+- Unstructured
+
+**Tools and processes**
+
+- Interview guide/Set of questions
+  - Designing interview questions
+    - Open-ended questions vs. closed ended
+    - Avoiding leading questions
+    - Avoiding complex questions
+    - Verify comprehensibility
+- Recording
+  - Audio is almost always enough
+- Note-taking
+
+**Resources & references**
+
+- Wicaksono & Zhurauskaya (2020), [York's Hidden Stories website: Eliciting, recording, transcribing, analysing and theorising research interviews in applied linguistics](https://www.yorkshiddenstories.org/). <small>A companion website for the authors' book, training you to conduct and analyze interviews in applied linguistics.</small>
+
+#### Focus group and discussion group
+
+≃ Collective interview
+
+#### Observation
+
+- Observation principles
+  - Participant observation
+- Recordings
+- Field notes
+- Checklists
+- Rubrics
+
+#### Documentary research
+
+- Teaching & learning materials
+  - Textbooks
+  - Handouts
+- Teacher management materials
+  - Assessment records and notes
+  - Lesson plans
+- Official and administrative materials
+  - Regulation, legal or formal instructions from multiple management levels
+
+### 3.3. Quantitative techniques
+### 3.4. Data collection processes
+#### Piloting and validating instruments
+
+#### Processes, workflows and timelines
+
+#### Ethics

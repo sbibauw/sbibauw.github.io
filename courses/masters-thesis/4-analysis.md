@@ -1,31 +1,37 @@
 ---
-title: 4.4. Analyzing quantitative data
-linkTitle: 4.4. Quantitative data
+title: Coding and analyzing data
+linkTitle: Analyzing data
 date: "2021-04-08"
 type: book
-summary: Statistical software (Jamovi, R...), descriptive statistics, inferential statistics (correlation, group comparison).
-math: true
+summary: Coding language data — Analyzing performance — Interpreting qualitative data — Analyzing quantitative data
 ---
 
-## Statistical software
+## Coding and analyzing data
+### 4.1. Coding language data
+### 4.2. Analyzing performance
+### 4.3. Interpreting qualitative data
+### 4.4. Analyzing quantitative data
 
-- {{< hl >}}**[Jamovi](https://www.jamovi.org/)**{{< /hl >}}
+#### Statistical software
+
+- ==**[Jamovi](https://www.jamovi.org/)**==
   - simple + free
   - highly recommended, except if you already have experience with another one
   - plugins for more advanced analyses
   - based on R, so allows for a transition to R if you need full power in the future
+- **JASP**: free, user-friendly interface, based on R
 - **SPSS**: commercial, expensive
 - **Stata**: commercial for advanced analyses
 - **R** with [RStudio](https://www.rstudio.com/products/rstudio/download/): very powerful but very steep learning curve
 
-### Jamovi: tutorials and guides
+##### Jamovi: tutorials and guides
 
 - [Jamovi user guide](https://www.jamovi.org/user-manual.html) (website + videos)
 - [Full Jamovi Tutorial](https://datalab.cc/jamovi/) by Datalab (video tutorial)
   > {{< youtube id="mZomeS0tLxY" title="Full Jamovi Tutorial" >}}
 - [Learning statistics with jamovi](https://www.learnstatswithjamovi.com/) (free book)
 
-## Descriptive statistics
+#### Descriptive statistics
 
 - Objective: _data reduction_ (how to better summarize all the individual data?)
 - 2 main components:
@@ -37,9 +43,9 @@ math: true
 | If normal distribution<br>($N ≥ 20$ + normal) | **Mean** ($M$)         | **Standard deviation** ($\text{SD}$)                  |
 | Otherwise                                     | **Median**<br> Mode... | **Range** (min & max)<br>Interquartile range (IQR)... |
 
-## Inferential statistics
+#### Inferential statistics
 
-### Correlation
+##### Correlation
 
 - Objective: determine similarity between two (typically continuous) variables
 - ### Correlation coefficient: Pearson's $r$
@@ -48,28 +54,34 @@ math: true
     to 0 (no correlation)...
     to 1 (perfect correlation)
 
-### Group comparison
+##### Group comparison
 
 - Objective: determine if experimental treatment was significantly different than control
 
-#### Significance test
+###### Significance test
 
 (‘Null hypothesis significance testing’, NHST)
 
 - **$t$-test** (Student) for 2 groups
 - **ANOVA** for multiple conditions/comparisons
 
-{{< figure src="https://www.psychdb.com/_media/teaching/stats_cheat_sheet.png" caption="Statistical tests cheat sheet (PsychDB.com)" numbered="true" >}}
+![](https://www.psychdb.com/_media/teaching/stats_cheat_sheet.png)
+Statistical tests cheat sheet (PsychDB.com)
 
 - → $p$-value
   - Convention: 95% confidence
   - $p < 0.05$ = significant, $p < 0.01$ = better, $p < 0.001$ = even better
   - if $p > 0.05$, then no significant difference
 
-#### Effect size
+###### Effect size
 
 - Beyond significance: evaluate the size of the effect
 - Measures:
   - Pearson's $r$ (correlation)
   - Cohen's $d$ (and Hedges' $g$, very similar)
     $$d = \frac{M_\text{exp} - M_\text{control}}{\textit{SD}_\text{pooled}}$$
+
+## Presenting and discussing results
+### 5.1. Presenting results
+### 5.2. Discussing results
+### 5.3. Concluding
