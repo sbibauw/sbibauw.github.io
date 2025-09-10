@@ -1,7 +1,5 @@
-const cacheName = self.location.pathname
-const pages = [
-
-];
+const cacheName = self.location.pathname;
+const pages = [];
 
 self.addEventListener("install", function (event) {
   self.skipWaiting();
@@ -44,7 +42,7 @@ self.addEventListener("fetch", (event) => {
    * @returns {Boolean}
    */
   function cacheable(response) {
-    return response.type === "basic" && response.ok && !response.headers.has("Content-Disposition")
+    return response.type === "basic" && response.ok && !response.headers.has("Content-Disposition");
   }
 
   event.respondWith(fetch(request).then(saveToCache).catch(serveFromCache));

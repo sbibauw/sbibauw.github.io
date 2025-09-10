@@ -7,9 +7,13 @@ summary: Coding language data — Analyzing performance — Interpreting qualita
 ---
 
 ## Coding and analyzing data
+
 ### 4.1. Coding language data
+
 ### 4.2. Analyzing performance
+
 ### 4.3. Interpreting qualitative data
+
 ### 4.4. Analyzing quantitative data
 
 #### Statistical software
@@ -82,6 +86,9 @@ Statistical tests cheat sheet (PsychDB.com)
     $$d = \frac{M_\text{exp} - M_\text{control}}{\textit{SD}_\text{pooled}}$$
 
 ## Presenting and discussing results
+
 ### 5.1. Presenting results
+
 ### 5.2. Discussing results
+
 ### 5.3. Concluding

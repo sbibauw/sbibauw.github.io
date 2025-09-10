@@ -9,6 +9,7 @@ toc:
 ---
 
 ## Collecting data
+
 ### 3.1. Research designs in education
 
 #### Choosing a study design
@@ -51,7 +52,6 @@ When envisaging a research project in applied linguistics/second language acquis
 
 ![](/courses/masters-thesis/interventionist-research-designs.jpg)
 Summary of interventionist research designs
-
 
 - **Action-research**
   - Teacher = researcher → subjective, reflexive process of a practitioner trying to implement change in their teaching practice
@@ -116,8 +116,6 @@ see examples of [research syntheses](2-2-literature-review#examples-of-research-
 - Ziegler, N., Meurers, D., Rebuschat, P., Ruiz, S., Moreno-Vega, J. L., Chinkina, M., Li, W., & Grey, S. (2017). Interdisciplinary research at the intersection of CALL, NLP, and SLA: Methodological implications from an input enhancement project. _Language Learning, 67_(S1), 209–231. https://doi.org/10.1111/lang.12227
 - Zalbidea, J. (2021). On the scope of output in SLA: Task modality, salience, L2 grammar noticing, and development. _Studies in Second Language Acquisition, 43_(1), 50–82. https://doi.org/10.1017/S0272263120000261
 
-
-
 ### 3.2. Qualitative techniques
 
 > <i class="fa-solid fa-book-open"></i> Friedman, D. A. (2012). How to collect and analyze qualitative data. In A. Mackey & S. M. Gass (Eds.), _Research methods in second language acquisition: A practical guide_ (pp. 180–200). Wiley-Blackwell.
@@ -171,7 +169,9 @@ see examples of [research syntheses](2-2-literature-review#examples-of-research-
   - Regulation, legal or formal instructions from multiple management levels
 
 ### 3.3. Quantitative techniques
+
 ### 3.4. Data collection processes
+
 #### Piloting and validating instruments
 
 #### Processes, workflows and timelines

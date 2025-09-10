@@ -132,10 +132,10 @@ https://github.com/alex-shpak/hugo-book
           <script>
             (function () {
               var e = document.querySelector("aside .book-menu-content");
-              (addEventListener("beforeunload", function () {
+              addEventListener("beforeunload", function () {
                 localStorage.setItem("menu.scrollTop", e.scrollTop);
               }),
-                (e.scrollTop = localStorage.getItem("menu.scrollTop")));
+                (e.scrollTop = localStorage.getItem("menu.scrollTop"));
             })();
           </script>
         </div>
@@ -180,12 +180,12 @@ https://github.com/alex-shpak/hugo-book
               function e(e) {
                 const t = window.getSelection(),
                   n = document.createRange();
-                (n.selectNodeContents(e), t.removeAllRanges(), t.addRange(n));
+                n.selectNodeContents(e), t.removeAllRanges(), t.addRange(n);
               }
               document.querySelectorAll("pre code").forEach((t) => {
                 t.addEventListener("click", function () {
                   if (window.getSelection().toString()) return;
-                  (e(t.parentElement), navigator.clipboard && navigator.clipboard.writeText(t.parentElement.textContent));
+                  e(t.parentElement), navigator.clipboard && navigator.clipboard.writeText(t.parentElement.textContent);
                 });
               });
             })();
