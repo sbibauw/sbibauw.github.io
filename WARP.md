@@ -69,6 +69,18 @@ npx prettier --write .
 purgecss -c purgecss.config.js
 ```
 
+### Git Hooks
+
+The repository includes a pre-commit hook that automatically runs Prettier before each commit:
+
+```bash
+# The hook runs automatically, but you can test it manually:
+.git/hooks/pre-commit
+
+# To temporarily bypass the hook (not recommended):
+git commit --no-verify -m "commit message"
+```
+
 ### Content Management
 
 ```bash
