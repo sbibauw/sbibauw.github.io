@@ -9,6 +9,7 @@ This is a Jekyll-based academic website for Serge Bibauw, built using the [al-fo
 ## Development Environment Setup
 
 ### Recommended: Docker (Easiest)
+
 ```bash
 # Pull latest image and run development server
 docker compose pull
@@ -20,12 +21,15 @@ docker compose -f docker-compose-slim.yml up
 # Build your own image if needed
 docker compose up --build
 ```
+
 Access at: `http://localhost:8080`
 
 ### Alternative: Development Container (VS Code)
+
 The repository includes `.devcontainer/devcontainer.json` with all necessary dependencies pre-configured. VS Code will automatically prompt to use the container when opening the project.
 
 ### Legacy: Native Jekyll Setup
+
 ```bash
 # Install dependencies
 bundle install
@@ -34,11 +38,13 @@ pip install jupyter  # if using notebook features
 # Serve development site
 bundle exec jekyll serve
 ```
+
 Access at: `http://localhost:4000`
 
 ## Common Development Commands
 
 ### Building and Serving
+
 ```bash
 # Development server with live reload (Docker)
 docker compose up
@@ -54,6 +60,7 @@ bundle exec jekyll build --destination /path/to/output
 ```
 
 ### Code Formatting and Quality
+
 ```bash
 # Format with Prettier
 npx prettier --write .
@@ -63,6 +70,7 @@ purgecss -c purgecss.config.js
 ```
 
 ### Content Management
+
 ```bash
 # Add new blog post
 # Create file in _posts/ with format: YYYY-MM-DD-title.md
@@ -85,13 +93,16 @@ purgecss -c purgecss.config.js
 ## Architecture and Structure
 
 ### Theme Foundation
+
 Built on al-folio v0.14.6, which provides:
+
 - Academic-focused layouts (CV, publications, projects)
 - Jekyll Scholar integration for bibliography management
 - Responsive design with light/dark theme support
 - Advanced features: MathJax, image optimization, search
 
 ### Content Collections
+
 - `_pages/` - Main site pages (about, publications, CV, etc.)
 - `_posts/` - Blog posts
 - `_projects/` - Project portfolio items
@@ -100,6 +111,7 @@ Built on al-folio v0.14.6, which provides:
 - `_books/` - Book reviews and reading list
 
 ### Key Jekyll Plugins
+
 - `jekyll-scholar` - Bibliography and citation management
 - `jekyll-imagemagick` - Responsive image generation
 - `jekyll-feed` - RSS feed generation
@@ -107,6 +119,7 @@ Built on al-folio v0.14.6, which provides:
 - `jekyll-jupyter-notebook` - Jupyter notebook integration
 
 ### Asset Pipeline
+
 - Images automatically optimized to WebP format
 - CSS/JS minification enabled in production
 - MathJax for mathematical notation
@@ -115,12 +128,14 @@ Built on al-folio v0.14.6, which provides:
 ## Deployment
 
 ### GitHub Pages (Automatic)
+
 - Push to `main` branch triggers automatic deployment
 - Uses `.github/workflows/deploy.yml` GitHub Action
 - Builds to `gh-pages` branch
 - Available at: `https://sbibauw.github.io`
 
 ### Manual Deployment
+
 ```bash
 # Build static site
 bundle exec jekyll build
@@ -131,17 +146,21 @@ bundle exec jekyll build
 ## Content Guidelines
 
 ### Publications
+
 - Add entries to `_bibliography/papers.bib` in BibTeX format
 - Use `selected={true}` for featured publications
 - Include `pdf`, `code`, `slides` fields for additional resources
 
 ### Profile Updates
+
 - Edit `_pages/about.md` for main bio
 - Update `_data/cv.yml` for structured CV data
 - Modify `_config.yml` for site-wide settings (social links, analytics, etc.)
 
 ### Academic Focus Areas
+
 The site specializes in:
+
 - Conversational AI for language learning
 - Computer-Assisted Language Learning (CALL)
 - Task-based language teaching (TBLT)
@@ -150,12 +169,14 @@ The site specializes in:
 ## Image and Media Management
 
 ### Profile and Content Images
+
 - Store in `assets/img/`
 - Automatic WebP conversion enabled
 - Multiple sizes generated: 480px, 800px, 1000px
 - Use `{% include figure.liquid %}` for responsive images
 
 ### Publications and Project Assets
+
 - PDFs in `assets/pdf/`
 - Code repositories linked via `_data/repositories.yml`
 - Slides and supplementary materials as needed
@@ -163,21 +184,25 @@ The site specializes in:
 ## Environment Variables (Production)
 
 When deploying to services like Netlify:
+
 - `JEKYLL_ENV=production`
 - `RUBY_VERSION=3.3.5` (or current version in deploy workflow)
 
 ## Troubleshooting
 
 ### Docker Issues
+
 - If permission errors occur, uncomment and configure user/group settings in `docker-compose.yml`
 - Use `docker compose up --force-recreate` to rebuild from scratch
 
 ### Jekyll Build Issues
+
 - Check `bundle exec jekyll doctor` for common problems
 - Ensure all required gems are installed
 - Verify `_config.yml` syntax
 
 ### Bibliography Issues
+
 - Validate BibTeX syntax in `papers.bib`
 - Check Jekyll Scholar configuration in `_config.yml`
 - Ensure publication thumbnails exist in `assets/img/publication_preview/`
@@ -225,6 +250,7 @@ git branch -d backup-before-update
 ### What NOT to Do (Lessons Learned)
 
 **❌ Avoid `git rebase` for theme updates:**
+
 - Creates complex merge conflicts with customized content
 - Difficult to resolve conflicts in generated files (like madagascar/ directory)
 - Time-consuming and error-prone process
@@ -243,6 +269,7 @@ git branch -d backup-before-update
 ### Conflict Resolution Strategy
 
 **Personal/Content Files (Keep OURS):**
+
 - `README.md` - Personal project description
 - `_config.yml` - Site configuration with personal settings
 - `_data/socials.yml` - Personal social media links
@@ -251,6 +278,7 @@ git branch -d backup-before-update
 - `assets/img/` - Personal images and photos
 
 **Infrastructure Files (Take THEIRS):**
+
 - `.github/workflows/` - GitHub Actions for deployment
 - `Gemfile.lock` - Dependencies lockfile
 - `INSTALL.md` - Installation instructions
@@ -258,5 +286,6 @@ git branch -d backup-before-update
 - `_includes/scripts.liquid` - Theme scripts
 
 **Hybrid Files (Manual Resolution):**
+
 - `_includes/footer.liquid` - May need custom footer text
 - `docker-compose.yml` - Update version but keep custom settings
