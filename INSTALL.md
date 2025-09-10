@@ -1,11 +1,12 @@
-# Table of Contents
+# Installing and Deploying
 
-- [Table of Contents](#table-of-contents)
+<!--ts-->
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
+    - [Have Bugs on Docker Image?](#have-bugs-on-docker-image)
   - [Local Setup with Development Containers](#local-setup-with-development-containers)
   - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
   - [Deployment](#deployment)
@@ -13,11 +14,11 @@
     - [For project pages](#for-project-pages)
     - [Enabling automatic deployment](#enabling-automatic-deployment)
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
+    - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-
-# Installing and Deploying
+<!--te-->
 
 ## Recommended Approach
 
@@ -74,6 +75,36 @@ $ docker compose up --build
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+
+### Have Bugs on Docker Image?
+
+Sometimes, there might be some bugs in the current docker image. It might be version mismatch or anything. If you want to debug and easily solve the problem for yourself you can do the following steps:
+
+```
+docker compose up -d
+docker compose logs
+```
+
+Then you can see the bug! You can enter the container via this command:
+
+```
+docker compose exec -it jekyll /bin/bash
+```
+
+Then you can run the script:
+
+```
+./bin/entry_point.sh
+```
+
+You might see problems for package dependecy or something which is not available. You can fix it now by using
+
+```
+bundle install
+./bin/entry_point.sh
+```
+
+Most likely, this will solve the problem but it shouldn't really happen. So, please open a bug report for us.
 
 ## Local Setup with Development Containers
 
@@ -134,12 +165,14 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 1. [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat).
 2. Netlify: **Add new site** -> **Import an existing project** -> **GitHub** and give Netlify access to the repository you just created.
 3. Netlify: In the deploy settings
+
    - Set **Branch to deploy** to `main`
    - **Base directory** is empty
    - Set **Build command** to `sed -i "s/^\(baseurl: \).*$/baseurl:/" _config.yml && bundle exec jekyll build`
    - Set **Publish directory** to `_site`
 
 4. Netlify: Add the following two **environment variables**
+
    - | Key            | Value                                                                                  |
      | -------------- | -------------------------------------------------------------------------------------- |
      | `JEKYLL_ENV`   | `production`                                                                           |
@@ -208,7 +241,7 @@ If you installed **al-folio** as described above, you can manually update your c
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.14.0
+$ git rebase v0.14.6
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.

@@ -85,7 +85,7 @@ purgecss -c purgecss.config.js
 ## Architecture and Structure
 
 ### Theme Foundation
-Built on al-folio v0.14.0, which provides:
+Built on al-folio v0.14.6, which provides:
 - Academic-focused layouts (CV, publications, projects)
 - Jekyll Scholar integration for bibliography management
 - Responsive design with light/dark theme support
