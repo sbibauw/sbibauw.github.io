@@ -662,12 +662,23 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025/07-ares-uce/";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",},{id: "talks-10-hanu",
+          title: '10 Hanu',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2025/10-hanu/";
             },},{id: "talks-new-conversations-new-evidence-revisiting-the-impact-of-bots-for-language-learning-in-the-llm-era",
           title: 'New Conversations, New Evidence: Revisiting the Impact of Bots for Language Learning in...',
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025/11-tsll/";
-            },},{
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",},{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
