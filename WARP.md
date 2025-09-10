@@ -181,3 +181,82 @@ When deploying to services like Netlify:
 - Validate BibTeX syntax in `papers.bib`
 - Check Jekyll Scholar configuration in `_config.yml`
 - Ensure publication thumbnails exist in `assets/img/publication_preview/`
+
+## Updating the al-folio Theme
+
+### Recommended Approach (Merge Strategy)
+
+**Use merge instead of rebase** for theme updates to avoid complex conflict resolution:
+
+```bash
+# 1. Ensure you have the upstream remote
+git remote add upstream https://github.com/alshedivat/al-folio.git
+
+# 2. Fetch latest updates
+git fetch upstream
+
+# 3. Check available versions
+git tag --list --sort=-version:refname | head -10
+
+# 4. Create backup branch (safety first!)
+git branch backup-before-update
+
+# 5. Merge the target version
+git merge v0.14.6 --no-ff -m "Update al-folio to v0.14.6"
+
+# 6. Resolve conflicts strategically:
+# - Keep YOUR settings: README.md, _config.yml, _data/socials.yml, docker-compose.yml
+# - Take UPSTREAM changes: GitHub workflows, Gemfile.lock, INSTALL.md, .prettierignore
+git checkout --ours README.md _config.yml _data/socials.yml docker-compose.yml
+git checkout --theirs .github/workflows/deploy.yml .github/workflows/broken-links.yml Gemfile.lock INSTALL.md .prettierignore
+
+# 7. Add resolved files and commit
+git add .
+git commit -m "Update al-folio to v0.14.6"
+
+# 8. Update Docker image version to match
+# Edit docker-compose.yml: change image version to match theme version
+git add docker-compose.yml && git commit -m "Update Docker image to v0.14.6"
+
+# 9. Clean up backup branch if successful
+git branch -d backup-before-update
+```
+
+### What NOT to Do (Lessons Learned)
+
+**❌ Avoid `git rebase` for theme updates:**
+- Creates complex merge conflicts with customized content
+- Difficult to resolve conflicts in generated files (like madagascar/ directory)
+- Time-consuming and error-prone process
+- Can break customizations and personal content
+
+### Post-Update Checklist
+
+- [ ] Update WARP.md to reflect new theme version
+- [ ] Update Docker image version in `docker-compose.yml`
+- [ ] Test local development: `docker compose up`
+- [ ] Verify personal customizations are preserved
+- [ ] Check that publications, talks, and CV data are intact
+- [ ] Test deployment pipeline
+- [ ] Update any custom CSS/JS if needed
+
+### Conflict Resolution Strategy
+
+**Personal/Content Files (Keep OURS):**
+- `README.md` - Personal project description
+- `_config.yml` - Site configuration with personal settings
+- `_data/socials.yml` - Personal social media links
+- `_pages/about.md` - Personal bio
+- `_bibliography/papers.bib` - Personal publications
+- `assets/img/` - Personal images and photos
+
+**Infrastructure Files (Take THEIRS):**
+- `.github/workflows/` - GitHub Actions for deployment
+- `Gemfile.lock` - Dependencies lockfile
+- `INSTALL.md` - Installation instructions
+- `.prettierignore` - Code formatting rules
+- `_includes/scripts.liquid` - Theme scripts
+
+**Hybrid Files (Manual Resolution):**
+- `_includes/footer.liquid` - May need custom footer text
+- `docker-compose.yml` - Update version but keep custom settings
