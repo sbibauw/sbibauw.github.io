@@ -88,7 +88,7 @@ Summary of interventionist research designs
 #### Some model studies in SLA/analysis
 
 **Bibliographic studies**:
-see examples of [research syntheses](2-2-literature-review#examples-of-research-syntheses) and [meta-analyses](2-2-literature-review#examples-of-meta-analyses-smallresearch-synthesis--statistical-aggregationsmall)
+see examples of [research syntheses](1-scientific-literature#examples-of-research-syntheses) and [meta-analyses](1-scientific-literature#examples-of-meta-analyses-smallresearch-synthesis--statistical-aggregationsmall)
 
 **Qualitative observational studies**
 
