@@ -665,8 +665,8 @@ ninja.data = [{
             },},{id: "talks-",
           title: '',
           description: "",
-          section: "Talks",},{id: "talks-10-hanu",
-          title: '10 Hanu',
+          section: "Talks",},{id: "talks-conversations-artificielles-et-apprentissage-des-langues-l-39-impact-des-chatbots-à-l-39-ère-des-llm",
+          title: 'Conversations artificielles et apprentissage des langues : l&amp;#39;impact des chatbots à l&amp;#39;ère des...',
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025/10-hanu/";
@@ -678,7 +678,12 @@ ninja.data = [{
             },},{id: "talks-",
           title: '',
           description: "",
-          section: "Talks",},{
+          section: "Talks",},{id: "talks-agentivité-interactivité-et-engagement-dans-des-dialogues-d-39-apprenants-du-fle-avec-des-agents-conversationnels",
+          title: 'Agentivité, interactivité et engagement dans des dialogues d&amp;#39;apprenants du FLE avec des agents...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/07-ref/";
+            },},{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
