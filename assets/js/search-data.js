@@ -678,7 +678,17 @@ ninja.data = [{
             },},{id: "talks-",
           title: '',
           description: "",
-          section: "Talks",},{id: "talks-agentivité-interactivité-et-engagement-dans-des-dialogues-d-39-apprenants-du-fle-avec-des-agents-conversationnels",
+          section: "Talks",},{id: "talks-développer-la-littératie-et-la-langue-de-l-39-école-enjeux-connaissances-et-pratiques",
+          title: 'Développer la littératie et la langue de l&amp;#39;école : enjeux, connaissances et pratiques...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/01-girsef/";
+            },},{id: "talks-conversational-ai-for-spoken-l2-development-meta-analysis-of-effectiveness-studies-and-insights-for-assessment",
+          title: 'Conversational AI for spoken L2 development: meta-analysis of effectiveness studies and insights for...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/03-al2sa/";
+            },},{id: "talks-agentivité-interactivité-et-engagement-dans-des-dialogues-d-39-apprenants-du-fle-avec-des-agents-conversationnels",
           title: 'Agentivité, interactivité et engagement dans des dialogues d&amp;#39;apprenants du FLE avec des agents...',
           description: "",
           section: "Talks",handler: () => {
@@ -771,12 +781,12 @@ ninja.data = [{
       <i class="fa-brands fa-creative-commons" title="Creative Commons License. This work is licensed under CC BY-SA 4.0."></i>
       Serge
       
-      Bibauw, 2025.
+      Bibauw, 2026.
       Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 
       
       
-        Last updated: 27 November 2025.
+        Last updated: 26 January 2026.
       
     </div>
   </footer>

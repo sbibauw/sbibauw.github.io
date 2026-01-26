@@ -410,12 +410,12 @@ cronitor("config", { clientKey: "" });
       <i class="fa-brands fa-creative-commons" title="Creative Commons License. This work is licensed under CC BY-SA 4.0."></i>
       Serge
       
-      Bibauw, 2025.
+      Bibauw, 2026.
       Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 
       
       
-        Last updated: 27 November 2025.
+        Last updated: 26 January 2026.
       
     </div>
   </footer>
