@@ -308,6 +308,17 @@
             
           
             
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/prospective-students/">prospective students
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
           
           <li class="nav-item">
             <a class="nav-link" href="/#contact">contact</a>
@@ -388,6 +399,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
+          },
+        },{id: "nav-prospective-students",
+          title: "Prospective Students",
+          description: "Information for students interested in pursuing a PhD or MA thesis with me.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/prospective-students/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',

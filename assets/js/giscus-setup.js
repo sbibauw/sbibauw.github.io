@@ -306,6 +306,17 @@
             
           
             
+              
+                
+                <li class="nav-item ">
+                  <a class="nav-link" href="/prospective-students/">prospective students
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
           
           <li class="nav-item">
             <a class="nav-link" href="/#contact">contact</a>
