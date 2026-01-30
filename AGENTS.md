@@ -1,6 +1,4 @@
-# WARP.md
-
-This file provides guidance to WARP (warp.dev) when working with code in this repository.
+# AGENTS.md
 
 ## Project Overview
 
@@ -28,19 +26,6 @@ Access at: `http://localhost:8080`
 
 The repository includes `.devcontainer/devcontainer.json` with all necessary dependencies pre-configured. VS Code will automatically prompt to use the container when opening the project.
 
-### Legacy: Native Jekyll Setup
-
-```bash
-# Install dependencies
-bundle install
-pip install jupyter  # if using notebook features
-
-# Serve development site
-bundle exec jekyll serve
-```
-
-Access at: `http://localhost:4000`
-
 ## Common Development Commands
 
 ### Building and Serving
@@ -63,7 +48,7 @@ bundle exec jekyll build --destination /path/to/output
 
 ```bash
 # Format with Prettier
-npx prettier --write .
+pnpx prettier --write .
 
 # Check for CSS optimization opportunities
 purgecss -c purgecss.config.js
@@ -239,7 +224,7 @@ git tag --list --sort=-version:refname | head -10
 git branch backup-before-update
 
 # 5. Merge the target version
-git merge v0.14.6 --no-ff -m "Update al-folio to v0.14.6"
+git merge v0.16.3 --no-ff -m "Update al-folio to v0.16.3"
 
 # 6. Resolve conflicts strategically:
 # - Keep YOUR settings: README.md, _config.yml, _data/socials.yml, docker-compose.yml
