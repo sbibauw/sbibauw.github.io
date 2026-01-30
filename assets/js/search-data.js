@@ -52,40 +52,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
   <script type="application/ld+json">
     {
@@ -99,6 +65,8 @@
         "description": "Assistant Professor of French Language Teaching",
         "headline": "blank",
         
+        "sameAs": [null,null,null,null,null,null],
+        
         "name": "Serge Bibauw",
         "@context": "https://schema.org"
     }
@@ -107,7 +75,7 @@
 
 
 <!-- Bootstrap & MDB -->
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04">
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
@@ -118,8 +86,8 @@
 
 
 <!-- Fonts & Icons -->
-<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
-<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772">
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" href="/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772">
 <link
   defer
   rel="stylesheet"
@@ -131,7 +99,7 @@
 <link
   defer
   rel="stylesheet"
-  href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99"
+  href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99"
   media=""
   id="highlight_theme_light"
 >
@@ -148,16 +116,16 @@
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👤</text></svg>"
   >
 
-<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="stylesheet" href="/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e">
 <link rel="canonical" href="https://sbibauw.github.io/assets/js/search-data.js">
 
-<!-- Dark Mode -->
-<script src="/assets/js/theme.js?a81d82887dd692e91686b43de4542f18"></script>
 
+  <!-- Dark Mode -->
+  <script src="/assets/js/theme.js?v=48c9b5bd7f2e0605e39e579400e22553"></script>
   <link
     defer
     rel="stylesheet"
-    href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca"
+    href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca"
     media="none"
     id="highlight_theme_dark"
   >
@@ -223,6 +191,8 @@
 
           <!-- Other pages -->
           
+          
+            
           
             
           
@@ -693,47 +663,62 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2026/07-ref/";
+            },},{id: "teachings-didactique-du-français-langue-étrangère",
+          title: 'Didactique du français langue étrangère',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/lfle2005/";
+            },},{id: "teachings-élaboration-de-cours-de-langue-sur-objectifs-spécifiques",
+          title: 'Élaboration de cours de langue sur objectifs spécifiques',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/lfle2006/";
+            },},{id: "teachings-français-langue-de-scolarisation",
+          title: 'Français langue de scolarisation',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/lfra2004/";
             },},{
         id: 'social-scholar',
-        title: 'Google Scholar',
+        title: 'Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=ZK0L1fgAAAAJ", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-linkedin',
-        title: 'LinkedIn',
+        title: 'Linkedin',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/sbibauw", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-orcid',
-        title: 'ORCID',
+        title: 'Orcid',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0002-1264-6090", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-zotero',
         title: 'Zotero',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.zotero.org/sbibauw", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-github',
-        title: 'GitHub',
+        title: 'Github',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/sbibauw", "_blank");
+          window.open("", "_blank");
         },
       },{
         id: 'social-bluesky',
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("https://bsky.app/profile/sbibauw.bsky.social", "_blank");
+          window.open("", "_blank");
         },
       },{
       id: 'light-theme',
@@ -786,7 +771,7 @@ ninja.data = [{
 
       
       
-        Last updated: 26 January 2026.
+        Last updated: 30 January 2026.
       
     </div>
   </footer>
@@ -823,7 +808,9 @@ ninja.data = [{
     integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
     crossorigin="anonymous"
   ></script>
-  <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+  <script defer src="/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script>
+
+
 
 
 
@@ -854,7 +841,7 @@ ninja.data = [{
     integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
     crossorigin="anonymous"
   ></script>
-  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+  <script defer src="/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script>
 
 
 
@@ -862,12 +849,12 @@ ninja.data = [{
 
 
 <!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
-<script defer src="/assets/js/copy_code.js?c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
+<script src="/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script>
+<script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script>
 
 <!-- Jupyter Open External Links New Tab -->
-<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+<script defer src="/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script>
 
 <!-- Badges -->
 
@@ -888,7 +875,7 @@ ninja.data = [{
     crossorigin="anonymous"
   ></script>
   
-    <script src="/assets/js/mathjax-setup.js?a5bb4e6a542c546dd929b24b8b236dfd"></script>
+    <script src="/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script>
     <script
       defer
       src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"
@@ -905,7 +892,7 @@ ninja.data = [{
 
 
   <!-- Scrolling Progress Bar -->
-  <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
+  <script defer src="/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script>
 
 
 
@@ -914,7 +901,7 @@ ninja.data = [{
 
 
   <!-- Back to Top -->
-  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script src="/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script>
   <script>
     addBackToTop();
   </script>
@@ -922,11 +909,11 @@ ninja.data = [{
 
 
   <!-- Search -->
-  <script type="module" src="/assets/js/search/ninja-keys.min.js?a3446f084dcaecc5f75aa1757d087dcf"></script>
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script>
   <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
-  <script src="/assets/js/search-setup.js?6c304f7b1992d4b60f7a07956e52f04a"></script>
+  <script src="/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script>
   <script src="/assets/js/search-data.js"></script>
-  <script src="/assets/js/shortcut-key.js?3ab7f694879d6215906b528064a50db4"></script>
+  <script src="/assets/js/shortcut-key.js?v=3ab7f694879d6215906b528064a50db4"></script>
 
 
 
