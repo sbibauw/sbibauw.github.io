@@ -1,17 +1,32 @@
 # this file contains the social media links and usernames of the author
-# the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 
-scholar_userid: ZK0L1fgAAAAJ # your Google Scholar ID
-linkedin_username: sbibauw # your LinkedIn user name
-orcid_id: 0000-0002-1264-6090 # your ORCID ID
-zotero_username: sbibauw
-github_username: sbibauw # your GitHub user name
+scholar:
+  value: ZK0L1fgAAAAJ # your Google Scholar user name
+  logo: ai ai-google-scholar-square
+  # scholar_userid: 
+linkedin:
+  value: sbibauw
+  logo: fa-brands fa-linkedin
+  # logo: fa-brands fa-square-linkedin
+orcid:
+  value: 0000-0002-1264-6090
+  logo: ai ai-orcid-square
+zotero:
+  value: sbibauw
+  logo: ai ai-zotero-square
+  # zotero_username: 
+github:
+  value: sbibauw
+  logo: fa-brands fa-github-square
 # email: serge.bibauw@uclouvain.be # your email address
 
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
-bluesky_url: https://bsky.app/profile/sbibauw.bsky.social # your bluesky URL
+bluesky:
+  value: https://bsky.app/profile/sbibauw.bsky.social # your bluesky URL
+  logo: fa-brands fa-square-bluesky
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 # facebook_id: # your facebook id

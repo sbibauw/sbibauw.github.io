@@ -19,7 +19,7 @@ office: >
   Mercier B347 (Socrate building, 3<sup>rd</sup> floor) <a href="https://maps.app.goo.gl/HSnNpfBJLMEvZD7bA"><i class="fa-solid fa-map-location-dot" title="Location on Google Maps"></i></a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons under profile picture
 
 talks:
   enabled: false # includes a list of news items
