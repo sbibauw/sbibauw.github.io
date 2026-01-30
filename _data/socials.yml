@@ -5,7 +5,7 @@
 scholar:
   value: ZK0L1fgAAAAJ # your Google Scholar user name
   logo: ai ai-google-scholar-square
-  # scholar_userid: 
+  # scholar_userid:
 linkedin:
   value: sbibauw
   logo: fa-brands fa-linkedin
@@ -16,7 +16,7 @@ orcid:
 zotero:
   value: sbibauw
   logo: ai ai-zotero-square
-  # zotero_username: 
+  # zotero_username:
 github:
   value: sbibauw
   logo: fa-brands fa-github-square

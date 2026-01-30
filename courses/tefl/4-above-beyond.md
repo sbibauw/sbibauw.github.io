@@ -15,7 +15,7 @@ type: book
 
 <i class="fa-solid fa-book-open"></i> Larsen-Freeman & Anderson 2011, ch. 11 "TBLT", pp. 192-205
 
-{{< figure src="../task-based-lesson.jpg" caption="Task-based cycle in a lesson structure" >}}
+!["Task-based cycle in a lesson structure"](task-based-lesson.jpg)
 
 ## 4.2. Project-based language teaching
 

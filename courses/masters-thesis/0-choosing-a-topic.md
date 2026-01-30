@@ -25,7 +25,7 @@ If you are going to review the scientific literature on a specific topic, you ne
 
 - **Don't "imagine" the topic yourself** without first looking at the literature! Chances are that you are going to have a nice idea, but that does not fit the concepts, ideas, and theories discussed in the field.
 - Start by **browsing the scientific literature** to find the topics, concepts and ideas that have been discussed in the field for the last 5 years.
-  - Browse the **titles** of articles published in the recent issues of the [top journals in Linguistics and Language Learning]({{< relref "/course/masters-thesis/appendices/list-of-journals-in-linguistics-and-language-learning" >}}).
+  - Browse the **titles** of articles published in the recent issues of the [top journals in Linguistics and Language Learning](journals-in-applied-linguistics).
   - Browse reference **handbooks** about research on language learning (check the table of contents to begin with), for instance:
     - [Routledge Handbooks in Second Language Acquisition](https://www.routledge.com/The-Routledge-Handbooks-in-Second-Language-Acquisition/book-series/RHSLA)
     - [Routledge Handbooks in Applied Linguistics](https://www.routledge.com/Routledge-Handbooks-in-Applied-Linguistics/book-series/RHAL)

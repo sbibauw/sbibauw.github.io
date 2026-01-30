@@ -32,7 +32,7 @@ summary: Coding language data — Analyzing performance — Interpreting qualita
 
 - [Jamovi user guide](https://www.jamovi.org/user-manual.html) (website + videos)
 - [Full Jamovi Tutorial](https://datalab.cc/jamovi/) by Datalab (video tutorial)
-  > {{< youtube id="mZomeS0tLxY" title="Full Jamovi Tutorial" >}}
+  {% include video.liquid path="https://www.youtube.com/embed/mZomeS0tLxY" class="img-fluid rounded z-depth-1" title="Full Jamovi Tutorial" %}
 - [Learning statistics with jamovi](https://www.learnstatswithjamovi.com/) (free book)
 
 #### Descriptive statistics
