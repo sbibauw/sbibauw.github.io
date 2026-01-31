@@ -43,7 +43,7 @@ I am looking for PhD candidates with:
 - Good written and oral communication skills in English (and, ideally, some in French)
 - A motivation to publish in peer-reviewed journals and present at international conferences
 
-The requirements for starting a PhD in the Faculty of Arts at UCLouvain include having obtained a Master's degree in related fields (for a PhD in Linguistics/Language, Letters and Translation Studies) with at least an academic distinction such as _cum laude_ (fr. _distinction_, nl. _onderscheiding_, ≥70%).
+The requirements for starting a PhD in the Faculty of Arts at UCLouvain include having obtained a Master's degree in related fields (for a PhD in Linguistics/Languages, letters and translation studies) with at least an academic distinction such as _cum laude_ (fr. _distinction_, nl. _onderscheiding_, ≥70%).
 
 ### Steps to apply
 
@@ -69,7 +69,7 @@ The requirements for starting a PhD in the Faculty of Arts at UCLouvain include 
 4. Discussion and admission
    - If your profile matches, we will schedule a meeting to discuss your research ideas
    - We will work together to refine a research proposal
-   - You will apply formally to the [UCLouvain doctoral program](https://uclouvain.be/en/research/valodoc)
+   - You will apply formally to the [UCLouvain doctoral program in Languages, letters and translation studies](https://www.uclouvain.be/en/faculties/fial/doctorat-langues-lettres-et-traductologie)
 
 ### Funding
 

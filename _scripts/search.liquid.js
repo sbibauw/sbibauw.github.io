@@ -1,4 +1,5 @@
 ---
+layout: none
 permalink: /assets/js/search-data.js
 ---
 // get the ninja-keys element

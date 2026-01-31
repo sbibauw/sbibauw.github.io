@@ -22,7 +22,8 @@ layout: default
           at
           <span class="event font-weight-normal">
             {% if page.event_url %}
-              <a href="{{ page.event_url }}" target="_blank">{{ page.event }}</a> —
+              <a href="{{ page.event_url }}" target="_blank">{{ page.event }}</a>
+              —
             {% else %}
               {{ page.event }} —
             {% endif -%}
@@ -41,7 +42,9 @@ layout: default
           </div>
         {% endif %}
         {% if page.with %}
-          <div>with {{ page.with }}</div>
+          <div>with
+            <strong>{{ page.with }}</strong>
+          </div>
         {% endif %}
       </div>
     {% endif %}
