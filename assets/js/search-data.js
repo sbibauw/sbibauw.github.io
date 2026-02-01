@@ -37,27 +37,16 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/prospective-students/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
+        },{id: "projects-reflexive-writing-at-the-high-school-to-university-transition",
           title: 'Reflexive writing at the high-school to university transition',
           description: "FNRS-FRFC research project from 2008 to 2010 at UCLouvain",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2010-frfc/";
+            },},{id: "projects-cats",
+          title: 'CATS',
+          description: "FDP research project • Funded by UCLouvain • Generative AI application for generating contexts for specialized vocabulary acquisition (PI: Thomas François)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2023-fdp-cats/";
             },},{id: "projects-ai-tutoring-for-language-learning",
           title: 'AI Tutoring for Language Learning',
           description: "CDR research project • Funded by FNRS • Developing the LanguageLab web interface",
