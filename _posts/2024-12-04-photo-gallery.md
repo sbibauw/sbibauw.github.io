@@ -6,12 +6,12 @@ description: this is what included image galleries could look like
 tags: formatting images
 categories: sample-posts
 thumbnail: assets/img/9.jpg
-published: false
 images:
   lightbox2: true
   photoswipe: true
   spotlight: true
   venobox: true
+published: false
 ---
 
 The images in this post are all zoomable, arranged into different mini-galleries using different libraries.
