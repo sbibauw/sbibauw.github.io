@@ -290,6 +290,8 @@
               
             
           
+            
+          
           <li class="nav-item">
             <a class="nav-link" href="/#contact">contact</a>
           </li>
@@ -373,7 +375,7 @@ window.op("init", {
 
       
       
-        Last updated:  1 February 2026.
+        Last updated: 14 February 2026.
       
     </div>
   </footer>
