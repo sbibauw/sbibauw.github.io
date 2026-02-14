@@ -51,11 +51,10 @@ Ceci s'applique surtout aux masters ROM/FLE.
 
 ### Rigueur, usage de l'IA
 
-> « La rigueur scientifique dans les deux travaux académiques impose deux réflexes :
->
-> - **vérification** : consulter les articles à la source, contrôler les citations et croiser les résultats de plusieurs outils pour limiter les biais ;
-> - **traçabilité** : indiquer clairement quels outils ont été utilisés, à quelles étapes et avec quelles précautions. Cette transparence protège l’intégrité du travail et facilite l’accompagnement. »
->   — Sandrine Decamps, 11 sept. 2025
+« La rigueur scientifique dans les deux travaux académiques impose deux réflexes :
+
+- **vérification** : consulter les articles à la source, contrôler les citations et croiser les résultats de plusieurs outils pour limiter les biais ;
+- **traçabilité** : indiquer clairement quels outils ont été utilisés, à quelles étapes et avec quelles précautions. Cette transparence protège l’intégrité du travail et facilite l’accompagnement. » (Sandrine Decamps, 11 sept. 2025)
 
 ### Plateformes d'aide à la rédaction du mémoire
 
