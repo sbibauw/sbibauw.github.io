@@ -7,11 +7,20 @@ nav: false
 nav_order: 7
 ---
 
-Ces quelques notes sont destinées aux étudiantes et étudiants de l'UCLouvain qui réalisent leur mémoire sous ma (co-)direction, en particulier dans le cadre des masters en français langue étrangère (FLE), langue et littératures françaises et romanes (ROM), linguistique (LING), y compris en traitement automatique du langage (TAL) et en sciences de l'éducation (FOPA).
+## Sujets et intérêts de recherche
+
+Voir prioritairement les sujets que je propose sur [OSIS](https://studies.uclouvain.be/dissertation/).
+
+## Supervision
+
+Vous êtes responsable de la planification de votre travail. J'apprécie d'avoir régulièrement de vos nouvelles.
+
+- Vous pouvez m'envoyer rapidement un premier jet, même court (1-2 pages), pour avoir un premier retour sur votre écriture. Je préfère voir rapidement votre travail, même s'il n'est pas terminé ou si vous n'êtes pas encore tout à fait satisfait.
+- N'hésitez pas à m'envoyer une proposition de structure (plan) de votre mémoire, ou seulement de votre cadre théorique p.ex. (liste de sections et sous-sections, idéalement avec des références qui indiquent les auteurs ou textes que vous allez mobiliser dans chacune).
 
 ## Planification et dates limites
 
-- Préparez un [rétroplanning](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/) (voir aussi [planification de mémoire par UniverSanté](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/))
+- Préparez un [rétroplanning](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/) (voir aussi [planification de mémoire par UniverSanté](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/)).
 - **Deadline pour la remise** pour relecture
   - Si défense en juin :
     - Dernière remise pour avoir un retour de ma part : **15 avril**
@@ -23,26 +32,37 @@ Ces quelques notes sont destinées aux étudiantes et étudiants de l'UCLouvain 
   - Aucune tolérance pour les retards ! Le mémoire sera refusé si remis après 23h59 !
   - Donc prévoyez d'envoyer votre mémoire sur DIAL plusieurs jours à l'avance.
 
-## Attentes, longueur
+## Consignes, longueur, langue, IA
 
-- Voir [fiche descriptive du mémoire](https://uclouvain.be/cours-2025-lfle2892) et lire attentivement toutes les attentes explicites
-- Minimum **80 pages** pour ne pas avoir de problème (même si la longueur ne fait pas la qualité)
+- Consultez la fiche descriptive du mémoire : lisez attentivement toutes les attentes explicites.
+  - FLE : [LFLE2892 Mémoire](https://uclouvain.be/cours-2025-lfle2892)
+- FLE/ROM : minimum **80 pages** pour ne pas avoir de problème (même si la longueur ne fait pas la qualité).
 
 ### ⚠ Langue, orthographe, style
 
-- Pénalités importantes en cas de nombreuses erreurs de langue (orthographe lexicale, grammaticale, syntaxe, formulation, références) qui peuvent vous faire perdre 1 ou 2 points, ou causer l'échec immédiat du mémoire
+Ceci s'applique surtout aux masters ROM/FLE.
+
+- Pénalités importantes en cas de nombreuses erreurs de langue (orthographe lexicale, grammaticale, syntaxe, formulation, références) qui peuvent vous faire perdre 1 ou 2 points, ou causer l'échec immédiat du mémoire.
   - → Passez tout votre texte par un correcteur orthographique solide, comme **Antidote** (en français) ou **Grammarly** (pour l'anglais, mais aussi pour le français et d'autres langues depuis quelque temps), ou éventuellement une IA générative généraliste comme [Piccolo/Mistral](https://piccolo.uclouvain.be/).
-  - → Il est opportun aussi d'envoyer son texte (probablement partie par partie, section par section) à une IA générative et demander de corriger / proposer des corrections ou d'identifier les constructions problématiques : ChatGPT, Claude, Gemini, Piccolo/Mistral
-    - Rester critique face aux propositions de l'IA
-    - Demander une correction sur un texte écrit par soi-même ≠ Demander à l'IA d'écrire un texte
-      - Si demande de correction : aucun risque que le texte soit considéré comme "probablement écrit par une IA"
+  - → Il est opportun aussi d'envoyer son texte (probablement partie par partie, section par section) à une IA générative et demander de corriger / proposer des corrections ou d'identifier les constructions problématiques : ChatGPT, Claude, Gemini, Piccolo/Mistral.
+    - Rester critique face aux propositions de l'IA.
+    - Demander une correction sur un texte écrit par soi-même ≠ Demander à l'IA d'écrire un texte.
+      - Si vous demandez à l'IA de corriger un texte que vous avez écrit, il n'y aucun risque que le texte soit considéré comme "probablement écrit par une IA" (au niveau de la détection de plagiat par _Compilatio_).
 
 ### Rigueur, usage de l'IA
 
-"la rigueur scientifique dans les deux travaux académiques impose deux réflexes :
+> « La rigueur scientifique dans les deux travaux académiques impose deux réflexes :
+>
+> - **vérification** : consulter les articles à la source, contrôler les citations et croiser les résultats de plusieurs outils pour limiter les biais ;
+> - **traçabilité** : indiquer clairement quels outils ont été utilisés, à quelles étapes et avec quelles précautions. Cette transparence protège l’intégrité du travail et facilite l’accompagnement. »
+>   — Sandrine Decamps, 11 sept. 2025
 
-- **vérification** : consulter les articles à la source, contrôler les citations et croiser les résultats de plusieurs outils pour limiter les biais ;
-- **traçabilité** : indiquer clairement quels outils ont été utilisés, à quelles étapes et avec quelles précautions. Cette transparence protège l’intégrité du travail et facilite l’accompagnement." ([[Sandrine Decamps]], 2025-09-11)
+### Plateformes d'aide à la rédaction du mémoire
+
+- 👉 Moodle [REDAC "Planifier, mettre en texte et réviser"](https://moodle.uclouvain.be/course/view.php?id=6284), expliquant en détail les différentes étapes et donnant un grand nombre de conseils utiles à la rédaction et révision d'un mémoire.
+- Page [Mémoire et TFE en FIAL](https://www.uclouvain.be/fr/facultes/fial/memoire-tfe), y compris [Booster Mémoire](https://www.uclouvain.be/fr/facultes/fial/booster-memoire-2026)
+- Moodle [Mémoire FOPA](https://moodle.uclouvain.be/enrol/index.php?id=5213)
+- Page "[Aide à la réalisation du mémoire](https://www.uclouvain.be/fr/aide/aide-dans-la-realisation-du-memoire)" (Service d'aide)
 
 ## Exemples de bons mémoires
 
