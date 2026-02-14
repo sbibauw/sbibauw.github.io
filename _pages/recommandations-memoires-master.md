@@ -84,3 +84,31 @@ Mémoires téléchargeables sur [DIAL.mem](https://thesis.dial.uclouvain.be/home
 - **FOPA** (Master en sciences de l'éducation)
   - Eve Francotte (2022), _[Dispositifs pédagogiques et inégalités scolaires : co-conception d’outils pour suivre le progrès des élèves de 1re primaire en lecture](https://thesis.dial.uclouvain.be/entities/masterthesis/17248675-5157-4b09-89cc-e9f7d966c8d7)_
   - Lionel Vanschoonwinkel & Yasar Türe (2021), _[Les rituels et l'engagement scolaire](https://thesis.dial.uclouvain.be/entities/masterthesis/9051e537-db79-435d-8e8c-8196598f726e)_
+
+## Outils recommandés
+
+- Recherche
+  - Google Scholar
+    - cherchez aussi en anglais (mots-clés), même pour un thème lié au français
+  - [Ai2 ASTA](https://asta.allen.ai/)
+- Accès aux articles
+  - via réseau UCLouvain (Wi-Fi ou [Proxy](https://www.uclouvain.be/fr/bibliotheques/bdrt/acces-a-distance)), accès à la plupart des articles gratuitement
+- Gestion de **références bibliographiques**
+  - [Zotero](https://www.zotero.org/) ❗
+    - style APA 7e ed.
+- Manipulation de données
+  - Excel
+  - [Visual Studio Code](https://code.visualstudio.com/) pour manipuler du texte, y compris longs et nombreux fichiers textes
+    - `git` pour contrôle de version<br>(avec ou sans synchronisation, p.ex. via l'instance [Gitlab de l'UCLouvain](https://forge.uclouvain.be/))
+      - éventuellement, [Sublime Merge](https://www.sublimemerge.com/) comme interface graphique pour `git`
+- **Statistiques**
+  - idéalement, [R](https://www.r-project.org/) via RStudio ou VSCode
+    - `tidyverse`
+    - `ggplot2` pour les graphiques
+  - [Jamovi](https://www.jamovi.org/) ou [JASP](https://jasp-stats.org/)
+- **Révision orthographique**
+  - pour le français : [Antidote](https://antidote.info/) (disponible gratuitement sur les ordinateurs de l'UCLouvain) et/ou [Grammarly](https://grammarly.com/)
+  - pour l'anglais : [Grammarly](https://grammarly.com/) (version gratuite normalement suffisante)
+- Rédaction
+  - Word ou Google Docs
+  - Mieux : [Typst](https://typst.app/) (similaire à Latex, mais plus abordable et efficace)<br>mais vérifier si prise en main vaut la peine pour votre mémoire)
