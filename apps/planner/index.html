@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planificateur de Cursus Interactif</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
       body {
-        font-family: "Inter", sans-serif;
+        font-family: 'Inter', sans-serif;
       }
       .level-container.drag-over {
         border-style: dashed;
@@ -90,7 +90,7 @@
         <div id="lesson-library-container" class="lg:col-span-1 bg-white p-6 rounded-2xl shadow-md flex flex-col no-print">
           <h2 class="text-2xl font-bold mb-2">Bibliothèque de Leçons</h2>
           <div class="flex items-center gap-2 mb-4">
-            <input type="search" id="search-filter" placeholder="Rechercher par titre ou objectif..." class="w-full p-2 border border-gray-300 rounded-full text-sm" />
+            <input type="search" id="search-filter" placeholder="Rechercher par titre ou objectif..." class="w-full p-2 border border-gray-300 rounded-full text-sm">
           </div>
           <div id="filters" class="flex flex-wrap gap-2 mb-4">
             <button class="filter-btn active-filter bg-sky-600 text-white px-4 py-2 rounded-full text-sm font-semibold" data-filter="all">Tous</button>
@@ -101,7 +101,7 @@
           <div class="mb-4">
             <button id="show-form-btn" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Créer une nouvelle leçon</button>
             <form id="new-lesson-form" class="mt-4 p-4 border rounded-lg bg-gray-50 space-y-3">
-              <input type="text" id="new-title" placeholder="Titre de la leçon" class="w-full p-2 border rounded" required />
+              <input type="text" id="new-title" placeholder="Titre de la leçon" class="w-full p-2 border rounded" required>
               <textarea id="new-objectifs" placeholder="Objectifs de la leçon" class="w-full p-2 border rounded" required></textarea>
               <div class="grid grid-cols-3 gap-2">
                 <select id="new-niveau" class="w-full p-2 border rounded">
@@ -109,8 +109,8 @@
                   <option value="A2">A2</option>
                   <option value="B1">B1</option>
                 </select>
-                <input type="number" id="new-unite" placeholder="Unité" class="w-full p-2 border rounded" required />
-                <input type="number" id="new-heures" placeholder="Heures" class="w-full p-2 border rounded" required />
+                <input type="number" id="new-unite" placeholder="Unité" class="w-full p-2 border rounded" required>
+                <input type="number" id="new-heures" placeholder="Heures" class="w-full p-2 border rounded" required>
               </div>
               <div class="flex gap-2">
                 <button type="submit" id="add-lesson-btn" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg flex-grow">Ajouter</button>
@@ -135,152 +135,152 @@
     </div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
+      document.addEventListener('DOMContentLoaded', () => {
         let lessonData = [
-          { id: "A1_U1_L1", niveau: "A1", unite: 1, lesson: 1, titre: "Saluer", objectifs: "Identifier le français oral, Saluer et prendre congé (1), Se présenter (1)", heures: 4 },
-          { id: "A1_U1_L2", niveau: "A1", unite: 1, lesson: 2, titre: "Épeler et compter", objectifs: "Épeler, Communiquer en classe", heures: 4 },
-          { id: "A1_U1_L3", niveau: "A1", unite: 1, lesson: 3, titre: "Parler de la France et de la francophonie", objectifs: "Demander poliment", heures: 4 },
+          { id: 'A1_U1_L1', niveau: 'A1', unite: 1, lesson: 1, titre: 'Saluer', objectifs: 'Identifier le français oral, Saluer et prendre congé (1), Se présenter (1)', heures: 4 },
+          { id: 'A1_U1_L2', niveau: 'A1', unite: 1, lesson: 2, titre: 'Épeler et compter', objectifs: 'Épeler, Communiquer en classe', heures: 4 },
+          { id: 'A1_U1_L3', niveau: 'A1', unite: 1, lesson: 3, titre: 'Parler de la France et de la francophonie', objectifs: 'Demander poliment', heures: 4 },
           {
-            id: "A1_U2_L4",
-            niveau: "A1",
+            id: 'A1_U2_L4',
+            niveau: 'A1',
             unite: 2,
             lesson: 4,
-            titre: "Se présenter",
-            objectifs: "Saluer et prendre congé (2), Se présenter (2) : demander et dire son prénom, son nom et sa nationalité, son pays, Dire sa profession",
+            titre: 'Se présenter',
+            objectifs: 'Saluer et prendre congé (2), Se présenter (2) : demander et dire son prénom, son nom et sa nationalité, son pays, Dire sa profession',
             heures: 5,
           },
           {
-            id: "A1_U2_L5",
-            niveau: "A1",
+            id: 'A1_U2_L5',
+            niveau: 'A1',
             unite: 2,
             lesson: 5,
-            titre: "Échanger des informations personnelles",
-            objectifs: "Se présenter (3), Demander et dire son e-mail, Demander et dire les langues parlées, Dire la ville où on habite",
+            titre: 'Échanger des informations personnelles',
+            objectifs: 'Se présenter (3), Demander et dire son e-mail, Demander et dire les langues parlées, Dire la ville où on habite',
             heures: 5,
           },
           {
-            id: "A1_U2_L6",
-            niveau: "A1",
+            id: 'A1_U2_L6',
+            niveau: 'A1',
             unite: 2,
             lesson: 6,
-            titre: "Préciser des informations",
-            objectifs: "Se présenter (4) : demander et dire son âge, Demander et dire son numéro de téléphone, Faire une réservation et dire la date, Exprimer la possession",
+            titre: 'Préciser des informations',
+            objectifs: 'Se présenter (4) : demander et dire son âge, Demander et dire son numéro de téléphone, Faire une réservation et dire la date, Exprimer la possession',
             heures: 5,
           },
-          { id: "A1_U3_L8", niveau: "A1", unite: 3, lesson: 8, titre: "Parler de la famille", objectifs: "Présenter sa famille, Décrire sa famille, Dire la profession", heures: 4 },
-          { id: "A1_U3_L9", niveau: "A1", unite: 3, lesson: 9, titre: "Décrire une personne", objectifs: "Décrire et caractériser une personne", heures: 5 },
-          { id: "A1_U3_L10", niveau: "A1", unite: 3, lesson: 10, titre: "Échanger sur ses goûts", objectifs: "Dire et demander ce qu’on aime", heures: 5 },
-          { id: "A1_U4_L12", niveau: "A1", unite: 4, lesson: 12, titre: "S’informer sur un lieu", objectifs: "Décrire un lieu, Situer un lieu sur un plan, Dire le pays où on habite, S’informer sur un lieu", heures: 4 },
-          { id: "A1_U4_L13", niveau: "A1", unite: 4, lesson: 13, titre: "Indiquer un chemin", objectifs: "Se déplacer, Demander le chemin et indiquer le chemin, la direction", heures: 4 },
-          { id: "A1_U4_L14", niveau: "A1", unite: 4, lesson: 14, titre: "Proposer une sortie", objectifs: "Inviter, accepter et refuser une invitation, Dire l’heure, Fixer un rendez-vous", heures: 5 },
-          { id: "A1_U5_L16", niveau: "A1", unite: 5, lesson: 16, titre: "Décrire son quotidien", objectifs: "Parler de ses activités / décrire son quotidien, Situer dans le temps, Dire quel sport on pratique", heures: 5 },
-          { id: "A1_U5_L17", niveau: "A1", unite: 5, lesson: 17, titre: "Faire les courses", objectifs: "Faire les courses, Indiquer la quantité, Demander/donner le prix, Réagir au prix", heures: 4 },
-          { id: "A1_U5_L18", niveau: "A1", unite: 5, lesson: 18, titre: "Acheter des vêtements", objectifs: "Faire des achats, du shopping, Caractériser un vêtement/un accessoire, Situer des objets dans l’espace", heures: 4 },
-          { id: "A1_U6_L20", niveau: "A1", unite: 6, lesson: 20, titre: "Faire une recette", objectifs: "Exprimer des quantités, Parler d’un plat", heures: 4 },
-          { id: "A1_U6_L21", niveau: "A1", unite: 6, lesson: 21, titre: "Commander au restaurant", objectifs: "Décrire ce qu’on mange habituellement", heures: 4 },
-          { id: "A1_U6_L22", niveau: "A1", unite: 6, lesson: 22, titre: "Raconter un événement", objectifs: "Raconter des événements passés, Indiquer la chronologie dans le passé", heures: 5 },
-          { id: "A1_U7_L24", niveau: "A1", unite: 7, lesson: 24, titre: "Conseiller", objectifs: "Donner des conseils, Décrire son état, sa santé", heures: 5 },
-          { id: "A1_U7_L25", niveau: "A1", unite: 7, lesson: 25, titre: "Proposer un projet", objectifs: "Expliquer un projet", heures: 4 },
-          { id: "A1_U7_L26", niveau: "A1", unite: 7, lesson: 26, titre: "Raconter un voyage", objectifs: "Situer une action dans le passé, Donner une appréciation dans le passé", heures: 5 },
-          { id: "A1_U8_L28", niveau: "A1", unite: 8, lesson: 28, titre: "Expliquer son cursus", objectifs: "Expliquer son cursus, Décrire une action immédiate, Dire ses connaissances", heures: 4 },
-          { id: "A1_U8_L29", niveau: "A1", unite: 8, lesson: 29, titre: "Décrire un travail", objectifs: "Demander et dire la profession, Faire connaissance avec un nouveau collègue de travail, Parler au quotidien", heures: 5 },
-          { id: "A1_U8_L30", niveau: "A1", unite: 8, lesson: 30, titre: "Se loger", objectifs: "Trouver un logement, Dire quel temps il fait, Parler au téléphone", heures: 4 },
+          { id: 'A1_U3_L8', niveau: 'A1', unite: 3, lesson: 8, titre: 'Parler de la famille', objectifs: 'Présenter sa famille, Décrire sa famille, Dire la profession', heures: 4 },
+          { id: 'A1_U3_L9', niveau: 'A1', unite: 3, lesson: 9, titre: 'Décrire une personne', objectifs: 'Décrire et caractériser une personne', heures: 5 },
+          { id: 'A1_U3_L10', niveau: 'A1', unite: 3, lesson: 10, titre: 'Échanger sur ses goûts', objectifs: 'Dire et demander ce qu’on aime', heures: 5 },
+          { id: 'A1_U4_L12', niveau: 'A1', unite: 4, lesson: 12, titre: 'S’informer sur un lieu', objectifs: 'Décrire un lieu, Situer un lieu sur un plan, Dire le pays où on habite, S’informer sur un lieu', heures: 4 },
+          { id: 'A1_U4_L13', niveau: 'A1', unite: 4, lesson: 13, titre: 'Indiquer un chemin', objectifs: 'Se déplacer, Demander le chemin et indiquer le chemin, la direction', heures: 4 },
+          { id: 'A1_U4_L14', niveau: 'A1', unite: 4, lesson: 14, titre: 'Proposer une sortie', objectifs: 'Inviter, accepter et refuser une invitation, Dire l’heure, Fixer un rendez-vous', heures: 5 },
+          { id: 'A1_U5_L16', niveau: 'A1', unite: 5, lesson: 16, titre: 'Décrire son quotidien', objectifs: 'Parler de ses activités / décrire son quotidien, Situer dans le temps, Dire quel sport on pratique', heures: 5 },
+          { id: 'A1_U5_L17', niveau: 'A1', unite: 5, lesson: 17, titre: 'Faire les courses', objectifs: 'Faire les courses, Indiquer la quantité, Demander/donner le prix, Réagir au prix', heures: 4 },
+          { id: 'A1_U5_L18', niveau: 'A1', unite: 5, lesson: 18, titre: 'Acheter des vêtements', objectifs: 'Faire des achats, du shopping, Caractériser un vêtement/un accessoire, Situer des objets dans l’espace', heures: 4 },
+          { id: 'A1_U6_L20', niveau: 'A1', unite: 6, lesson: 20, titre: 'Faire une recette', objectifs: 'Exprimer des quantités, Parler d’un plat', heures: 4 },
+          { id: 'A1_U6_L21', niveau: 'A1', unite: 6, lesson: 21, titre: 'Commander au restaurant', objectifs: 'Décrire ce qu’on mange habituellement', heures: 4 },
+          { id: 'A1_U6_L22', niveau: 'A1', unite: 6, lesson: 22, titre: 'Raconter un événement', objectifs: 'Raconter des événements passés, Indiquer la chronologie dans le passé', heures: 5 },
+          { id: 'A1_U7_L24', niveau: 'A1', unite: 7, lesson: 24, titre: 'Conseiller', objectifs: 'Donner des conseils, Décrire son état, sa santé', heures: 5 },
+          { id: 'A1_U7_L25', niveau: 'A1', unite: 7, lesson: 25, titre: 'Proposer un projet', objectifs: 'Expliquer un projet', heures: 4 },
+          { id: 'A1_U7_L26', niveau: 'A1', unite: 7, lesson: 26, titre: 'Raconter un voyage', objectifs: 'Situer une action dans le passé, Donner une appréciation dans le passé', heures: 5 },
+          { id: 'A1_U8_L28', niveau: 'A1', unite: 8, lesson: 28, titre: 'Expliquer son cursus', objectifs: 'Expliquer son cursus, Décrire une action immédiate, Dire ses connaissances', heures: 4 },
+          { id: 'A1_U8_L29', niveau: 'A1', unite: 8, lesson: 29, titre: 'Décrire un travail', objectifs: 'Demander et dire la profession, Faire connaissance avec un nouveau collègue de travail, Parler au quotidien', heures: 5 },
+          { id: 'A1_U8_L30', niveau: 'A1', unite: 8, lesson: 30, titre: 'Se loger', objectifs: 'Trouver un logement, Dire quel temps il fait, Parler au téléphone', heures: 4 },
           {
-            id: "A2_U1_L1",
-            niveau: "A2",
+            id: 'A2_U1_L1',
+            niveau: 'A2',
             unite: 1,
             lesson: 1,
-            titre: "Se présenter",
-            objectifs: "Donner son identité, ses coordonnées, son âge, sa situation familiale, sa profession, Parler de ses goûts et de ses activités, Demander de se présenter, Poser des questions",
+            titre: 'Se présenter',
+            objectifs: 'Donner son identité, ses coordonnées, son âge, sa situation familiale, sa profession, Parler de ses goûts et de ses activités, Demander de se présenter, Poser des questions',
             heures: 5,
           },
-          { id: "A2_U1_L2", niveau: "A2", unite: 1, lesson: 2, titre: "Faire connaissance", objectifs: "Parler des relations sociales", heures: 4 },
-          { id: "A2_U1_L3", niveau: "A2", unite: 1, lesson: 3, titre: "Faire des prévisions", objectifs: "Parler du futur, Situer une action dans le futur", heures: 4 },
-          { id: "A2_U2_L5", niveau: "A2", unite: 2, lesson: 5, titre: "Parler des relations familiales", objectifs: "Décrire la famille, Expliquer des liens familiaux, Caractériser une relation familiale", heures: 5 },
-          { id: "A2_U2_L6", niveau: "A2", unite: 2, lesson: 6, titre: "Décrire le passé", objectifs: "Décrire l’apparence, le caractère, les habitudes, Situer dans le passé, Parler de son enfance", heures: 5 },
-          { id: "A2_U2_L7", niveau: "A2", unite: 2, lesson: 7, titre: "Raconter une rencontre", objectifs: "Raconter des actions ponctuelles, Décrire un contexte, Parler des sentiments, Situer dans le temps (1)", heures: 5 },
-          { id: "A2_U3_L9", niveau: "A2", unite: 3, lesson: 9, titre: "Parler de son lieu de vie", objectifs: "Parler de la ville, Caractériser un lieu de vie, Parler de ses habitudes d’achats (1), Indiquer ses impressions", heures: 4 },
-          { id: "A2_U3_L10", niveau: "A2", unite: 3, lesson: 10, titre: "Comparer des lieux de vie", objectifs: "Décrire un lieu de vie, Parler de son quotidien (1), Indiquer ses préférences, Parler d’un phénomène urbain", heures: 5 },
-          { id: "A2_U3_L11", niveau: "A2", unite: 3, lesson: 11, titre: "Décrire une expérience à l’étranger", objectifs: "Décrire un pays, Parler de son quotidien (2), Raconter une anecdote", heures: 5 },
-          { id: "A2_U4_L13", niveau: "A2", unite: 4, lesson: 13, titre: "Demander de l’aide", objectifs: "Exprimer un désir, Demander poliment, Communiquer au téléphone, Parler des tâches ménagères", heures: 4 },
-          { id: "A2_U4_L14", niveau: "A2", unite: 4, lesson: 14, titre: "Conseiller", objectifs: "Donner des conseils, Faire des propositions, Faire des suggestions, Exprimer une obligation", heures: 5 },
-          { id: "A2_U4_L15", niveau: "A2", unite: 4, lesson: 15, titre: "Parler de travail", objectifs: "Exprimer un souhait, Exprimer un espoir, Faire une hypothèse", heures: 5 },
-          { id: "A2_U5_L17", niveau: "A2", unite: 5, lesson: 17, titre: "Écrire une biographie", objectifs: "Donner des informations biographiques, Situer dans le temps (2)", heures: 4 },
-          { id: "A2_U5_L18", niveau: "A2", unite: 5, lesson: 18, titre: "Raconter une expérience exceptionnelle", objectifs: "Exprimer la manière et l’intensité, Montrer le caractère exceptionnel d’un événement", heures: 5 },
-          { id: "A2_U5_L19", niveau: "A2", unite: 5, lesson: 19, titre: "Décrire un projet de vie", objectifs: "Indiquer la chronologie, Exprimer l’insatisfaction", heures: 5 },
-          { id: "A2_U6_L21", niveau: "A2", unite: 6, lesson: 21, titre: "S’engager", objectifs: "Expliquer, Justifier un engagement", heures: 4 },
-          { id: "A2_U6_L22", niveau: "A2", unite: 6, lesson: 22, titre: "Caractériser des produits", objectifs: "Décrire un objet ou un vêtement, Demander des précisions sur un objet, Désigner des objets", heures: 5 },
-          { id: "A2_U6_L23", niveau: "A2", unite: 6, lesson: 23, titre: "Parler de sa consommation", objectifs: "Faire les courses, Parler de ses habitudes d’achats (2), Indiquer des quantités", heures: 4 },
-          { id: "A2_U7_L25", niveau: "A2", unite: 7, lesson: 25, titre: "S’informer", objectifs: "Réagir à une information, Mettre en valeur une information, Dire comment on s’informe", heures: 4 },
-          { id: "A2_U7_L26", niveau: "A2", unite: 7, lesson: 26, titre: "Présenter un problème et proposer des solutions", objectifs: "Interagir, Parler de ses habitudes culturelles", heures: 5 },
-          { id: "A2_U7_L27", niveau: "A2", unite: 7, lesson: 27, titre: "Donner son avis", objectifs: "Présenter le programme d’un événement, Faire une appréciation, Exprimer une contradiction", heures: 5 },
-          { id: "A2_U8_L29", niveau: "A2", unite: 8, lesson: 29, titre: "Faire la promotion d’un voyage", objectifs: "Décrire un voyage, Donner son avis sur un voyage, Dire comment on voyage", heures: 4 },
-          { id: "A2_U8_L30", niveau: "A2", unite: 8, lesson: 30, titre: "Décrire un projet de voyage", objectifs: "Indiquer un programme, Rapporter des paroles", heures: 4 },
-          { id: "A2_U8_L31", niveau: "A2", unite: 8, lesson: 31, titre: "Raconter une expérience de vie à l’étranger", objectifs: "Raconter au passé, Parler d’un livre", heures: 5 },
-          { id: "B1_U1_L1", niveau: "B1", unite: 1, lesson: 1, titre: "Parler de soi", objectifs: "Se présenter, Parler de son caractère et de ses goûts, Parler de ses activités", heures: 5 },
-          { id: "B1_U1_L2", niveau: "B1", unite: 1, lesson: 2, titre: "Comprendre les autres", objectifs: "Comparer des générations, Donner des conseils, Faire des prévisions", heures: 5 },
-          { id: "B1_U1_L3", niveau: "B1", unite: 1, lesson: 3, titre: "Expliquer des différences culturelles", objectifs: "Identifier des différences culturelles, Donner des explications", heures: 5 },
-          { id: "B1_U2_L5", niveau: "B1", unite: 2, lesson: 5, titre: "Raconter un engagement", objectifs: "Exprimer une opposition, Faire un test, Raconter un fait d’actualité, Faire un récit au passé", heures: 5 },
-          { id: "B1_U2_L6", niveau: "B1", unite: 2, lesson: 6, titre: "Donner son avis", objectifs: "Mettre en valeur une information, Parler de son parcours professionnel, Exprimer une opinion (1)", heures: 5 },
-          { id: "B1_U2_L7", niveau: "B1", unite: 2, lesson: 7, titre: "Parler des inégalités", objectifs: "Commenter un sondage, Nuancer un propos", heures: 5 },
-          { id: "B1_U3_L9", niveau: "B1", unite: 3, lesson: 9, titre: "Donner des renseignements", objectifs: "Exprimer une obligation, Parler d’un service en ligne", heures: 4 },
-          { id: "B1_U3_L10", niveau: "B1", unite: 3, lesson: 10, titre: "Organiser une activité à distance", objectifs: "Faire des recommandations, Faire des hypothèses (1), Exprimer un souhait", heures: 4 },
-          { id: "B1_U3_L11", niveau: "B1", unite: 3, lesson: 11, titre: "Parler de ses expériences", objectifs: "Décrire un problème, Exprimer un jugement", heures: 5 },
-          { id: "B1_U4_L13", niveau: "B1", unite: 4, lesson: 13, titre: "S’informer sur les loisirs", objectifs: "Parler des pratiques de loisirs, Faire des prévisions (1), Répondre à un sondage, Faire des hypothèses (2)", heures: 5 },
-          { id: "B1_U4_L14", niveau: "B1", unite: 4, lesson: 14, titre: "Découvrir un fait de société", objectifs: "Poser des questions, Expliquer une pratique sociale, Demander des renseignements", heures: 4 },
-          { id: "B1_U4_L15", niveau: "B1", unite: 4, lesson: 15, titre: "Imaginer", objectifs: "Rédiger un court texte de fiction, Parler du temps libre", heures: 4 },
-          { id: "B1_U5_L17", niveau: "B1", unite: 5, lesson: 17, titre: "Proposer un projet", objectifs: "Parler de la ville, Donner des précisions sur une action, Situer dans l’espace", heures: 5 },
+          { id: 'A2_U1_L2', niveau: 'A2', unite: 1, lesson: 2, titre: 'Faire connaissance', objectifs: 'Parler des relations sociales', heures: 4 },
+          { id: 'A2_U1_L3', niveau: 'A2', unite: 1, lesson: 3, titre: 'Faire des prévisions', objectifs: 'Parler du futur, Situer une action dans le futur', heures: 4 },
+          { id: 'A2_U2_L5', niveau: 'A2', unite: 2, lesson: 5, titre: 'Parler des relations familiales', objectifs: 'Décrire la famille, Expliquer des liens familiaux, Caractériser une relation familiale', heures: 5 },
+          { id: 'A2_U2_L6', niveau: 'A2', unite: 2, lesson: 6, titre: 'Décrire le passé', objectifs: 'Décrire l’apparence, le caractère, les habitudes, Situer dans le passé, Parler de son enfance', heures: 5 },
+          { id: 'A2_U2_L7', niveau: 'A2', unite: 2, lesson: 7, titre: 'Raconter une rencontre', objectifs: 'Raconter des actions ponctuelles, Décrire un contexte, Parler des sentiments, Situer dans le temps (1)', heures: 5 },
+          { id: 'A2_U3_L9', niveau: 'A2', unite: 3, lesson: 9, titre: 'Parler de son lieu de vie', objectifs: 'Parler de la ville, Caractériser un lieu de vie, Parler de ses habitudes d’achats (1), Indiquer ses impressions', heures: 4 },
+          { id: 'A2_U3_L10', niveau: 'A2', unite: 3, lesson: 10, titre: 'Comparer des lieux de vie', objectifs: 'Décrire un lieu de vie, Parler de son quotidien (1), Indiquer ses préférences, Parler d’un phénomène urbain', heures: 5 },
+          { id: 'A2_U3_L11', niveau: 'A2', unite: 3, lesson: 11, titre: 'Décrire une expérience à l’étranger', objectifs: 'Décrire un pays, Parler de son quotidien (2), Raconter une anecdote', heures: 5 },
+          { id: 'A2_U4_L13', niveau: 'A2', unite: 4, lesson: 13, titre: 'Demander de l’aide', objectifs: 'Exprimer un désir, Demander poliment, Communiquer au téléphone, Parler des tâches ménagères', heures: 4 },
+          { id: 'A2_U4_L14', niveau: 'A2', unite: 4, lesson: 14, titre: 'Conseiller', objectifs: 'Donner des conseils, Faire des propositions, Faire des suggestions, Exprimer une obligation', heures: 5 },
+          { id: 'A2_U4_L15', niveau: 'A2', unite: 4, lesson: 15, titre: 'Parler de travail', objectifs: 'Exprimer un souhait, Exprimer un espoir, Faire une hypothèse', heures: 5 },
+          { id: 'A2_U5_L17', niveau: 'A2', unite: 5, lesson: 17, titre: 'Écrire une biographie', objectifs: 'Donner des informations biographiques, Situer dans le temps (2)', heures: 4 },
+          { id: 'A2_U5_L18', niveau: 'A2', unite: 5, lesson: 18, titre: 'Raconter une expérience exceptionnelle', objectifs: 'Exprimer la manière et l’intensité, Montrer le caractère exceptionnel d’un événement', heures: 5 },
+          { id: 'A2_U5_L19', niveau: 'A2', unite: 5, lesson: 19, titre: 'Décrire un projet de vie', objectifs: 'Indiquer la chronologie, Exprimer l’insatisfaction', heures: 5 },
+          { id: 'A2_U6_L21', niveau: 'A2', unite: 6, lesson: 21, titre: 'S’engager', objectifs: 'Expliquer, Justifier un engagement', heures: 4 },
+          { id: 'A2_U6_L22', niveau: 'A2', unite: 6, lesson: 22, titre: 'Caractériser des produits', objectifs: 'Décrire un objet ou un vêtement, Demander des précisions sur un objet, Désigner des objets', heures: 5 },
+          { id: 'A2_U6_L23', niveau: 'A2', unite: 6, lesson: 23, titre: 'Parler de sa consommation', objectifs: 'Faire les courses, Parler de ses habitudes d’achats (2), Indiquer des quantités', heures: 4 },
+          { id: 'A2_U7_L25', niveau: 'A2', unite: 7, lesson: 25, titre: 'S’informer', objectifs: 'Réagir à une information, Mettre en valeur une information, Dire comment on s’informe', heures: 4 },
+          { id: 'A2_U7_L26', niveau: 'A2', unite: 7, lesson: 26, titre: 'Présenter un problème et proposer des solutions', objectifs: 'Interagir, Parler de ses habitudes culturelles', heures: 5 },
+          { id: 'A2_U7_L27', niveau: 'A2', unite: 7, lesson: 27, titre: 'Donner son avis', objectifs: 'Présenter le programme d’un événement, Faire une appréciation, Exprimer une contradiction', heures: 5 },
+          { id: 'A2_U8_L29', niveau: 'A2', unite: 8, lesson: 29, titre: 'Faire la promotion d’un voyage', objectifs: 'Décrire un voyage, Donner son avis sur un voyage, Dire comment on voyage', heures: 4 },
+          { id: 'A2_U8_L30', niveau: 'A2', unite: 8, lesson: 30, titre: 'Décrire un projet de voyage', objectifs: 'Indiquer un programme, Rapporter des paroles', heures: 4 },
+          { id: 'A2_U8_L31', niveau: 'A2', unite: 8, lesson: 31, titre: 'Raconter une expérience de vie à l’étranger', objectifs: 'Raconter au passé, Parler d’un livre', heures: 5 },
+          { id: 'B1_U1_L1', niveau: 'B1', unite: 1, lesson: 1, titre: 'Parler de soi', objectifs: 'Se présenter, Parler de son caractère et de ses goûts, Parler de ses activités', heures: 5 },
+          { id: 'B1_U1_L2', niveau: 'B1', unite: 1, lesson: 2, titre: 'Comprendre les autres', objectifs: 'Comparer des générations, Donner des conseils, Faire des prévisions', heures: 5 },
+          { id: 'B1_U1_L3', niveau: 'B1', unite: 1, lesson: 3, titre: 'Expliquer des différences culturelles', objectifs: 'Identifier des différences culturelles, Donner des explications', heures: 5 },
+          { id: 'B1_U2_L5', niveau: 'B1', unite: 2, lesson: 5, titre: 'Raconter un engagement', objectifs: 'Exprimer une opposition, Faire un test, Raconter un fait d’actualité, Faire un récit au passé', heures: 5 },
+          { id: 'B1_U2_L6', niveau: 'B1', unite: 2, lesson: 6, titre: 'Donner son avis', objectifs: 'Mettre en valeur une information, Parler de son parcours professionnel, Exprimer une opinion (1)', heures: 5 },
+          { id: 'B1_U2_L7', niveau: 'B1', unite: 2, lesson: 7, titre: 'Parler des inégalités', objectifs: 'Commenter un sondage, Nuancer un propos', heures: 5 },
+          { id: 'B1_U3_L9', niveau: 'B1', unite: 3, lesson: 9, titre: 'Donner des renseignements', objectifs: 'Exprimer une obligation, Parler d’un service en ligne', heures: 4 },
+          { id: 'B1_U3_L10', niveau: 'B1', unite: 3, lesson: 10, titre: 'Organiser une activité à distance', objectifs: 'Faire des recommandations, Faire des hypothèses (1), Exprimer un souhait', heures: 4 },
+          { id: 'B1_U3_L11', niveau: 'B1', unite: 3, lesson: 11, titre: 'Parler de ses expériences', objectifs: 'Décrire un problème, Exprimer un jugement', heures: 5 },
+          { id: 'B1_U4_L13', niveau: 'B1', unite: 4, lesson: 13, titre: 'S’informer sur les loisirs', objectifs: 'Parler des pratiques de loisirs, Faire des prévisions (1), Répondre à un sondage, Faire des hypothèses (2)', heures: 5 },
+          { id: 'B1_U4_L14', niveau: 'B1', unite: 4, lesson: 14, titre: 'Découvrir un fait de société', objectifs: 'Poser des questions, Expliquer une pratique sociale, Demander des renseignements', heures: 4 },
+          { id: 'B1_U4_L15', niveau: 'B1', unite: 4, lesson: 15, titre: 'Imaginer', objectifs: 'Rédiger un court texte de fiction, Parler du temps libre', heures: 4 },
+          { id: 'B1_U5_L17', niveau: 'B1', unite: 5, lesson: 17, titre: 'Proposer un projet', objectifs: 'Parler de la ville, Donner des précisions sur une action, Situer dans l’espace', heures: 5 },
           {
-            id: "B1_U5_L18",
-            niveau: "B1",
+            id: 'B1_U5_L18',
+            niveau: 'B1',
             unite: 5,
             lesson: 18,
-            titre: "Faire visiter un lieu",
-            objectifs: "Décrire les transformations d’une ville, Situer dans le temps, Organiser une visite guidée, Faire un commentaire sur un roman",
+            titre: 'Faire visiter un lieu',
+            objectifs: 'Décrire les transformations d’une ville, Situer dans le temps, Organiser une visite guidée, Faire un commentaire sur un roman',
             heures: 5,
           },
-          { id: "B1_U5_L19", niveau: "B1", unite: 5, lesson: 19, titre: "Parler de son lieu de vie", objectifs: "Décrire un logement, Parler des améliorations du cadre de vie", heures: 5 },
-          { id: "B1_U6_L21", niveau: "B1", unite: 6, lesson: 21, titre: "Parler d’une œuvre d’art", objectifs: "Décrire une œuvre d’art, Donner une appréciation", heures: 4 },
-          { id: "B1_U6_L22", niveau: "B1", unite: 6, lesson: 22, titre: "Nuancer un avis", objectifs: "Expliquer le travail d’un artiste, Exprimer une utilité, Exprimer une contradiction, Exprimer une opinion (2)", heures: 5 },
-          { id: "B1_U6_L23", niveau: "B1", unite: 6, lesson: 23, titre: "Échanger sur le rôle de l’art", objectifs: "Expliquer les bienfaits d’un art, Organiser son discours", heures: 4 },
-          { id: "B1_U7_L25", niveau: "B1", unite: 7, lesson: 25, titre: "Parler des métiers de l’information", objectifs: "Caractériser et décrire une profession, Exprimer un objectif, Animer un débat", heures: 5 },
-          { id: "B1_U7_L26", niveau: "B1", unite: 7, lesson: 26, titre: "Transmettre des informations", objectifs: "Alerter sur les risques d’une pratique, Rapporter des propos", heures: 5 },
-          { id: "B1_U7_L27", niveau: "B1", unite: 7, lesson: 27, titre: "S’interroger sur l’information", objectifs: "Réagir à une affirmation, Parler des médias, Exprimer une information non vérifiée", heures: 5 },
-          { id: "B1_U8_L29", niveau: "B1", unite: 8, lesson: 29, titre: "Parler des changements climatiques", objectifs: "Exprimer des regrets, Faire des reproches, Faire des hypothèses (3)", heures: 5 },
-          { id: "B1_U8_L30", niveau: "B1", unite: 8, lesson: 30, titre: "Prendre position sur les droits des animaux", objectifs: "Comprendre des articles de loi, Exprimer un doute, Participer à un débat", heures: 4 },
-          { id: "B1_U8_L31", niveau: "B1", unite: 8, lesson: 31, titre: "Agir pour l’avenir", objectifs: "Faire une proposition, Comprendre le registre familier", heures: 4 },
-          { id: "B1_U9_L33", niveau: "B1", unite: 9, lesson: 33, titre: "Raconter une expérience", objectifs: "Raconter au passé, Expliquer une motivation", heures: 4 },
-          { id: "B1_U9_L34", niveau: "B1", unite: 9, lesson: 34, titre: "Parler du tourisme", objectifs: "Décrire une tendance, Faire des prévisions (2)", heures: 5 },
-          { id: "B1_U9_L35", niveau: "B1", unite: 9, lesson: 35, titre: "Réfléchir au voyage", objectifs: "Exprimer des sentiments, Comprendre un texte poétique, Échanger sur le voyage", heures: 5 },
+          { id: 'B1_U5_L19', niveau: 'B1', unite: 5, lesson: 19, titre: 'Parler de son lieu de vie', objectifs: 'Décrire un logement, Parler des améliorations du cadre de vie', heures: 5 },
+          { id: 'B1_U6_L21', niveau: 'B1', unite: 6, lesson: 21, titre: 'Parler d’une œuvre d’art', objectifs: 'Décrire une œuvre d’art, Donner une appréciation', heures: 4 },
+          { id: 'B1_U6_L22', niveau: 'B1', unite: 6, lesson: 22, titre: 'Nuancer un avis', objectifs: 'Expliquer le travail d’un artiste, Exprimer une utilité, Exprimer une contradiction, Exprimer une opinion (2)', heures: 5 },
+          { id: 'B1_U6_L23', niveau: 'B1', unite: 6, lesson: 23, titre: 'Échanger sur le rôle de l’art', objectifs: 'Expliquer les bienfaits d’un art, Organiser son discours', heures: 4 },
+          { id: 'B1_U7_L25', niveau: 'B1', unite: 7, lesson: 25, titre: 'Parler des métiers de l’information', objectifs: 'Caractériser et décrire une profession, Exprimer un objectif, Animer un débat', heures: 5 },
+          { id: 'B1_U7_L26', niveau: 'B1', unite: 7, lesson: 26, titre: 'Transmettre des informations', objectifs: 'Alerter sur les risques d’une pratique, Rapporter des propos', heures: 5 },
+          { id: 'B1_U7_L27', niveau: 'B1', unite: 7, lesson: 27, titre: 'S’interroger sur l’information', objectifs: 'Réagir à une affirmation, Parler des médias, Exprimer une information non vérifiée', heures: 5 },
+          { id: 'B1_U8_L29', niveau: 'B1', unite: 8, lesson: 29, titre: 'Parler des changements climatiques', objectifs: 'Exprimer des regrets, Faire des reproches, Faire des hypothèses (3)', heures: 5 },
+          { id: 'B1_U8_L30', niveau: 'B1', unite: 8, lesson: 30, titre: 'Prendre position sur les droits des animaux', objectifs: 'Comprendre des articles de loi, Exprimer un doute, Participer à un débat', heures: 4 },
+          { id: 'B1_U8_L31', niveau: 'B1', unite: 8, lesson: 31, titre: 'Agir pour l’avenir', objectifs: 'Faire une proposition, Comprendre le registre familier', heures: 4 },
+          { id: 'B1_U9_L33', niveau: 'B1', unite: 9, lesson: 33, titre: 'Raconter une expérience', objectifs: 'Raconter au passé, Expliquer une motivation', heures: 4 },
+          { id: 'B1_U9_L34', niveau: 'B1', unite: 9, lesson: 34, titre: 'Parler du tourisme', objectifs: 'Décrire une tendance, Faire des prévisions (2)', heures: 5 },
+          { id: 'B1_U9_L35', niveau: 'B1', unite: 9, lesson: 35, titre: 'Réfléchir au voyage', objectifs: 'Exprimer des sentiments, Comprendre un texte poétique, Échanger sur le voyage', heures: 5 },
         ];
 
-        const library = document.getElementById("lesson-library");
-        const levelsContainer = document.getElementById("levels-container");
-        const newLessonForm = document.getElementById("new-lesson-form");
-        const showFormBtn = document.getElementById("show-form-btn");
-        const searchFilterInput = document.getElementById("search-filter");
+        const library = document.getElementById('lesson-library');
+        const levelsContainer = document.getElementById('levels-container');
+        const newLessonForm = document.getElementById('new-lesson-form');
+        const showFormBtn = document.getElementById('show-form-btn');
+        const searchFilterInput = document.getElementById('search-filter');
 
         const MAX_HOURS_PER_LEVEL = 160;
         const MAX_PRIORITY_PER_LEVEL = 6;
 
-        const levelLabels = { 1: "A1.1", 2: "A1.2", 3: "A2.1", 4: "A2.2", 5: "B1.1", 6: "B1.2", 7: "B1.3", 8: "B1.4" };
+        const levelLabels = { 1: 'A1.1', 2: 'A1.2', 3: 'A2.1', 4: 'A2.2', 5: 'B1.1', 6: 'B1.2', 7: 'B1.3', 8: 'B1.4' };
         const levelColors = {
-          A1: { border: "border-sky-400", bg: "bg-sky-50", text: "text-sky-800" },
-          A2: { border: "border-green-400", bg: "bg-green-50", text: "text-green-800" },
-          B1: { border: "border-purple-400", bg: "bg-purple-50", text: "text-purple-800" },
+          A1: { border: 'border-sky-400', bg: 'bg-sky-50', text: 'text-sky-800' },
+          A2: { border: 'border-green-400', bg: 'bg-green-50', text: 'text-green-800' },
+          B1: { border: 'border-purple-400', bg: 'bg-purple-50', text: 'text-purple-800' },
         };
 
         const createLessonBlock = (lesson, isPriority = false) => {
-          const colors = levelColors[lesson.niveau] || { border: "border-gray-400", bg: "bg-gray-50", text: "text-gray-800" };
-          const div = document.createElement("div");
+          const colors = levelColors[lesson.niveau] || { border: 'border-gray-400', bg: 'bg-gray-50', text: 'text-gray-800' };
+          const div = document.createElement('div');
           div.className = `lesson-block p-3 rounded-lg border ${colors.border} ${colors.bg} shadow-sm flex flex-col`;
-          div.setAttribute("draggable", true);
+          div.setAttribute('draggable', true);
           div.dataset.id = lesson.id;
           div.dataset.heures = lesson.heures;
           div.dataset.niveau = lesson.niveau;
           div.dataset.objectifs = lesson.objectifs;
           div.dataset.priority = isPriority;
-          if (isPriority) div.classList.add("priority");
+          if (isPriority) div.classList.add('priority');
 
           div.innerHTML = `
                     <div class="flex justify-between items-start w-full">
@@ -295,14 +295,14 @@
                     </div>
                     <p class="text-xs text-gray-500 mt-2 italic">${lesson.objectifs}</p>
                 `;
-          div.addEventListener("dragstart", handleDragStart);
-          div.querySelector(".priority-toggle").addEventListener("click", togglePriority);
+          div.addEventListener('dragstart', handleDragStart);
+          div.querySelector('.priority-toggle').addEventListener('click', togglePriority);
           return div;
         };
 
         const createLevelContainer = (levelNumber) => {
-          const div = document.createElement("div");
-          div.className = "level-container bg-amber-100/60 p-4 rounded-xl border border-amber-200 flex flex-col min-h-[200px]";
+          const div = document.createElement('div');
+          div.className = 'level-container bg-amber-100/60 p-4 rounded-xl border border-amber-200 flex flex-col min-h-[200px]';
           div.dataset.level = levelNumber;
 
           div.innerHTML = `
@@ -316,37 +316,37 @@
                     <div id="level-content-${levelNumber}" class="flex-grow space-y-2"></div>
                 `;
 
-          div.addEventListener("dragover", handleDragOver);
-          div.addEventListener("dragleave", handleDragLeave);
-          div.addEventListener("drop", handleDrop);
+          div.addEventListener('dragover', handleDragOver);
+          div.addEventListener('dragleave', handleDragLeave);
+          div.addEventListener('drop', handleDrop);
           return div;
         };
 
         const handleFilterAndSearch = () => {
-          const filterValue = document.querySelector(".filter-btn.active-filter").dataset.filter;
+          const filterValue = document.querySelector('.filter-btn.active-filter').dataset.filter;
           const searchValue = searchFilterInput.value.toLowerCase();
 
-          const allBlocksInLibrary = library.querySelectorAll(".lesson-block");
+          const allBlocksInLibrary = library.querySelectorAll('.lesson-block');
           allBlocksInLibrary.forEach((block) => {
-            const levelMatch = filterValue === "all" || block.dataset.niveau === filterValue;
-            const titleMatch = block.querySelector(".font-bold").textContent.toLowerCase().includes(searchValue);
+            const levelMatch = filterValue === 'all' || block.dataset.niveau === filterValue;
+            const titleMatch = block.querySelector('.font-bold').textContent.toLowerCase().includes(searchValue);
             const objectifsMatch = block.dataset.objectifs.toLowerCase().includes(searchValue);
 
             if (levelMatch && (titleMatch || objectifsMatch)) {
-              block.style.display = "flex";
+              block.style.display = 'flex';
             } else {
-              block.style.display = "none";
+              block.style.display = 'none';
             }
           });
         };
 
         function togglePriority(e) {
           e.stopPropagation();
-          const lessonBlock = e.currentTarget.closest(".lesson-block");
-          const isPriority = lessonBlock.dataset.priority === "true";
+          const lessonBlock = e.currentTarget.closest('.lesson-block');
+          const isPriority = lessonBlock.dataset.priority === 'true';
 
           const levelContent = lessonBlock.parentElement;
-          if (levelContent.id.startsWith("level-content-")) {
+          if (levelContent.id.startsWith('level-content-')) {
             const priorityCount = levelContent.querySelectorAll('.lesson-block[data-priority="true"]').length;
             if (!isPriority && priorityCount >= MAX_PRIORITY_PER_LEVEL) {
               alert(`Vous ne pouvez pas avoir plus de ${MAX_PRIORITY_PER_LEVEL} leçons prioritaires par niveau.`);
@@ -355,44 +355,44 @@
           }
 
           lessonBlock.dataset.priority = !isPriority;
-          lessonBlock.classList.toggle("priority");
+          lessonBlock.classList.toggle('priority');
           saveState();
         }
 
         function handleDragStart(e) {
-          e.dataTransfer.setData("text/plain", e.target.dataset.id);
-          setTimeout(() => e.target.classList.add("dragging"), 0);
+          e.dataTransfer.setData('text/plain', e.target.dataset.id);
+          setTimeout(() => e.target.classList.add('dragging'), 0);
         }
 
         function handleDragEnd(e) {
-          e.target.classList.remove("dragging");
+          e.target.classList.remove('dragging');
         }
 
         function handleDragOver(e) {
           e.preventDefault();
           const target = e.currentTarget;
-          if (target.classList.contains("level-container") || target.id === "lesson-library") {
-            target.classList.add("drag-over");
+          if (target.classList.contains('level-container') || target.id === 'lesson-library') {
+            target.classList.add('drag-over');
           }
         }
 
         function handleDragLeave(e) {
-          e.currentTarget.classList.remove("drag-over");
+          e.currentTarget.classList.remove('drag-over');
         }
 
         function handleDrop(e) {
           e.preventDefault();
           const target = e.currentTarget;
-          target.classList.remove("drag-over");
-          const id = e.dataTransfer.getData("text/plain");
+          target.classList.remove('drag-over');
+          const id = e.dataTransfer.getData('text/plain');
           const draggableElement = document.querySelector(`.lesson-block[data-id='${id}']`);
 
           if (draggableElement) {
-            const dropZone = target.id === "lesson-library" ? library : target.querySelector('[id^="level-content-"]');
+            const dropZone = target.id === 'lesson-library' ? library : target.querySelector('[id^="level-content-"]');
             if (dropZone) {
               dropZone.appendChild(draggableElement);
             }
-            draggableElement.classList.remove("dragging");
+            draggableElement.classList.remove('dragging');
             updateAllLevels();
             saveState();
           }
@@ -401,7 +401,7 @@
         function updateLevelHours(levelNumber) {
           const levelContent = document.getElementById(`level-content-${levelNumber}`);
           if (!levelContent) return;
-          const blocks = levelContent.querySelectorAll(".lesson-block");
+          const blocks = levelContent.querySelectorAll('.lesson-block');
           let totalHours = 0;
           blocks.forEach((block) => (totalHours += parseInt(block.dataset.heures)));
 
@@ -413,13 +413,13 @@
           progressBar.style.width = `${percentage}%`;
 
           if (totalHours > MAX_HOURS_PER_LEVEL) {
-            progressBar.classList.remove("bg-sky-500");
-            progressBar.classList.add("bg-red-500");
-            hoursDisplay.classList.add("text-red-600", "font-bold");
+            progressBar.classList.remove('bg-sky-500');
+            progressBar.classList.add('bg-red-500');
+            hoursDisplay.classList.add('text-red-600', 'font-bold');
           } else {
-            progressBar.classList.remove("bg-red-500");
-            progressBar.classList.add("bg-sky-500");
-            hoursDisplay.classList.remove("text-red-600", "font-bold");
+            progressBar.classList.remove('bg-red-500');
+            progressBar.classList.add('bg-sky-500');
+            hoursDisplay.classList.remove('text-red-600', 'font-bold');
           }
         }
 
@@ -433,23 +433,23 @@
           const state = {
             levels: {},
             library: [],
-            customLessons: lessonData.filter((l) => l.id.startsWith("custom_")),
+            customLessons: lessonData.filter((l) => l.id.startsWith('custom_')),
           };
 
           for (let i = 1; i <= 8; i++) {
             const levelContent = document.getElementById(`level-content-${i}`);
-            state.levels[i] = Array.from(levelContent.querySelectorAll(".lesson-block")).map((block) => ({
+            state.levels[i] = Array.from(levelContent.querySelectorAll('.lesson-block')).map((block) => ({
               id: block.dataset.id,
-              priority: block.dataset.priority === "true",
+              priority: block.dataset.priority === 'true',
             }));
           }
 
-          state.library = Array.from(library.querySelectorAll(".lesson-block")).map((block) => ({ id: block.dataset.id }));
-          localStorage.setItem("cursusPlannerState", JSON.stringify(state));
+          state.library = Array.from(library.querySelectorAll('.lesson-block')).map((block) => ({ id: block.dataset.id }));
+          localStorage.setItem('cursusPlannerState', JSON.stringify(state));
         }
 
         function loadState() {
-          const savedState = localStorage.getItem("cursusPlannerState");
+          const savedState = localStorage.getItem('cursusPlannerState');
           if (!savedState) return;
 
           const state = JSON.parse(savedState);
@@ -459,7 +459,7 @@
           }
 
           const allLessonElements = {};
-          document.querySelectorAll(".lesson-block").forEach((block) => {
+          document.querySelectorAll('.lesson-block').forEach((block) => {
             allLessonElements[block.dataset.id] = block;
           });
 
@@ -469,8 +469,8 @@
               const lessonBlock = allLessonElements[lessonInfo.id];
               if (lessonBlock) {
                 if (lessonInfo.priority) {
-                  lessonBlock.dataset.priority = "true";
-                  lessonBlock.classList.add("priority");
+                  lessonBlock.dataset.priority = 'true';
+                  lessonBlock.classList.add('priority');
                 }
                 levelContent.appendChild(lessonBlock);
               }
@@ -482,62 +482,62 @@
 
         function initializeApp() {
           populateLevels();
-          const savedLessons = JSON.parse(localStorage.getItem("cursusPlannerState"))?.customLessons || [];
+          const savedLessons = JSON.parse(localStorage.getItem('cursusPlannerState'))?.customLessons || [];
           lessonData.push(...savedLessons.filter((sl) => !lessonData.find((ld) => ld.id === sl.id)));
 
-          library.innerHTML = "";
+          library.innerHTML = '';
           lessonData.forEach((lesson) => library.appendChild(createLessonBlock(lesson, false)));
 
           loadState();
         }
 
-        showFormBtn.addEventListener("click", () => {
-          newLessonForm.style.display = "block";
-          showFormBtn.style.display = "none";
+        showFormBtn.addEventListener('click', () => {
+          newLessonForm.style.display = 'block';
+          showFormBtn.style.display = 'none';
         });
-        document.getElementById("cancel-lesson-btn").addEventListener("click", () => {
-          newLessonForm.style.display = "none";
-          showFormBtn.style.display = "block";
+        document.getElementById('cancel-lesson-btn').addEventListener('click', () => {
+          newLessonForm.style.display = 'none';
+          showFormBtn.style.display = 'block';
           newLessonForm.reset();
         });
 
-        newLessonForm.addEventListener("submit", (e) => {
+        newLessonForm.addEventListener('submit', (e) => {
           e.preventDefault();
           const newLesson = {
             id: `custom_${Date.now()}`,
-            titre: document.getElementById("new-title").value,
-            objectifs: document.getElementById("new-objectifs").value,
-            niveau: document.getElementById("new-niveau").value,
-            unite: parseInt(document.getElementById("new-unite").value),
-            heures: parseInt(document.getElementById("new-heures").value),
+            titre: document.getElementById('new-title').value,
+            objectifs: document.getElementById('new-objectifs').value,
+            niveau: document.getElementById('new-niveau').value,
+            unite: parseInt(document.getElementById('new-unite').value),
+            heures: parseInt(document.getElementById('new-heures').value),
           };
           if (!newLesson.titre || !newLesson.objectifs || !newLesson.unite || !newLesson.heures) {
-            alert("Veuillez remplir tous les champs.");
+            alert('Veuillez remplir tous les champs.');
             return;
           }
           lessonData.push(newLesson);
           library.appendChild(createLessonBlock(newLesson));
           newLessonForm.reset();
-          newLessonForm.style.display = "none";
-          showFormBtn.style.display = "block";
+          newLessonForm.style.display = 'none';
+          showFormBtn.style.display = 'block';
           saveState();
         });
 
-        document.querySelectorAll(".filter-btn").forEach((btn) =>
-          btn.addEventListener("click", (e) => {
-            document.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("active-filter", "bg-sky-600", "text-white"));
-            e.target.classList.add("active-filter", "bg-sky-600", "text-white");
+        document.querySelectorAll('.filter-btn').forEach((btn) =>
+          btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.filter-btn').forEach((b) => b.classList.remove('active-filter', 'bg-sky-600', 'text-white'));
+            e.target.classList.add('active-filter', 'bg-sky-600', 'text-white');
             handleFilterAndSearch();
           })
         );
 
-        searchFilterInput.addEventListener("input", handleFilterAndSearch);
-        document.getElementById("export-pdf-btn").addEventListener("click", () => window.print());
-        document.body.addEventListener("dragend", handleDragEnd);
+        searchFilterInput.addEventListener('input', handleFilterAndSearch);
+        document.getElementById('export-pdf-btn').addEventListener('click', () => window.print());
+        document.body.addEventListener('dragend', handleDragEnd);
 
-        library.addEventListener("dragover", handleDragOver);
-        library.addEventListener("dragleave", handleDragLeave);
-        library.addEventListener("drop", handleDrop);
+        library.addEventListener('dragover', handleDragOver);
+        library.addEventListener('dragleave', handleDragLeave);
+        library.addEventListener('drop', handleDrop);
 
         initializeApp();
       });
