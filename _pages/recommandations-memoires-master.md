@@ -4,7 +4,7 @@ permalink: /memoire/
 title: Recommandations pour mémoires de master
 description: Ces quelques notes sont destinées aux étudiantes et étudiants de l'UCLouvain qui réalisent leur mémoire sous ma (co-)direction, en particulier dans le cadre des masters en français langue étrangère (FLE), langue et littératures françaises et romanes (ROM), linguistique (LING), y compris en traitement automatique du langage (TAL) et en sciences de l'éducation (FOPA).
 nav: false
-nav_order: 7
+nav_order: 8
 ---
 
 ## Sujets et intérêts de recherche
@@ -16,20 +16,19 @@ Voir prioritairement les sujets que je propose sur [OSIS](https://studies.uclouv
 Vous êtes responsable de la planification de votre travail. J'apprécie d'avoir régulièrement de vos nouvelles.
 
 - Vous pouvez m'envoyer rapidement un premier jet, même court (1-2 pages), pour avoir un premier retour sur votre écriture. Je préfère voir rapidement votre travail, même s'il n'est pas terminé ou si vous n'êtes pas encore tout à fait satisfait.
-- N'hésitez pas à m'envoyer une proposition de structure (plan) de votre mémoire, ou seulement de votre cadre théorique p.ex. (liste de sections et sous-sections, idéalement avec des références qui indiquent les auteurs ou textes que vous allez mobiliser dans chacune).
+- N'hésitez pas à m'envoyer une proposition de structure (plan) de votre mémoire, ou seulement de votre cadre théorique p. ex. (liste de sections et sous-sections, idéalement avec des références qui indiquent les auteurs ou textes que vous allez mobiliser dans chacune).
+- Prenez rendez-vous avec moi régulièrement et suffisamment à l'avance via [mon agenda en ligne](https://serge.bibauw.be/rdv) et envoyez-moi quelques jours avant une version de votre texte ou de vos idées.
 
 ## Planification et dates limites
 
 - Préparez un [rétroplanning](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/) (voir aussi [planification de mémoire par UniverSanté](https://memoredaction.com/memoire/retroplanning-et-calendrier-travail/)).
-- **Deadline pour la remise** pour relecture
+- **Deadline pour dernière relecture** avant remise : date limite pour m'envoyer votre mémoire et avoir un retour de ma part.
   - Si défense en juin :
-    - Dernière remise pour avoir un retour de ma part : **15 avril**
-      - pour commentaires pour le 20 avril
+    - **15 avril** (vous aurez mes commentaires pour le 20 avril)
   - Si défense en aout :
-    - Dernière remise pour avoir un retour de ma part : **10 juillet**
-      - pour commentaires pour le 15 juillet
+    - **10 juillet** (vous aurez mes commentaires pour le 15 juillet)
 - Le mémoire doit absolument être remis sur DIAL _dans les temps_ (p.ex., 13 aout à 23h59)
-  - Aucune tolérance pour les retards ! Le mémoire sera refusé si remis après 23h59 !
+  - Aucune tolérance pour les retards en FIAL ! Le mémoire sera refusé si remis après 23h59 !
   - Donc prévoyez d'envoyer votre mémoire sur DIAL plusieurs jours à l'avance.
 
 ## Consignes, longueur, langue, IA
@@ -56,12 +55,17 @@ Ceci s'applique surtout aux masters ROM/FLE.
 - **vérification** : consulter les articles à la source, contrôler les citations et croiser les résultats de plusieurs outils pour limiter les biais ;
 - **traçabilité** : indiquer clairement quels outils ont été utilisés, à quelles étapes et avec quelles précautions. Cette transparence protège l’intégrité du travail et facilite l’accompagnement. » (Sandrine Decamps, 11 sept. 2025)
 
-### Plateformes d'aide à la rédaction du mémoire
+### Format
+
+- **Figures et tables** : insérer une légende (Word : `Insertion > Légende` / `Caption`) et y faire référence via l'outil de [référence croisée/renvoi](https://support.microsoft.com/fr-fr/office/cr%C3%A9er-un-renvoi-300b208c-e45a-487a-880b-a02767d9774b) (`Insertion > Référence croisée` / `Cross-reference`).
+- Insertion des **références** auteur-date (Dupont, 2020) via l'extension Zotero de Word. Insertion de la liste de références/bibliographie complète automatique.
+
+## Plateformes d'aide à la rédaction du mémoire
 
 - 👉 Moodle [REDAC "Planifier, mettre en texte et réviser"](https://moodle.uclouvain.be/course/view.php?id=6284), expliquant en détail les différentes étapes et donnant un grand nombre de conseils utiles à la rédaction et révision d'un mémoire.
 - Page [Mémoire et TFE en FIAL](https://www.uclouvain.be/fr/facultes/fial/memoire-tfe), y compris [Booster Mémoire](https://www.uclouvain.be/fr/facultes/fial/booster-memoire-2026)
 - Moodle [Mémoire FOPA](https://moodle.uclouvain.be/enrol/index.php?id=5213)
-- Page "[Aide à la réalisation du mémoire](https://www.uclouvain.be/fr/aide/aide-dans-la-realisation-du-memoire)" (Service d'aide)
+- Page [Aide à la réalisation du mémoire](https://www.uclouvain.be/fr/aide/aide-dans-la-realisation-du-memoire) (Service d'aide)
 
 ## Exemples de bons mémoires
 
