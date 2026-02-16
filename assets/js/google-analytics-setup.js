@@ -368,7 +368,7 @@ gtag("config", "");
 
       
       
-        Last updated: 14 February 2026.
+        Last updated: 16 February 2026.
       
     </div>
   </footer>

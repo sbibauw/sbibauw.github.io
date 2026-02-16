@@ -368,7 +368,7 @@ Sitemap: https://sbibauw.github.io/sitemap.xml
 
       
       
-        Last updated: 14 February 2026.
+        Last updated: 16 February 2026.
       
     </div>
   </footer>
