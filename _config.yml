@@ -73,6 +73,16 @@ serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# Performance Monitoring
+# -----------------------------------------------------------------------------
+performance_monitoring:
+  enabled: true
+  lighthouse_ci: true
+  speed_index_target: 1.5
+  largest_contentful_paint_target: 2.5
+  cumulative_layout_shift_target: 0.1
+
+# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
@@ -396,6 +406,7 @@ imagemagick:
     - 480
     - 800
     - 1000
+    - 1200
   input_directories:
     - assets/img/
   input_formats:
@@ -405,7 +416,7 @@ imagemagick:
     - ".tiff"
     - ".gif"
   output_formats:
-    webp: "-auto-orient -quality 85"
+    webp: "-auto-orient -quality 80 -resize 2000>"
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.

@@ -29,6 +29,51 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Mobile responsiveness improvements */
+@media (max-width: 767.98px) {
+  body {
+    padding-bottom: 60px;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Improve touch targets */
+  a,
+  button,
+  .btn,
+  input[type="submit"],
+  input[type="button"],
+  .nav-link {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 8px 12px;
+  }
+
+  /* Better mobile navigation */
+  .navbar-nav {
+    padding-bottom: 15px;
+  }
+
+  /* Prevent zoom on input focus */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Viewport meta tag improvements for mobile */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 // Profile
