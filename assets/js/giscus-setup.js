@@ -74,6 +74,39 @@
 
 
 
+<!-- SEO Enhancements -->
+<meta name="description" content="Assistant Professor of French Language Teaching">
+<link rel="canonical" href="https://sbibauw.github.io/assets/js/giscus-setup.js">
+
+<!-- OpenGraph enhancements -->
+<meta property="og:title" content="blank">
+<meta property="og:description" content="Assistant Professor of French Language Teaching">
+<meta property="og:url" content="https://sbibauw.github.io/assets/js/giscus-setup.js">
+<meta property="og:site_name" content="blank">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="blank">
+<meta name="twitter:description" content="Assistant Professor of French Language Teaching">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Serge Bibauw",
+  "url": "https://sbibauw.github.io",
+  "description": "Assistant Professor of French Language Teaching",
+  "sameAs": [
+    
+    
+    
+    
+  ]
+}
+</script>
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04">
 <link
@@ -327,7 +360,7 @@
 
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <main class="container mt-5">
       
         
 
@@ -404,7 +437,7 @@
 
       
       
-        Last updated: 16 February 2026.
+        Last updated:  9 March 2026.
       
     </div>
   </footer>
