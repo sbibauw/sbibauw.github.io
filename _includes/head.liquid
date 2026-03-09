@@ -19,19 +19,19 @@
 
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "{{ site.first_name }} {{ site.last_name }}",
-  "url": "{{ site.url }}",
-  "description": "{{ site.description }}",
-  "sameAs": [
-    {% if site.social.github %}"https://github.com/{{ site.social.github }}",{% endif %}
-    {% if site.social.linkedin %}"https://linkedin.com/in/{{ site.social.linkedin }}",{% endif %}
-    {% if site.social.twitter %}"https://twitter.com/{{ site.social.twitter }}",{% endif %}
-    {% if site.google_scholar_id %}"https://scholar.google.com/citations?user={{ site.google_scholar_id }}"{% endif %}
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.first_name }} {{ site.last_name }}",
+    "url": "{{ site.url }}",
+    "description": "{{ site.description }}",
+    "sameAs": [
+      {% if site.social.github %}"https://github.com/{{ site.social.github }}",{% endif %}
+      {% if site.social.linkedin %}"https://linkedin.com/in/{{ site.social.linkedin }}",{% endif %}
+      {% if site.social.twitter %}"https://twitter.com/{{ site.social.twitter }}",{% endif %}
+      {% if site.google_scholar_id %}"https://scholar.google.com/citations?user={{ site.google_scholar_id }}"{% endif %}
+    ]
+  }
 </script>
 
 <!-- Bootstrap & MDB -->
