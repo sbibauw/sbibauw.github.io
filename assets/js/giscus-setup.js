@@ -422,7 +422,7 @@
 </div>
 
       
-    </div>
+    </main>
 
     <!-- Footer -->
     

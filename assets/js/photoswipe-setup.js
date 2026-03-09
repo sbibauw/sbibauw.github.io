@@ -390,7 +390,7 @@ photoswipe.init();
 </div>
 
       
-    </div>
+    </main>
 
     <!-- Footer -->
     

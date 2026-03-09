@@ -386,7 +386,7 @@ Sitemap: https://sbibauw.github.io/sitemap.xml
 </div>
 
       
-    </div>
+    </main>
 
     <!-- Footer -->
     

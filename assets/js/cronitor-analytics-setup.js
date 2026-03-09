@@ -386,7 +386,7 @@ cronitor("config", { clientKey: "" });
 </div>
 
       
-    </div>
+    </main>
 
     <!-- Footer -->
     
