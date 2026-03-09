@@ -92,19 +92,19 @@
 
 <!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Serge Bibauw",
-  "url": "https://sbibauw.github.io",
-  "description": "Assistant Professor of French Language Teaching",
-  "sameAs": [
-    
-    
-    
-    
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Serge Bibauw",
+    "url": "https://sbibauw.github.io",
+    "description": "Assistant Professor of French Language Teaching",
+    "sameAs": [
+      
+      
+      
+      
+    ]
+  }
 </script>
 
 <!-- Bootstrap & MDB -->
