@@ -36,6 +36,7 @@ Vous êtes responsable de la planification de votre travail. J'apprécie d'avoir
 - Consultez la fiche descriptive du mémoire : lisez attentivement toutes les attentes explicites.
   - FLE : [LFLE2892 Mémoire](https://uclouvain.be/cours-2025-lfle2892)
 - FLE/ROM : minimum **80 pages** pour ne pas avoir de problème (même si la longueur ne fait pas la qualité).
+- [Usage des IA génératives et plagiat](https://moodle.uclouvain.be/mod/page/view.php?id=557868) : lire ces instructions + pour mémoires ELAL (FLE, FRA, LMOD, LING...), remplir la [Grille des usages de l'IAG dans les activités d’apprentissage et d’évaluation](https://moodle.uclouvain.be/pluginfile.php/708681/mod_page/content/15/Grille_IAG_ELAL_v1.pdf).
 
 ### ⚠ Langue, orthographe, style
 
@@ -63,13 +64,14 @@ Ceci s'applique surtout aux masters ROM/FLE.
 ## Plateformes d'aide à la rédaction du mémoire
 
 - 👉 Moodle [REDAC "Planifier, mettre en texte et réviser"](https://moodle.uclouvain.be/course/view.php?id=6284), expliquant en détail les différentes étapes et donnant un grand nombre de conseils utiles à la rédaction et révision d'un mémoire.
+- 👉 Moodle [Écrire son mémoire](https://moodle.uclouvain.be/course/view.php?id=4142) (École de langues et lettres/**ELAL**)
+- Moodle [Mémoire **FOPA**](https://moodle.uclouvain.be/enrol/index.php?id=5213)
 - Page [Mémoire et TFE en FIAL](https://www.uclouvain.be/fr/facultes/fial/memoire-tfe), y compris [Booster Mémoire](https://www.uclouvain.be/fr/facultes/fial/booster-memoire-2026)
-- Moodle [Mémoire FOPA](https://moodle.uclouvain.be/enrol/index.php?id=5213)
 - Page [Aide à la réalisation du mémoire](https://www.uclouvain.be/fr/aide/aide-dans-la-realisation-du-memoire) (Service d'aide)
 
 ## Exemples de bons mémoires
 
-Mémoires téléchargeables sur [DIAL.mem](https://thesis.dial.uclouvain.be/home) depuis le réseau de l'UCLouvain : connectez-vous depuis le Wi-Fi UCLouvain. Si vous n'arrivez pas à télécharger le PDF, prévenez-moi.
+Mémoires téléchargeables sur [DIAL.mem](https://thesis.dial.uclouvain.be/home) depuis le réseau de l'UCLouvain : connectez-vous depuis le Wi-Fi UCLouvain.
 
 - **FLE2M** (Master FLE en 120 crédits, mémoire 30 crédits)
   - NGO Quoc Khanh (2025), _[Développement de la fluidité orale en FLE à travers la réalisation d’un JT étudiant : Une étude comparative à l’Université de Hanoï](https://thesis.dial.uclouvain.be/entities/masterthesis/118ed55b-efcb-47fa-8505-8e360428680a)_ (18/20)
@@ -80,11 +82,16 @@ Mémoires téléchargeables sur [DIAL.mem](https://thesis.dial.uclouvain.be/home
 - **ROM2MD**
   - autres promoteurs/promotrices :
     - Astrid Lavalleye (2024), _[Plurilinguisme : Quelles applications en classe de français langue étrangère ?](https://thesis.dial.uclouvain.be/entities/masterthesis/b93d7cb7-c21e-43ef-8851-4550c708f9bc)_ (dir: Françoise Masuy) (18,5/20)
+- **GERM2MA**
+  - autres promoteurs/promotrices :
+    - Inès Lhoest (2026), Foreign Language Anxiety and Enjoyment in L2 German Interaction: An Idiodynamic Mixed-Methods Study of French-Speaking Learners (dir: Ferran Suñer Muñoz & Bailing He) (19/20)
 - **LING**
   - **TAL/NLP** (LING2MS/LA)
     - sous ma direction ou co-direction (pas nécessairement représentatif du master TAL) :
       - Bianca Ciobanica (2025), _[Automatic Evaluation of the Pedagogical Effectiveness of Open-Domain Chatbots in a Language-Learning Game](https://thesis.dial.uclouvain.be/entities/masterthesis/0a28cd05-0ef0-4719-ab62-fbaaf00888c5)_ (19/20)
       - Kobe Thonissen (2025), _[Inter-individual and Intra-individual Variation in Revision Practices of Second Language Learners in Chatbot Conversations](https://thesis.dial.uclouvain.be/entities/masterthesis/768681d6-39b0-4358-88c2-d87bc1fd615e)_ (17/20)
+  - **Empirical linguistics research**
+    - cf. GERM2MA
 - **FOPA** (Master en sciences de l'éducation)
   - Eve Francotte (2022), _[Dispositifs pédagogiques et inégalités scolaires : co-conception d’outils pour suivre le progrès des élèves de 1re primaire en lecture](https://thesis.dial.uclouvain.be/entities/masterthesis/17248675-5157-4b09-89cc-e9f7d966c8d7)_
   - Lionel Vanschoonwinkel & Yasar Türe (2021), _[Les rituels et l'engagement scolaire](https://thesis.dial.uclouvain.be/entities/masterthesis/9051e537-db79-435d-8e8c-8196598f726e)_
