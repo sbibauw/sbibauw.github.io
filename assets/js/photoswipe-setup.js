@@ -405,7 +405,7 @@ photoswipe.init();
 
       
       
-        Last updated:  9 March 2026.
+        Last updated:  5 July 2026.
       
     </div>
   </footer>

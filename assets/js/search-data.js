@@ -306,11 +306,36 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2026/03-al2sa/";
-            },},{id: "talks-agentivité-interactivité-et-engagement-dans-des-dialogues-d-39-apprenants-du-fle-avec-des-agents-conversationnels",
-          title: 'Agentivité, interactivité et engagement dans des dialogues d&amp;#39;apprenants du FLE avec des agents...',
+            },},{id: "talks-non-use-of-ai-in-foreign-language-education-from-theory-to-practice",
+          title: '(Non-)Use of AI in Foreign Language Education: From Theory to Practice',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/06-teal/";
+            },},{id: "talks-when-to-use-and-not-to-use-chatbots-and-conversational-ai-in-language-learning-from-theory-to-practice",
+          title: 'When to use (and _not_ to use) chatbots and conversational AI in language...',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/06-eurocall-spring/";
+            },},{id: "talks-plus-engagés-pas-plus-motivés-interactivité-et-agentivité-chez-des-apprenants-du-français-en-dialogue-avec-des-chatbots",
+          title: 'Plus engagés, pas plus motivés~: interactivité et agentivité chez des apprenants du français...',
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2026/07-ref/";
+            },},{id: "talks-incidental-and-intentional-in-context-esp-vocabulary-learning-in-ai-generated-exercises",
+          title: 'Incidental and intentional in-context ESP vocabulary learning in AI-generated exercises',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/09-eurocall-dumont/";
+            },},{id: "talks-hype-or-hope-a-meta-analysis-of-conversational-chatbots-on-l2-learning",
+          title: 'Hype or hope? A meta-analysis of conversational chatbots on L2 learning',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/09-eurocall-wang/";
+            },},{id: "talks-six-year-longitudinal-development-of-french-l2-proficiency-in-german-speaking-belgium",
+          title: 'Six-year longitudinal development of French L2 proficiency in German-speaking Belgium',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026/10-lsb/";
             },},{id: "teachings-didactique-du-français-langue-étrangère",
           title: 'Didactique du français langue étrangère',
           description: "",
