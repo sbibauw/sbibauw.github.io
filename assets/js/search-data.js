@@ -321,7 +321,10 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2026/07-ref/";
-            },},{id: "talks-incidental-and-intentional-in-context-esp-vocabulary-learning-in-ai-generated-exercises",
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",},{id: "talks-incidental-and-intentional-in-context-esp-vocabulary-learning-in-ai-generated-exercises",
           title: 'Incidental and intentional in-context ESP vocabulary learning in AI-generated exercises',
           description: "",
           section: "Talks",handler: () => {

@@ -401,7 +401,7 @@ cronitor("config", { clientKey: "" });
 
       
       
-        Last updated:  5 July 2026.
+        Last updated:  5 August 2026.
       
     </div>
   </footer>
